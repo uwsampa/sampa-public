@@ -1,18 +1,29 @@
 <ul>
-    {% for entry in entries %}
-    <li>
-        <span class="authors">
-            {{ entry.persons['author']|author_list }}.
-        </span>
-        <span class="title">
-            &ldquo;{{ entry|title }}.&rdquo;
-        </span>
-        <span class="venue">
-            {{ entry|venue }},
-            {{ entry.fields['month'] }}
-            {{ entry.fields['year'] }}.
-        </span>
-    </li>
+	{% for entry in entries %}
+	<li>
+		<span class="authors">
+			{{ entry.persons['author']|author_list }}.
+		</span>
+		<span class="title">
+			{% set url = entry|main_url %}
+			{% if url %}
+			<a href="{{ url|escape }}">{{ entry|title }}</a>.
+			{% else %}
+			{{ entry|title }}.
+			{% endif %}
+		</span>
+		<span class="venuetype">{{ entry|venue_type -}}</span><span class="venue">{{ entry|venue -}}</span>,
+		<span class="date">
+			{{ entry.fields['month'] }}
+			{{ entry.fields['year'] }}.
+		</span>
 
-    {% endfor %}
+		<span class="links">
+		{% for type, url in (entry|extra_urls).iteritems() %}
+			<a href="{{ url|escape }}">{{ type|escape }}</a>
+		{% endfor %}
+		</span>
+	</li>
+
+	{% endfor %}
 </ul>
