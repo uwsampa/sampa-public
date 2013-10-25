@@ -1,0 +1,15 @@
+---
+layout: default
+title: People
+---
+
+<div id="home">
+  <h1>People</h1>
+
+  <!-- why does this come up blank for each person? -->
+  {% for person in site.people %}
+    <div class="person">
+      <a href="{{ person.webpage |encode }}">{{ person.display_name }}</a>
+    </div>
+  {% endfor %}
+</div>
