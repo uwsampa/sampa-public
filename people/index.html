@@ -9,7 +9,7 @@ title: People
   <!-- why does this come up blank for each person? -->
   {% for person in site.people %}
     <div class="person">
-      <a href="{{ person.webpage |encode }}">{{ person.display_name }}</a>
+      <a href="{{ person.webpage |escape }}">{{ person.display_name }}</a>
     </div>
   {% endfor %}
 </div>
