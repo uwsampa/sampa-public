@@ -6,7 +6,6 @@ body {
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
-.marketing,
 .footer {
   padding-left: 15px;
   padding-right: 15px;
@@ -15,13 +14,6 @@ body {
 /* Custom page header */
 .header {
   border-bottom: 1px solid #e5e5e5;
-}
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-  padding-bottom: 19px;
 }
 
 /* Custom page footer */
@@ -41,22 +33,17 @@ body {
   margin: 30px 0;
 }
 
-/* Main marketing message and sign up button */
+/* Jumbotron */
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
 }
-.jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
+.jumbotron p {
+    font-size: 15px;
 }
-
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
-}
-.marketing p + h4 {
-  margin-top: 28px;
+.jumbotron {
+    padding-top: 6px;
+    padding-bottom: 18px;
 }
 
 /* Responsive: Portrait tablets and up */
@@ -76,4 +63,12 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+/* Sampa logo */
+
+#logo {
+    width: 154px;
+    height: 61px;
+    margin-top: -15px;
 }
