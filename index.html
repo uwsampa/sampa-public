@@ -12,3 +12,10 @@ title: Sampa Group @ UW
       The nature of the research problems we are interested in is inter-disciplinary and so are we. Our projects include innovation in architecture, operating systems, compilers and programming languages.
   </p>
 </div>
+
+<h2>News</h2>
+
+{% for item in site.data.news limit: site.front_page_news %}
+    <p>{{ item | markdownify }}</p>
+{% endfor %}
+<p><a href="/news.html">Older news&hellip;</a></p>
