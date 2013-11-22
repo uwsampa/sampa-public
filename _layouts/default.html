@@ -4,29 +4,20 @@
         <meta charset="utf-8">
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/sampa.css" rel="stylesheet">
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/sampa.css" rel="stylesheet">
     </head>
     <body>
         <div class="container">
           <div class="header">
             <ul class="nav nav-pills pull-right">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="#">People</a></li>
-              <li><a href="#">Publications</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/people/">People</a></li>
+              <li><a href="/publications/">Publications</a></li>
             </ul>
-            <img src="img/sampa.png" alt="Sampa" id="logo">
-          </div>
-
-          <div class="jumbotron">
-            <h2>Some strong statement here.</h2>
-            <p>
-                Sampa is a collection of research projects aimed at making computer systems faster, more reliable, more energy efficient, supporting and motivating new applications. We are part of the Computer Science and Engineering Department at the University of Washington.
-            </p>
-            <p>
-                The nature of the research problems we are interested in is inter-disciplinary and so are we. Our projects include innovation in architecture, operating systems, compilers and programming languages.
-            </p>
+            <a href="/">
+                <img src="/img/sampa.png" alt="Sampa" id="logo">
+            </a>
           </div>
 
           {{ content }}
