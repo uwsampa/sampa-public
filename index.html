@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Sampa Group @ UW
+title: Home
 ---
 
 <div class="jumbotron">
@@ -14,8 +14,7 @@ title: Sampa Group @ UW
 </div>
 
 <h2>News</h2>
-
 {% for item in site.data.news limit: site.front_page_news %}
     <p>{{ item | markdownify }}</p>
 {% endfor %}
-<p><a href="/news.html">Older news&hellip;</a></p>
+<p><a href="{{ site.base }}/news.html">Older news&hellip;</a></p>

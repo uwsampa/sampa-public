@@ -2,22 +2,24 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>{{ page.title }}</title>
+        <title>{{ site.name }}: {{ page.title }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/css/sampa.css" rel="stylesheet">
+        <link href="{{ site.base }}/css/bootstrap.min.css" rel="stylesheet">
+        <link href="{{ site.base }}/css/sampa.css" rel="stylesheet">
     </head>
     <body>
         <div class="container">
           <div class="header">
             <ul class="nav nav-pills pull-right">
-              <li><a href="/">Home</a></li>
-              <li><a href="/people.html">People</a></li>
-              <li><a href="/research/">Research</a></li>
-              <li><a href="/publications.html">Publications</a></li>
+              <li><a href="{{ site.base }}/">Home</a></li>
+              <li><a href="{{ site.base }}/people.html">People</a></li>
+              <li><a href="{{ site.base }}/research/">Research</a></li>
+              <li><a href="{{ site.base }}/publications.html">
+                  Publications
+              </a></li>
             </ul>
-            <a href="/">
-                <img src="/img/sampa.png" alt="Sampa" id="logo">
+            <a href="{{ site.base }}/">
+                <img src="{{ site.base }}/img/sampa.png" alt="Sampa" id="logo">
             </a>
           </div>
 
