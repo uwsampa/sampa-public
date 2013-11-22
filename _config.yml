@@ -6,19 +6,7 @@ markdown: redcarpet
 # colorize code snippets with the pygment module
 pygments: true
 
-people:
-  luisceze:
-    display_name: "Luis Ceze"
-    webpage: "https://homes.cs.washington.edu/~luisceze/"
-    github: luisceze
-  djg:
-    display_name: "Dan Grossman"
-    webpage: "https://homes.cs.washington.edu/~djg/"
-  asampson:
-    display_name: "Adrian Sampson"
-    webpage: "https://homes.cs.washington.edu/~asampson/"
-    github: sampsyo
-  ransford:
-    display_name: "Ben Ransford"
-    webpage: "https://home.cs.washington.edu/~ransford/"
-    github: ransford
+roles:
+    - {key: faculty, name: Faculty}
+    - {key: postdoc, name: Researchers}
+    - {key: grad, name: Grad Students}

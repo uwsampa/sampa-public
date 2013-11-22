@@ -1,0 +1,41 @@
+luisceze:
+    display_name: "Luis Ceze"
+    webpage: "https://homes.cs.washington.edu/~luisceze/"
+    github: luisceze
+    role: faculty
+djg:
+    display_name: "Dan Grossman"
+    webpage: "https://homes.cs.washington.edu/~djg/"
+    role: faculty
+oskin:
+    display_name: "Mark Oskin"
+    webpage: "https://homes.cs.washington.edu/~oskin/"
+    role: faculty
+
+ransford:
+    display_name: "Ben Ransford"
+    webpage: "https://home.cs.washington.edu/~ransford/"
+    github: ransford
+    role: postdoc
+
+asampson:
+    display_name: "Adrian Sampson"
+    webpage: "https://homes.cs.washington.edu/~asampson/"
+    github: sampsyo
+    role: grad
+bpw:
+    display_name: "Benjamin Wood"
+    webpage: "https://homes.cs.washington.edu/~bpw/"
+    role: grad
+bholt:
+    display_name: "Brandon Holt"
+    webpage: "https://homes.cs.washington.edu/~bholt/"
+    role: grad
+tbergan:
+    display_name: "Tom Bergan"
+    webpage: "https://homes.cs.washington.edu/~tbergan/"
+    role: grad
+bdmyers:
+    display_name: "Brandon Myers"
+    webpage: "https://homes.cs.washington.edu/~bdmyers/"
+    role: grad
