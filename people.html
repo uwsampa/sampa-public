@@ -5,18 +5,31 @@ title: People
 
 <h2>People</h2>
 
+<p>Some of the group in action (apparently Dan, Tom, Hadi, Mike and Ben were
+off doing real work).</p>
+
+<div class="inset-image">
+    <img src="{{ site.base }}/img/dimsampa.jpg" alt="Dim Sampa"
+    class="img-responsive img-rounded">
+</div>
+
 {% for role in site.roles %}
   <h3>{{ role.name }}</h3>
-  <ul>
+  <dl class="people">
   {% for item in site.data.people %}
     {% assign person = item[1] %}
     {% if person.role == role.key %}
-      <li class="person">
+      <dt class="person">
         <a href="{{ person.webpage |escape }}">
           {{ person.display_name }}
         </a>
-      </li>
+      </dt>
+      <dd>
+        {% if person.bio %}
+          {{ person.bio | markdownify }}
+        {% endif %}
+      </dd>
     {% endif %}
   {% endfor %}
-  </ul>
+  </dl>
 {% endfor %}

@@ -8,8 +8,9 @@ pygments: true
 
 roles:
     - {key: faculty, name: Faculty}
+    - {key: staff, name: Staff}
     - {key: postdoc, name: Researchers}
-    - {key: grad, name: Grad Students}
+    - {key: grad, name: Graduate Students}
 
 front_page_news: 8
 base: ''

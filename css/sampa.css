@@ -66,9 +66,19 @@ body {
 }
 
 /* Sampa logo */
-
 #logo {
     width: 154px;
     height: 35px;
     margin: 2px 0 8px 0;
+}
+
+/* Photo */
+.inset-image {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* People list */
+dl.people dd {
+    margin-bottom: 1em;
 }

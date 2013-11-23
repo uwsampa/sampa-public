@@ -3,14 +3,48 @@ luisceze:
     webpage: "https://homes.cs.washington.edu/~luisceze/"
     github: luisceze
     role: faculty
+    bio: |
+        Luis is an Assistant Professor at UW-CSE. When he is not in his office
+        (CSE576) or The Lab (CSE615), he is probably in the kitchen or some
+        restaurant around Seattle. Ask him about the movie Mamma Mia.
 djg:
     display_name: "Dan Grossman"
     webpage: "https://homes.cs.washington.edu/~djg/"
     role: faculty
+    bio: |
+        Dan is an Associate Professor at UW-CSE. His research background is
+        programming language design and implementation, particularly for
+        improving software quality. In Sampa, he's mostly involved with the
+        DMP and OSHA projects. To get Dan excited about a non-computer-science
+        topic, try ice hockey (playing or watching), non-fiction books, live
+        theatre, hiking, or his nephew.
 oskin:
     display_name: "Mark Oskin"
     webpage: "https://homes.cs.washington.edu/~oskin/"
     role: faculty
+    bio: |
+        Mark is an Associate Professor at UW-CSE.
+karin:
+    display_name: "Karin Strauss"
+    webpage: "http://research.microsoft.com/en-us/people/kstrauss/"
+    role: faculty
+    bio: |
+        Karin is a Researcher at Microsoft Research in Redmond, WA. She is
+        also an Affiliate Assistant Professor at UW-CSE.
+eggers:
+    display_name: "Susan Eggers"
+    webpage: "http://homes.cs.washington.edu/~eggers/"
+    role: faculty
+    bio: |
+        Susan is an Emeritus Professor at UW-CSE.
+
+melody:
+    display_name: "Melody Kadenko"
+    webpage: "http://www.cs.washington.edu/homes/melody/"
+    role: staff
+    bio: |
+        Melody is our Program Director. She actually makes magic stuff happen.
+        And beware of the Spoon of Death.
 
 ransford:
     display_name: "Ben Ransford"
@@ -18,6 +52,36 @@ ransford:
     github: ransford
     role: postdoc
 
+andreolb:
+    display_name: "Andre Baixo"
+    role: grad
+katelin:
+    display_name: "Katelin Bailey"
+    webpage: "https://homes.cs.washington.edu/~katelin/"
+    role: grad
+tbergan:
+    display_name: "Tom Bergan"
+    webpage: "https://homes.cs.washington.edu/~tbergan/"
+    role: grad
+bholt:
+    display_name: "Brandon Holt"
+    webpage: "https://homes.cs.washington.edu/~bholt/"
+    role: grad
+moreau:
+    display_name: "Thierry Moreau"
+    role: grad
+bdmyers:
+    display_name: "Brandon Myers"
+    webpage: "https://homes.cs.washington.edu/~bdmyers/"
+    role: grad
+nelson:
+    display_name: "Jacob Nelson"
+    webpage: "https://homes.cs.washington.edu/~nelson/"
+    role: grad
+miker:
+    display_name: "Michael Ringenburg"
+    webpage: "http://homes.cs.washington.edu/~miker/"
+    role: grad
 asampson:
     display_name: "Adrian Sampson"
     webpage: "https://homes.cs.washington.edu/~asampson/"
@@ -27,15 +91,13 @@ bpw:
     display_name: "Benjamin Wood"
     webpage: "https://homes.cs.washington.edu/~bpw/"
     role: grad
-bholt:
-    display_name: "Brandon Holt"
-    webpage: "https://homes.cs.washington.edu/~bholt/"
-    role: grad
-tbergan:
-    display_name: "Tom Bergan"
-    webpage: "https://homes.cs.washington.edu/~tbergan/"
-    role: grad
-bdmyers:
-    display_name: "Brandon Myers"
-    webpage: "https://homes.cs.washington.edu/~bdmyers/"
-    role: grad
+
+hadi:
+    display_name: "Hadi Esmaeilzadeh"
+    role: alum
+hunt:
+    display_name: "Nick Hunt"
+    role: alum
+lucia:
+    display_name: "Brandon Lucia"
+    role: alum
