@@ -3,23 +3,20 @@ layout: default
 title: People
 ---
 
-<div id="home">
-  <h1>People</h1>
+<h2>People</h2>
 
-  {% for role in site.roles %}
-    <h3>{{ role.name }}</h3>
-    <ul>
-    {% for item in site.data.people %}
-      {% assign person = item[1] %}
-      {% if person.role == role.key %}
-        <li class="person">
-          <a href="{{ person.webpage |escape }}">
-            {{ person.display_name }}
-          </a>
-        </li>
-      {% endif %}
-    {% endfor %}
-    </ul>
+{% for role in site.roles %}
+  <h3>{{ role.name }}</h3>
+  <ul>
+  {% for item in site.data.people %}
+    {% assign person = item[1] %}
+    {% if person.role == role.key %}
+      <li class="person">
+        <a href="{{ person.webpage |escape }}">
+          {{ person.display_name }}
+        </a>
+      </li>
+    {% endif %}
   {% endfor %}
-
-</div>
+  </ul>
+{% endfor %}
