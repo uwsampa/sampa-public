@@ -4,7 +4,7 @@ title: Concurrency Bug Detection and Avoidance
 ---
 With software complexity growing at a very fast pace comes software
 reliability issues. Today software failures pose a significant cost to
-our economy --- NIST estimates around \$60B per year. Pervasive
+our economy --- NIST estimates around $60B per year. Pervasive
 parallelism is likely to further increase the chances of software
 failures. While one could argue that the best way to address these
 challenges is to improve software engineering, it is likely that the
@@ -40,12 +40,11 @@ More information on our research on avoiding failures in concurrent
 programs can be found
 [here](http://www.cs.washington.edu/homes/blucia0a/avoid.html).
 
-**Current contacts:**\
+**Current contacts:**
 [Brandon Lucia](http://abstract.cs.washington.edu/~blucia0a/index.cgi)
 and [Luis Ceze](http://www.cs.washington.edu/homes/luisceze).
 
-Software Tools
-==============
+### Software Tools
 
 We recently released a source version of a tool we developed called
 Recon. Recon is useful for finding concurrent programming mistakes, and
@@ -55,8 +54,7 @@ out on your programs
 [here](http://www.cs.washington.edu/homes/blucia0a/recon.html). Recon is
 available for both Java and C/C++.
 
-Publications
-============
+### Publications
 
 [Cooperative Empirical Failure Avoidance for Multithreaded
 Programs](http://homes.cs.washington.edu/~blucia0a/pubs/aviso_preprint.pdf),

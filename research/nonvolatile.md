@@ -30,15 +30,14 @@ system and key-value store focusing on the problems of (1) organization
 and structure (2) sharing and protection and (3) new features or
 simplifications exposed by this technology.
 
-**Current Contacts**\
+**Current Contacts:**
 [Katelin Bailey](http://www.cs.washington.edu/homes/katelin), [Peter
 Hornyack](http://www.cs.washington.edu/homes/pjh), [Luis
 Ceze](http://www.cs.washington.edu/homes/luisceze), [Steve
 Gribble](http://www.cs.washington.edu/homes/gribble), and [Hank
 Levy](http://www.cs.washington.edu/homes/levy).
 
-Publications
-============
+### Publications
 
 [Operating System Implications of Fast, Cheap, Non-Volatile
 Memory](http://www.cs.washington.edu/homes/katelin/papers/pcm-hotos11.pdf)

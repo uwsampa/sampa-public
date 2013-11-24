@@ -2,9 +2,6 @@
 layout: default
 title: Grappa
 ---
-Overview
-========
-
 Mass-market computer systems are designed to exploit spatial locality
 via cache and local memory to achieve high efficiency. Unfortunately,
 when processing graphs spatial locality is often difficult, if not
@@ -30,8 +27,7 @@ and how to exploit it.
 
 [More info on Grappa](http://sampa.cs.washington.edu/sampa/)
 
-Current Contributors
-====================
+### Current Contributors
 
 [Jacob Nelson](http://homes.cs.washington.edu/~nelson/)
 
@@ -47,8 +43,7 @@ Preston Briggs
 
 Simon Kahan (PNNL)
 
-Publications
-============
+### Publications
 
 [Crunching Large Graphs with Commodity
 Processors](http://www.usenix.org/event/hotpar11/tech/final_files/Nelson.pdf)

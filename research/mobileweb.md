@@ -8,7 +8,7 @@ exploring several alternatives to improve power efficiency:
 hardware/software co-design for common and costly operations; and
 exploring parallelism in common applications.
 
-**Current contacts:**\
+**Current contacts:**
 [Owen Anderson](http://www.cs.washington.edu/homes/owen/), [Emily
 Fortuna](http://www.cs.washington.edu/homes/fortuna/), [Luis
 Ceze](http://www.cs.washington.edu/homes/luisceze), and [Susan

@@ -37,14 +37,13 @@ exceptions at the language level, their implications in the compiler and
 runtime systems, how they should be delivered, and how they are enabled
 by efficient architecture support.
 
-**Current contacts:**\
+**Current contacts:**
 [Brandon Lucia](http://abstract.cs.washington.edu/~blucia0a/index.cgi),
 [Ben Wood](http://www.cs.washington.edu/homes/bpw), [Luis
 Ceze](http://www.cs.washington.edu/homes/luisceze), [Dan
 Grossman](http://www.cs.washington.edu/homes/djg).
 
-Publications
-============
+### Publications
 
 [RADISH: Always-On Sound and Complete Race Detection in Software and
 Hardware](http://homes.cs.washington.edu/~luisceze/publications/devietti.radish.isca.2012.pdf).

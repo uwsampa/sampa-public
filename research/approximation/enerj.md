@@ -2,8 +2,6 @@
 layout: default
 title: EnerJ
 ---
-## EnerJ
-
 The power consumption of computers has traditionally been
 constrained by the need for strict correctness guarantees: processor
 voltage, for instance, must allow enough slack as to prevent even the
