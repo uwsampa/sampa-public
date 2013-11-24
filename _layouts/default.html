@@ -11,12 +11,14 @@
         <div class="container">
           <div class="header">
             <ul class="nav nav-pills pull-right">
-              <li><a href="{{ site.base }}/">Home</a></li>
-              <li><a href="{{ site.base }}/people.html">People</a></li>
-              <li><a href="{{ site.base }}/research/">Research</a></li>
-              <li><a href="{{ site.base }}/publications.html">
-                  Publications
-              </a></li>
+              {% assign shorturl = page.url | replace:'index.html','' %}
+              {% for item in site.navigation %}
+                <li {% if item.link == shorturl %}class="active"{% endif %}>
+                  <a href="{{ site.base }}{{ item.link }}">
+                    {{ item.title }}
+                  </a>
+                </li>
+              {% endfor %}
             </ul>
             <a href="{{ site.base }}/">
                 <img src="{{ site.base }}/img/sampa@2x.png" alt="Sampa"

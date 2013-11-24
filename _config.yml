@@ -21,6 +21,17 @@ front_page_news: 8
 # Base pathname for links.
 base: ''
 
+# Navigation bar links.
+navigation:
+    - title: Home
+      link: /
+    - title: People
+      link: /people.html
+    - title: Research
+      link: /research/
+    - title: Publications
+      link: /publications.html
+
 # Rewriting of old path names.
 redirects:
     People: people.html
