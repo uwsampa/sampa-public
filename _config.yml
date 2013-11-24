@@ -20,3 +20,11 @@ front_page_news: 8
 
 # Base pathname for links.
 base: ''
+
+# Rewriting of old path names.
+redirects:
+    People: people.html
+    Projects: research/
+    Publications: publications.html
+    EnerJ: research/approximation/enerj.html
+    WebChar: research/webchar.html

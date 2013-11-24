@@ -1,0 +1,11 @@
+---
+layout: none
+permalink: .htaccess
+---
+RewriteEngine on
+RewriteBase {{ site.base }}/
+{% for item in site.redirects %}
+{% assign oldname=item[0] %}
+{% assign path=item[1] %}
+RewriteRule ^sampa/{{ oldname }} {{ path }} [L,R=301]
+{% endfor %}
