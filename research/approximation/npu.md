@@ -18,12 +18,32 @@ executing the original code. For a set of diverse applications, NPU
 acceleration provides an average whole-application speedup of 2.3x and
 energy savings of 3.0x with quality loss at most 9.6%.
 
-This is a joint project in University of Washington, Microsoft Research,
+This is a joint project at University of Washington, Microsoft Research,
 and The University of Texas at Austin.
 
-**Current contacts:**
+### Collaborators
+
 [Hadi Esmaeilzadeh](http://www.cs.washington.edu/homes/hadianeh/),
 [Adrian Sampson](http://www.cs.washington.edu/homes/asampson/), [Renee
-At. Amant](http://www.cs.utexas.edu/users/stamant/), [Luis
+St. Amant](http://www.cs.utexas.edu/users/stamant/), [Thierry
+Moreau](http://www.cs.washington.edu/homes/moreau), [Luis
 Ceze](http://www.cs.washington.edu/homes/luisceze/), and [Doug
 Burger](http://research.microsoft.com/en-us/people/dburger/).
+
+### Publications
+
+[Neural Acceleration for General-Purpose Approximate
+Programs.](http://homes.cs.washington.edu/~hadianeh/doc/paper/2012-micro-npu.pdf)
+Hadi Esmaeilzadeh, Adrian Sampson, Luis Ceze, and Doug Burger. **MICRO
+2012**.
+
+[Towards Neural Acceleration for General-Purpose Approximate
+Computing.](http://homes.cs.washington.edu/~hadianeh/doc/paper/2012-weed-npu.pdf)
+Hadi Esmaeilzadeh, Adrian Sampson, Luis Ceze, and Doug Burger. **WEED
+2012**.
+
+[Addressing Dark Silicon Challenges with Disciplined Approximate
+Computing.](http://homes.cs.washington.edu/~hadianeh/doc/paper/2012-dasi-npu.pdf)
+Hadi Esmaeilzadeh, Adrian Sampson, Michael Ringenburg, Luis Ceze, Dan
+Grossman, and Doug Burger. **DaSi 2012**.
+[Slides.](http://darksilicon.ucsd.edu/2012/assets/slides/13)
