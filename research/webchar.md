@@ -9,8 +9,7 @@ appear in IISWC 2012.
 **Contact:** [Adrian
 Sampson](http://www.cs.washington.edu/homes/asampson/)
 
-Publication
------------
+### Publication
 
 [Automatic Discovery of Performance and Energy Pitfalls in HTML and
 CSS.](http://www.cs.washington.edu/homes/asampson/media/papers/webchar-iiswc2012-extabs.pdf)
@@ -26,8 +25,7 @@ Report).](http://www.cs.washington.edu/homes/asampson/media/papers/webchar-tr.pd
 Adrian Sampson, Calin Cascaval, Luis Ceze, Pablo Montesinos, and Dario
 Suarez Gracia. TR UW-CSE-12-09-02.
 
-Code and Data Release
----------------------
+### Code and Data Release
 
 The [code for the WebChar
 analysis](http://www.cs.washington.edu/homes/asampson/files/webchar-code.tar.gz)

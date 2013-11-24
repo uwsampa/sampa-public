@@ -21,7 +21,7 @@ energy savings of 3.0x with quality loss at most 9.6%.
 This is a joint project in University of Washington, Microsoft Research,
 and The University of Texas at Austin.
 
-**Current contacts:**\
+**Current contacts:**
 [Hadi Esmaeilzadeh](http://www.cs.washington.edu/homes/hadianeh/),
 [Adrian Sampson](http://www.cs.washington.edu/homes/asampson/), [Renee
 At. Amant](http://www.cs.utexas.edu/users/stamant/), [Luis

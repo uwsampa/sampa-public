@@ -28,13 +28,12 @@ system in deterministic multiprocessors, and (3) leveraging the
 deterministic multiprocessing hardware/software interface to create
 tools for debugging, testing and bug avoidance.
 
-**Current contacts:**\
+**Current contacts:**
  [Luis Ceze](http://www.cs.washington.edu/homes/luisceze), [Dan
 Grossman](http://www.cs.washington.edu/homes/djg), and [Tom
 Bergan](http://www.cs.washington.edu/homes/tbergan/).
 
-Publications
-============
+### Publications
 
 [Input-Covering Schedules for Multithreaded
 Programs](http://www.cs.washington.edu/homes/tbergan/papers/wodet13-inputcovsched.pdf)
@@ -73,15 +72,13 @@ Multiprocessing](http://www.cs.washington.edu/homes/luisceze/publications/asplos
 Oskin. (Selected for *IEEE Micro Top Picks*. An earlier version appeared
 in SHCMP'08 held with ISCA'08).
 
-dOS+DDOS Source Code
-====================
+### dOS+DDOS Source Code
 
 The source code for dOS (OSDI 2010) and DDOS (ASPLOS 2013) is [available
 here](http://www.cs.washington.edu/homes/tbergan/code/ddos-src.tar.gz).
 The source is not currently maintained.
 
-RCDC Simulator Source Code and Data
-===================================
+### RCDC Simulator Source Code and Data
 
 The source code for the RCDC simulator is [available
 here](http://www.cs.washington.edu/homes/devietti/code/rcdcsim-v1.tar.gz).
@@ -89,11 +86,9 @@ A README describing how to use the code, and its overall design, is
 [here](http://linuxforlovers.wordpress.com/2011/01/27/rcdc-simulator-release-notes/).
 
 We have also posted
-[<http://public.tableausoftware.com/views/RCDCARelaxedConsistencyDeterministicComputer/Fig7OverallPerformance>?:embed=yes&:toolbar=yes&:tabs=yes
-interactive versions of the graphs] from the paper.
+[interactive versions of the graphs](http://public.tableausoftware.com/views/RCDCARelaxedConsistencyDeterministicComputer/Fig7OverallPerformance>?:embed=yes&:toolbar=yes&:tabs=yes) from the paper.
 
-CoreDet Source Code
-===================
+### CoreDet Source Code
 
 Our lawyers want you follow this link to download the CoreDet source
 code:
