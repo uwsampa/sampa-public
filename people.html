@@ -18,9 +18,13 @@ off doing real work).</p>
     {% assign person = item[1] %}
     {% if person.role == role.key %}
       <dt class="person">
+        {% if person.webpage %}
         <a href="{{ person.webpage |escape }}">
+        {% endif %}
           {{ person.display_name }}
+        {% if person.webpage %}
         </a>
+        {% endif %}
       </dt>
       <dd>
         {% if person.bio %}

@@ -92,12 +92,53 @@ bpw:
     webpage: "https://homes.cs.washington.edu/~bpw/"
     role: grad
 
-hadi:
-    display_name: "Hadi Esmaeilzadeh"
-    role: alum
-hunt:
-    display_name: "Nick Hunt"
-    role: alum
 lucia:
     display_name: "Brandon Lucia"
     role: alum
+    bio: "Ph.D., 2013. Now at Microsoft Research."
+hadi:
+    display_name: "Hadi Esmaeilzadeh"
+    role: alum
+    bio: "Ph.D., 2013. Now faculty at Georgia Tech."
+devietti:
+    display_name: Joe Devietti
+    role: alum
+    bio: "Ph.D., 2012. Now faculty at UPenn."
+fortuna:
+    display_name: Emily Fortuna
+    role: alum
+    bio: "M.S., 2011. Now at Google."
+hunt:
+    display_name: "Nick Hunt"
+    role: alum
+owen:
+    display_name: Owen Anderson
+    role: alum
+    bio: M.S., 2010. Now at Apple.
+angda:
+    display_name: Angda (Andy) Chen
+    role: alum
+    bio: B.S. 2008. Now at Amazon.
+cody:
+    display_name: Cody Schroeder
+    role: alum
+kristian:
+    display_name: Kristian Lieberg
+    role: alum
+
+shaz:
+    display_name: Shaz Qadeer
+    webpage: http://research.microsoft.com/en-us/people/qadeer/
+    bio: "Shaz is a Sr. Researcher at Microsoft Research collaborating with us on the concurrency exceptions project."
+    role: collab
+gribble:
+    display_name: Steve Gribble
+    webpage: http://www.cs.washington.edu/homes/gribble/
+    bio: "Steve is an Associate Professor at UW-CSE. He is collaborating with us on operating system aspects of deterministic multiprocessing."
+    role: collab
+skahan:
+    display_name: Simon Kahan
+    role: collab
+preston:
+    display_name: Preston Briggs
+    role: collab
