@@ -28,3 +28,14 @@ redirects:
     Publications: publications.html
     EnerJ: research/approximation/enerj.html
     WebChar: research/webchar.html
+    Concurrency_Bug_Detection_and_Avoidance: research/concurrencybugs.html
+    Concurrency_Exceptions: research/concurrencyexceptions.html
+    Deterministic_MultiProcessing_(DMP): research/dmp.html
+    Grappa: research/grappa.html
+    NPU: research/approximation/npu.html
+    Organized_Sharing_(OSHA): research/osha.html
+    Operating_System_Implications_of_Non-Volatile_Main_Memory_Systems: research/nonvolatile.html
+    Support_for_Explicit_Runtime_Concurrency_Errors: research/concurrencyerrors.html
+    CoreDet_License: research/coredet/license.html
+    CoreDet_Source_Code: research/coredet/source.html
+    Improving_Power_Efficiency_of_Web-Enabled_Mobile_Devices: research/mobileweb.html
