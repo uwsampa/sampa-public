@@ -50,8 +50,8 @@ body {
     font-size: 15px;
 }
 .jumbotron {
-    padding-top: 6px;
-    padding-bottom: 18px;
+    padding-top: 18px;
+    padding-bottom: 10px;
 }
 
 /* Responsive: Portrait tablets and up */
