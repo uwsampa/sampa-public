@@ -54,11 +54,17 @@ body {
     padding-bottom: 10px;
 }
 
+/* Sampa logo */
+#logo {
+    width: 154px;
+    height: 35px;
+    margin: 2px 0 8px 0;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
   .header,
-  .marketing,
   .footer {
     padding-left: 0;
     padding-right: 0;
@@ -73,11 +79,17 @@ body {
   }
 }
 
-/* Sampa logo */
-#logo {
-    width: 154px;
-    height: 35px;
-    margin: 2px 0 8px 0;
+/* Slightly better-looking header on mobile. */
+@media screen and (max-width: 767px) {
+    .nav-pills {
+        display: block;
+        margin: 0 auto 1em;
+    }
+    #logo {
+        display: block;
+        clear: both;
+        margin: 1em auto;
+    }
 }
 
 /* Photo */
