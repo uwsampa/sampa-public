@@ -21,8 +21,9 @@
               {% endfor %}
             </ul>
             <a href="{{ site.base }}/">
-                <img src="{{ site.base }}/img/sampa@2x.png" alt="Sampa"
-                id="logo">
+                <img src="{{ site.base }}/img/sampa.png"
+                    srcset="{{ site.base }}/img/sampa@2x.png 2x"
+                    alt="Sampa" id="logo">
             </a>
           </div>
 
@@ -49,5 +50,9 @@
           </div>
 
         </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+            src="{{ site.base }}/js/srcset-polyfill.js"></script>
     </body>
 </html>
