@@ -25,14 +25,13 @@ fundamental research question is how can we build and take advantage of
 a programming model that describes the communication structure of
 shared-memory programs in terms of the program structure.
 
-**Current contacts:**\
+**Current contacts:**
 [Benjamin Wood](http://www.cs.washington.edu/homes/bpw/), [Adrian
 Sampson](http://www.cs.washington.edu/homes/asampson/), [Luis
 Ceze](http://www.cs.washington.edu/homes/luisceze), and [Dan
 Grossman](http://www.cs.washington.edu/homes/djg).
 
-Publications
-============
+### Publications
 
 [ Composable Specifications for Structured Shared-Memory
 Communication](Media:osha-oopsla2010.pdf "wikilink") (**OOPSLA 2010**).
@@ -43,8 +42,7 @@ Programs](ftp://ftp.cs.washington.edu/tr/2009/05/UW-CSE-09-05-02.PDF).
 Benjamin P. Wood, Joseph Devietti, Luis Ceze, Dan Grossman. Technical
 Report UW-CSE-09-05-02, University of Washington, 2009.
 
-Code
-====
+### Code
 
 Get [OshaJava](http://bitbucket.org/bpw/oshajava), the specification
 language and dynamic checker for Java described in our OOPSLA 2010

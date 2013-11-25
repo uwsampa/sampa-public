@@ -20,14 +20,13 @@ how all they are enabled by efficient architecture support. In the same
 context, we are exploring the effects of weakening the memory model in
 software reliability.
 
-**Current contacts:**\
+**Current contacts:**
 [Brandon Lucia](http://abstract.cs.washington.edu/~blucia0a/index.cgi),
 [Ben Wood](http://www.cs.washington.edu/homes/bpw), [Luis
 Ceze](http://www.cs.washington.edu/homes/luisceze), [Dan
 Grossman](http://www.cs.washington.edu/homes/djg).
 
-Publications
-============
+### Publications
 
 Data-Race Exceptions Have Benefits Beyond the Memory Model. Benjamin P.
 Wood, Luis Ceze, Dan Grossman. **MSPC 2011**.

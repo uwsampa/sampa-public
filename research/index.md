@@ -9,30 +9,26 @@ projects:
     name: Deterministic Parallelism
     summary: Determinism is inevitable.
 ---
-### Grappa
+Some introductory text here, perhaps, to introduce the themes.
+
+### Concurrency
 
 Something about [Grappa](grappa.html).
 
-### Operating System Implications of Non-Volatile Main Memory Systems
+Research on [bug detection and avoidance](concurrencybugs.html).
 
-A [link](nonvolatile.html) to that cool stuff.
+Something about [concurrency errors](concurrencyerrors.html). There's also a separate [concurrency exceptions](concurrencyexceptions.html) page.
 
-### Architecture and System Support for Debugging and Failure Avoidance in Concurrent Programs
+[Deterministic multiprocessing (DMP)](dmp.html) is one set of projects.
 
-Research on [bug detection and avoidance](concurrencybugs.html) is just the greatest.
-
-### Support for Explicit Runtime Concurrency Errors
-
-Let's catch all the [concurrency errors](concurrencyerrors.html).
-
-### Improving Power Efficiency of Web-Enabled Mobile Devices
-
-It's a research project named [chuckle](mobileweb.html).
-
-### Deterministic Multiprocessing (DMP)
-
-[Determinism](dmp.html) is inevitable.
+A link to [OSHA](osha.html).
 
 ### Approximate Computing
 
 Links to [EnerJ](approximation/enerj.html) and [NPU](approximation/npu.html) pages, and possibly a generic [approximation](approximation/) page.
+
+### Emerging Technologies
+
+Including [system implications of nonvolatile memories](nonvolatile.html).
+
+Perhaps link to [mobile web](mobileweb.html) and [WebChar](webchar.html)?
