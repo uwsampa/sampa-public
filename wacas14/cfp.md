@@ -17,9 +17,9 @@ With transistor scaling becoming less effective at improving computer system
 performance and energy efficiency, we urgently need options that provide a path
 forward for the IT industry.  Trading off accuracy for better performance and
 energy efficiency is an attractive option for many important and
-resource-hungry applications, such as image and video processing, computer
-vision, machine learning, simulations, etc. For that reason, approximate
-computing is quickly becoming a “hot topic,” with active research in computer
+resource-hungry applications, including image and video processing, computer
+vision, machine learning, simulations, big data analytics, embedded systems, etc. For that reason, approximate
+computing is quickly becoming a "hot topic," with active research in computer
 architecture, programming languages, operating systems and user-facing areas
 such as ubiquitous computing and HCI.
 
@@ -31,7 +31,7 @@ present and discuss thoughts and ideas on how to effectively exploit
 approximate computing.
 
 The organizers are aiming for a mix of invited talks, debate, panels and
-peer-reviewed papers. Peer-reviewed papers will not be published in a
+peer-reviewed papers. Peer-reviewed papers will *not* be published in a
 proceedings, so submitting to WACAS will not preclude future publication
 opportunities. Topics include but are not limited to the following:
 

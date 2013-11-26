@@ -10,7 +10,8 @@ Welcome to the first Workshop on Approximate Computing Across the System Stack
 
 The workshop aims to explore new ideas in the realm of *approximate computing*,
 a research direction that asks how computer systems can be made
-better---faster, more efficient, and less complex---by relaxing the requirement
+better&mdash;faster, more efficient, and less complex&mdash;by relaxing the
+requirement
 that they be exactly correct. Approximate systems raise questions from across
 the system stack, from circuits to applications. WACAS is a venue for
 discussion, debate, and brainstorming on all of these topics.
