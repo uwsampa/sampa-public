@@ -1,12 +1,17 @@
 ---
 layout: default
-title: WACAS 2014 Call for Papers
+title: 'WACAS 2014: Call for Papers'
 notitle: true
 ---
 
-## Workshop on Approximate Computing Across the System Stack (WACAS) 2014
-Co-located with [ASPLOS 2014](http://www.cs.utah.edu/asplos14/) &mdash; March
+## [WACAS 2014][wacas]: Call for Papers
+
+**Workshop on Approximate Computing Across the System Stack (WACAS) 2014**  
+Co-located with [ASPLOS 2014][asplos] &mdash; March
 1, 2014 &mdash; Salt Lake City, Utah, USA
+
+[wacas]: /wacas14
+[asplos]: http://www.cs.utah.edu/asplos14/
 
 With transistor scaling becoming less effective at improving computer system
 performance and energy efficiency, we urgently need options that provide a path
@@ -51,7 +56,7 @@ references. Position papers and short notes should aim for 2 pages.
 
 ### Organization
 
-Organizers: [Luis Ceze][], [Hadi Esmaeilzadeh][], [Dan Grossman][], [Mark Oskin][], [Ben Ransford][] and [Adrian Sampson][].
+Organizers: [Luis Ceze][], [Hadi Esmaeilzadeh][], [Dan Grossman][], [Mark Oskin][], [Ben Ransford][], and [Adrian Sampson][].
 
 [Adrian Sampson]: http://homes.cs.washington.edu/~asampson/
 [Ben Ransford]: http://homes.cs.washington.edu/~ransford/
