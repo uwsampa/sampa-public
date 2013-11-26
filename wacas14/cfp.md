@@ -7,8 +7,8 @@ notitle: true
 ## [WACAS 2014][wacas]: Call for Papers
 
 **Workshop on Approximate Computing Across the System Stack (WACAS) 2014**  
-Co-located with [ASPLOS 2014][asplos] &mdash; March
-2, 2014 &mdash; Salt Lake City, Utah, USA
+Co-located with [ASPLOS 2014][asplos] --- March
+2, 2014 --- Salt Lake City, Utah, USA
 
 [wacas]: /wacas14
 [asplos]: http://www.cs.utah.edu/asplos14/
