@@ -8,7 +8,7 @@ notitle: true
 
 **Workshop on Approximate Computing Across the System Stack (WACAS) 2014**  
 Co-located with [ASPLOS 2014][asplos] &mdash; March
-1, 2014 &mdash; Salt Lake City, Utah, USA
+2, 2014 &mdash; Salt Lake City, Utah, USA
 
 [wacas]: /wacas14
 [asplos]: http://www.cs.utah.edu/asplos14/
@@ -52,7 +52,7 @@ references. Position papers and short notes should aim for 2 pages.
 - Paper submission: January 17, 2014
 - Author notification: February 10, 2014
 - Camera-ready submission: February 20, 2014
-- Workshop: Saturday, March 1, 2014
+- Workshop: Saturday, March 2, 2014
 
 ### Organization
 

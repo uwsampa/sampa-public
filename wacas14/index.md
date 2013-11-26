@@ -16,7 +16,7 @@ that they be exactly correct. Approximate systems raise questions from across
 the system stack, from circuits to applications. WACAS is a venue for
 discussion, debate, and brainstorming on all of these topics.
 
-WACAS 2014 will be held on March 1, 2014, co-located with [ASPLOS
+WACAS 2014 will be held on March 2, 2014, co-located with [ASPLOS
 2014][asplos]. For details about what to submit, please see the [call for
 papers][cfp].
 
