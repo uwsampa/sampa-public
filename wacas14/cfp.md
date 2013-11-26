@@ -1,6 +1,7 @@
 ---
 layout: default
 title: WACAS 2014 Call for Papers
+notitle: true
 ---
 
 ## Workshop on Approximate Computing Across the System Stack (WACAS) 2014
@@ -41,14 +42,20 @@ opportunities. Topics include but are not limited to the following:
 Prospective authors of research papers should aim for 6 pages including
 references. Position papers and short notes should aim for 2 pages.
 
-## IMPORTANT DATES
+### Important Dates
 
-Paper submission: January 17, 2014
-Author notification: February 10, 2014
-Camera-ready submission: February 20, 2014
-Workshop: Saturday, March 1, 2014
+- Paper submission: January 17, 2014
+- Author notification: February 10, 2014
+- Camera-ready submission: February 20, 2014
+- Workshop: Saturday, March 1, 2014
 
-## ORGANIZATION
+### Organization
 
-Organizers: Luis Ceze, Hadi Esmaeilzadeh, Dan Grossman, Mark Oskin, Ben
-Ransford and Adrian Sampson.
+Organizers: [Luis Ceze][], [Hadi Esmaeilzadeh][], [Dan Grossman][], [Mark Oskin][], [Ben Ransford][] and [Adrian Sampson][].
+
+[Adrian Sampson]: http://homes.cs.washington.edu/~asampson/
+[Ben Ransford]: http://homes.cs.washington.edu/~ransford/
+[Mark Oskin]: http://homes.cs.washington.edu/~oskin/
+[Dan Grossman]: http://homes.cs.washington.edu/~djg/
+[Hadi Esmaeilzadeh]: http://www.cc.gatech.edu/~hadi/
+[Luis Ceze]: http://homes.cs.washington.edu/~luisceze/
