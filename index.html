@@ -14,7 +14,19 @@ notitle: true
 </div>
 
 <h2>News</h2>
-{% for item in site.data.news limit: site.front_page_news %}
-    <p>{{ item | markdownify }}</p>
+<ul class="news list-unstyled">
+{% for post in site.posts %}
+    {% if post.shortnews %}
+        <li class="shortnews">
+            <span class="date">{{ post.date | date_to_long_string }}</span>
+            {{ post.content }}
+        </li>
+    {% else %}
+        <li class="bloglink">
+            <span class="date">{{ post.date | date_to_long_string }}</span>
+            <a href="{{ post.url }}">&raquo; {{ post.title }}</a>
+        </li>
+    {% endif %}
 {% endfor %}
-<p><a href="{{ site.base }}/news.html">Older news&hellip;</a></p>
+</ul>
+<p><a href="{{ site.base }}/blog/">Older posts&hellip;</a></p>
