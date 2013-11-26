@@ -2,6 +2,9 @@
 layout: default
 title: WACAS 2014
 ---
+
+<img src="{{ site.base }}/img/wacas.jpg" width="225" height="225" alt="WACAS 2014" style="float: right" />
+
 The first Workshop on Approximate Computing Across the System Stack (WACAS),
 co-located with [ASPLOS 2014][asplos]. Some informal introductory text and a link to the [CFP][].
 
