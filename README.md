@@ -21,6 +21,10 @@ The requirements for building the site are:
 
 * [Jekyll][]: run `gem install jekyll`
 * [Pybtex][]: run `pip install pybtex`
+* [bibble][]: included as a submodule. Because git is cruel, you need to use
+  `git clone --recursive URL` or issue the commands `git submodule init ; git
+  submodule update` to check out the dependency.
+* ssh and rsync, only if you want to deploy directly.
 
 `make` compiles the bibliography and the website content to the `_site`
 directory. To preview the site, run `jekyll serve`` and head to
