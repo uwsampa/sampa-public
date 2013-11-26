@@ -56,8 +56,11 @@ references. Position papers and short notes should aim for 2 pages.
 
 ### Organization
 
-Organizers: [Luis Ceze][], [Hadi Esmaeilzadeh][], [Dan Grossman][], [Mark Oskin][], [Ben Ransford][], and [Adrian Sampson][].
+Organizers: [Luis Ceze][], [Hadi Esmaeilzadeh][], [Dan Grossman][], [Mark
+Oskin][], [Ben Ransford][], and [Adrian Sampson][].
+Contact us at [wacas14@cs.washington.edu][list].
 
+[list]: mailto:wacas14@cs.washington.edu
 [Adrian Sampson]: http://homes.cs.washington.edu/~asampson/
 [Ben Ransford]: http://homes.cs.washington.edu/~ransford/
 [Mark Oskin]: http://homes.cs.washington.edu/~oskin/

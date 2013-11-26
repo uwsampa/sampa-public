@@ -30,14 +30,9 @@ Instructions for paper submission are forthcoming. Submissions will be due on
 January 17, 2014.
 
 
-### Organization
+### Contact
 
-Got questions? Contact the organizers:
-[Luis Ceze][], [Hadi Esmaeilzadeh][], [Dan Grossman][], [Mark Oskin][], [Ben Ransford][], or [Adrian Sampson][].
+Got questions? Please contact the organizers at
+[wacas14@cs.washington.edu][list].
 
-[Adrian Sampson]: http://homes.cs.washington.edu/~asampson/
-[Ben Ransford]: http://homes.cs.washington.edu/~ransford/
-[Mark Oskin]: http://homes.cs.washington.edu/~oskin/
-[Dan Grossman]: http://homes.cs.washington.edu/~djg/
-[Hadi Esmaeilzadeh]: http://www.cc.gatech.edu/~hadi/
-[Luis Ceze]: http://homes.cs.washington.edu/~luisceze/
+[list]: mailto:wacas14@cs.washington.edu
