@@ -32,7 +32,7 @@ January 17, 2014.
 
 ### Contact
 
-Got questions? Please contact the organizers at
+Have questions? Please contact the organizers at
 [wacas14@cs.washington.edu][list].
 
 [list]: mailto:wacas14@cs.washington.edu
