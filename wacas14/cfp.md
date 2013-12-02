@@ -52,7 +52,7 @@ references. Position papers and short notes should aim for 2 pages.
 - Paper submission: January 17, 2014
 - Author notification: February 10, 2014
 - Camera-ready submission: February 20, 2014
-- Workshop: Saturday, March 2, 2014
+- Workshop: Sunday, March 2, 2014
 
 ### Organization
 
