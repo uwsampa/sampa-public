@@ -6,7 +6,7 @@ notitle: true
 
 ## WACAS 2014: Call for Papers
 
-**Workshop on Approximate Computing Across the System Stack (WACAS) 2014**
+**Workshop on Approximate Computing Across the System Stack (WACAS) 2014**<br />
 Co-located with [ASPLOS 2014][asplos] --- March
 2, 2014 --- Salt Lake City, Utah, USA
 
@@ -55,14 +55,23 @@ references. Position papers and short notes should aim for 2 pages.
 
 ### Organization
 
-Organizers: [Luis Ceze][], [Hadi Esmaeilzadeh][], [Dan Grossman][], [Mark
-Oskin][], [Ben Ransford][], and [Adrian Sampson][].
-Contact us at [wacas14@cs.washington.edu][list].
+Program committee:
 
-[list]: mailto:wacas14@cs.washington.edu
-[Adrian Sampson]: http://homes.cs.washington.edu/~asampson/
-[Ben Ransford]: http://homes.cs.washington.edu/~ransford/
-[Mark Oskin]: http://homes.cs.washington.edu/~oskin/
-[Dan Grossman]: http://homes.cs.washington.edu/~djg/
-[Hadi Esmaeilzadeh]: http://www.cc.gatech.edu/~hadi/
+* [Luis Ceze][], University of Washington
+* [Hadi Esmaeilzadeh][], Georgia Tech
+* [Dan Grossman][], University of Washington
+* [Rakesh Kumar][], UIUC
+* [Mark Oskin][], University of Washington
+* [Ben Ransford][], University of Washington
+* [Adrian Sampson][], University of Washington
+
+Contact the [wacas14@cs.washington.edu][organizers] with questions.
+
+[organizers]: mailto:wacas14@cs.washington.edu
 [Luis Ceze]: http://homes.cs.washington.edu/~luisceze/
+[Hadi Esmaeilzadeh]: http://www.cc.gatech.edu/~hadi/
+[Dan Grossman]: http://homes.cs.washington.edu/~djg/
+[Rakesh Kumar]: http://passat.crhc.illinois.edu/rakeshk/
+[Mark Oskin]: http://homes.cs.washington.edu/~oskin/
+[Ben Ransford]: http://homes.cs.washington.edu/~ransford/
+[Adrian Sampson]: http://homes.cs.washington.edu/~asampson/
