@@ -1,16 +1,15 @@
 ---
-layout: default
+layout: wacas
 title: 'WACAS 2014: Call for Papers'
 notitle: true
 ---
 
-## [WACAS 2014][wacas]: Call for Papers
+## WACAS 2014: Call for Papers
 
-**Workshop on Approximate Computing Across the System Stack (WACAS) 2014**  
+**Workshop on Approximate Computing Across the System Stack (WACAS) 2014**
 Co-located with [ASPLOS 2014][asplos] --- March
 2, 2014 --- Salt Lake City, Utah, USA
 
-[wacas]: /wacas14
 [asplos]: http://www.cs.utah.edu/asplos14/
 
 With transistor scaling becoming less effective at improving computer system

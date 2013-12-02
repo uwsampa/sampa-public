@@ -38,6 +38,13 @@ navigation:
     - title: Code
       link: /code.html
 
+# Navigation bar links for WACAS.
+nav_wacas:
+    - title: Home
+      link: /wacas14/
+    - title: Call for Papers
+      link: /wacas14/cfp.html
+
 # Rewriting of old path names.
 redirects:
     People: people.html

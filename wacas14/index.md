@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: wacas
 title: WACAS 2014
 ---
 
