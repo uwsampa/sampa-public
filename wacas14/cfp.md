@@ -58,6 +58,7 @@ references. Position papers and short notes should aim for 2 pages.
 Program committee:
 
 * [Luis Ceze][], University of Washington
+* [Shidhartha Das][], ARM 
 * [Hadi Esmaeilzadeh][], Georgia Tech
 * [Dan Grossman][], University of Washington
 * [Rakesh Kumar][], UIUC
@@ -69,6 +70,7 @@ Contact the [wacas14@cs.washington.edu][organizers] with questions.
 
 [organizers]: mailto:wacas14@cs.washington.edu
 [Luis Ceze]: http://homes.cs.washington.edu/~luisceze/
+[Shidhartha Das]: 
 [Hadi Esmaeilzadeh]: http://www.cc.gatech.edu/~hadi/
 [Dan Grossman]: http://homes.cs.washington.edu/~djg/
 [Rakesh Kumar]: http://passat.crhc.illinois.edu/rakeshk/
