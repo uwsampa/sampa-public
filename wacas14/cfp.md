@@ -70,7 +70,6 @@ Contact the [wacas14@cs.washington.edu][organizers] with questions.
 
 [organizers]: mailto:wacas14@cs.washington.edu
 [Luis Ceze]: http://homes.cs.washington.edu/~luisceze/
-[Shidhartha Das]: 
 [Hadi Esmaeilzadeh]: http://www.cc.gatech.edu/~hadi/
 [Dan Grossman]: http://homes.cs.washington.edu/~djg/
 [Rakesh Kumar]: http://passat.crhc.illinois.edu/rakeshk/
