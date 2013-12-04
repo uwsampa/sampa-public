@@ -58,7 +58,7 @@ references. Position papers and short notes should aim for 2 pages.
 Program committee:
 
 * [Luis Ceze][], University of Washington
-* [Shidhartha Das][], ARM 
+* Shidhartha Das, ARM 
 * [Hadi Esmaeilzadeh][], Georgia Tech
 * [Dan Grossman][], University of Washington
 * [Rakesh Kumar][], UIUC
