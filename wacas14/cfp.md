@@ -62,7 +62,7 @@ Program committee:
 * Shidhartha Das, ARM 
 * [Hadi Esmaeilzadeh][], Georgia Tech
 * [Dan Grossman][], University of Washington
-* [Hank Hoffman][], University of Chicago
+* [Hank Hoffmann][], University of Chicago
 * [Rakesh Kumar][], UIUC
 * [Scott Mahlke][], University of Michigan
 * [Mark Oskin][], University of Washington
@@ -76,7 +76,7 @@ Contact the [wacas14@cs.washington.edu][organizers] with questions.
 [Luis Ceze]: http://homes.cs.washington.edu/~luisceze/
 [Hadi Esmaeilzadeh]: http://www.cc.gatech.edu/~hadi/
 [Dan Grossman]: http://homes.cs.washington.edu/~djg/
-[Hank Hoffman]: http://www.cs.uchicago.edu/people/hankhoffmann
+[Hank Hoffmann]: http://www.cs.uchicago.edu/people/hankhoffmann
 [Rakesh Kumar]: http://passat.crhc.illinois.edu/rakeshk/
 [Scott Mahlke]: http://web.eecs.umich.edu/~mahlke/
 [Mark Oskin]: http://homes.cs.washington.edu/~oskin/
