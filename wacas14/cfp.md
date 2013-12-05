@@ -57,9 +57,9 @@ references. Position papers and short notes should aim for 2 pages.
 
 Program committee:
 
-* [Saman Amarasinghe], MIT
+* [Saman Amarasinghe][], MIT
 * [Luis Ceze][], University of Washington
-* Shidhartha Das, ARM 
+* Shidhartha Das, ARM
 * [Hadi Esmaeilzadeh][], Georgia Tech
 * [Dan Grossman][], University of Washington
 * [Hank Hoffmann][], University of Chicago
@@ -69,7 +69,7 @@ Program committee:
 * [Ben Ransford][], University of Washington
 * [Adrian Sampson][], University of Washington
 
-Contact the [wacas14@cs.washington.edu][organizers] with questions.
+Contact the [organizers][] with questions.
 
 [organizers]: mailto:wacas14@cs.washington.edu
 [Saman Amarasinghe]: http://people.csail.mit.edu/saman/
