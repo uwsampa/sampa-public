@@ -57,12 +57,14 @@ references. Position papers and short notes should aim for 2 pages.
 
 Program committee:
 
+* [Saman Amarasinghe], MIT
 * [Luis Ceze][], University of Washington
 * Shidhartha Das, ARM 
 * [Hadi Esmaeilzadeh][], Georgia Tech
 * [Dan Grossman][], University of Washington
 * [Hank Hoffman][], University of Chicago
 * [Rakesh Kumar][], UIUC
+* [Scott Mahlke][], University of Michigan
 * [Mark Oskin][], University of Washington
 * [Ben Ransford][], University of Washington
 * [Adrian Sampson][], University of Washington
@@ -70,11 +72,13 @@ Program committee:
 Contact the [wacas14@cs.washington.edu][organizers] with questions.
 
 [organizers]: mailto:wacas14@cs.washington.edu
+[Saman Amarasinghe]: http://people.csail.mit.edu/saman/
 [Luis Ceze]: http://homes.cs.washington.edu/~luisceze/
 [Hadi Esmaeilzadeh]: http://www.cc.gatech.edu/~hadi/
 [Dan Grossman]: http://homes.cs.washington.edu/~djg/
 [Hank Hoffman]: http://www.cs.uchicago.edu/people/hankhoffmann
 [Rakesh Kumar]: http://passat.crhc.illinois.edu/rakeshk/
+[Scott Mahlke]: http://web.eecs.umich.edu/~mahlke/
 [Mark Oskin]: http://homes.cs.washington.edu/~oskin/
 [Ben Ransford]: http://homes.cs.washington.edu/~ransford/
 [Adrian Sampson]: http://homes.cs.washington.edu/~asampson/
