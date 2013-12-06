@@ -66,6 +66,7 @@ Program committee:
 * [Rakesh Kumar][], UIUC
 * [Scott Mahlke][], University of Michigan
 * [Mark Oskin][], University of Washington
+* [Krishna Palem][], Rice University
 * [Ben Ransford][], University of Washington
 * [Adrian Sampson][], University of Washington
 
@@ -80,5 +81,6 @@ Contact the [organizers][] with questions.
 [Rakesh Kumar]: http://passat.crhc.illinois.edu/rakeshk/
 [Scott Mahlke]: http://web.eecs.umich.edu/~mahlke/
 [Mark Oskin]: http://homes.cs.washington.edu/~oskin/
+[Krishna Palem]: http://www.cs.rice.edu/~kvp1/
 [Ben Ransford]: http://homes.cs.washington.edu/~ransford/
 [Adrian Sampson]: http://homes.cs.washington.edu/~asampson/
