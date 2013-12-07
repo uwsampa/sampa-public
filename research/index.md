@@ -9,26 +9,68 @@ projects:
     name: Deterministic Parallelism
     summary: Determinism is inevitable.
 ---
-Some introductory text here, perhaps, to introduce the themes.
+
+Our research often crosses multiple layers of the system stack, from hardware to programming languages and applications.  Our research has four main themes, as below. The Concurrency theme addresses challenges in writing, testing and debugging concurrent programs. The Approximate Computing theme explores accuracy trade-offs across the system stack for better energy efficiency and performance. The Emerging Applications themes focuses on building systems to better support new applications, from  mobile apps to graph analytics. The Emerging Technologies theme aims at taking advantage of new storage and compute technologies in building new systems. 
+
+
 
 ### Concurrency
 
-Something about [Grappa](grappa.html).
+Concurrency is present in pretty much every computer system, from sensor nodes to supercomputers to distributed applications. With ubiquitous multicores, it is actually necessary to write concurrent code to take advantage of parallelism. However, concurrent software is notoriously difficult to write, test and debug. 
 
-Research on [bug detection and avoidance](concurrencybugs.html).
+Our concurrency research explores: new programming models ([OSHA](osha.html)) that make interaction between modules explicit and disciplined; new execution models that remove unnecessary non-determinism from parallel execution ([Deterministic multiprocessing (DMP)](dmp.html)); new techniques for debugging and even automatically avoiding concurrency bugs ([bug detection and avoidance](concurrencybugs.html)); and new language and hardware techniques that makes concurrency bugs exception ([concurrency exceptions](concurrencyexceptions.html)) much like segmentation fault or division by zero. 
 
-Something about [concurrency errors](concurrencyerrors.html). There's also a separate [concurrency exceptions](concurrencyexceptions.html) page.
-
-[Deterministic multiprocessing (DMP)](dmp.html) is one set of projects.
-
-A link to [OSHA](osha.html).
 
 ### Approximate Computing
 
-Links to [EnerJ](approximation/enerj.html) and [NPU](approximation/npu.html) pages, and possibly a generic [approximation](approximation/) page.
+
+Improving energy efficiency is paramount in mobile devices and online service
+infrastructures. Even more importantly, as we approach the limits of silicon
+device scaling, it might be an enabler for future systems performance
+and features. Many important applications such as computer vision, machine learning, signal
+processing, web search, augmented reality, big data analytics, and many more,
+can inherently tolerate inaccurate computation at various levels. With [approximate computing](approximation/), this fact can be exploited for fundamentally more
+efficient computing systems.
+
+The key idea in approximate computing is to trade-off accuracy in computation,
+storage and communication for better performance and energy efficiency. It enables effective use of more aggressive
+transistor technology, analog computing techniques in a more general way, and new optimizations or code
+transformations (e.g., using fundamentally
+approximate models of execution like neural networks).
+ 
+Taking advantage of approximate computing, though, requires overcoming many
+technical challenges. Programmers need a reasonable model to write code for
+and they need tools for testing and debugging approximate programs. The system
+needs to offer meaningful guarantees of output quality otherwise unusable
+output actually leads to energy waste. Our research aims to develop a comprehensive solution across the entire system
+stack, including: language and runtime techniques to
+express and enforce quality metrics where inaccuracy can be tolerated ([EnerJ](approximation/enerj.html)); language tools, including
+approximation recommenders and debuggers;  compilers to communicate the
+information to the hardware; microarchitectures and hardware techniques
+for approximate execution ([NPU](approximation/npu.html)); (e) approximate data storage and communication
+services; and (f) abstractions for approximate hardware design.
+
+TODO: add more links above, e.g., approx storage etc. 
+
+### Emerging Applications
+
+Applications are often a major driver of progress in computer systems architecture. We are currently interested in two emerging application directions: the big and the small. The big is large-scale data analysis, which often involves forms of parallelism not very well supported by typical data-parallel systems. The small is mobile applications, which have stringent power requirements, but are often written in high-level languages that are difficult to optimized. 
+
+Our effort on "big" applications currently focuses on support large scale irregular applications, which don't have much locality and exhibits irregular forms of parallelism. A classic example is graph analysis of social network data. We developing a system called Grappa [Grappa](grappa.html), which aims at making it very simple to write large scale irregular applications with near optimal system utilization. The key lower-level research question is on how to exploit latency tolerance with concurrency in large systems. 
+
+Our effort on "small" applications focuses on better supporting scripting languages and web browsing in mobile devices. We are exploring [hardware support for scripting languages] (mobileweb.html) and ways to enable new optimizations in mobile browsers by [characterizing](webchar.html) sources of inefficiencies. 
 
 ### Emerging Technologies
 
-Including [system implications of nonvolatile memories](nonvolatile.html).
+The other main driver of new systems is the advent of new basic technologies. One such technology we are interested in is fast non-volatile memories (NVRAM). We believe that the implications of NVRAM on software are significant
+and game-changing. For example, the existence of a two-level storage
+system consisting of fast volatile main memory and slow non-volatile
+storage (e.g., disk) has been fundamental to virtually all software
+systems for the entire history of computing.  The potential of
+computer systems consisting of a large, fast, single-level,
+non-volatile memory system provides a crucial opportunity to
+re-imagine the structure of software in the future. Hence, we are exploring [system implications of nonvolatile memories](nonvolatile.html).
 
-Perhaps link to [mobile web](mobileweb.html) and [WebChar](webchar.html)?
+Another exciting "emerging" technology is engineered DNA molecules. 
+Performing computation inside living cells offers life-changing applications, from improved medical diagnostics to better cancer therapy to intelligent drugs. Due to its bio-compatibility and ease of engineering, one promising approach for performing in-vivo computation is DNA strand displacement. 
+DNA nanotechnology is currently at a turning point, with many proposed applications being realized. We believe that it is time for the computer architecture community to take notice and contribute. We explore architectural issues in such systems, such as modularity, composability, reliability, etc. 
