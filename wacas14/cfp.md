@@ -58,6 +58,7 @@ references. Position papers and short notes should aim for 2 pages.
 Program committee:
 
 * [Saman Amarasinghe][], MIT
+* [Todd Austin][], University of Michigan
 * [Luis Ceze][], University of Washington
 * Shidhartha Das, ARM
 * [Hadi Esmaeilzadeh][], Georgia Tech
@@ -74,6 +75,7 @@ Contact the [organizers][] with questions.
 
 [organizers]: mailto:wacas14@cs.washington.edu
 [Saman Amarasinghe]: http://people.csail.mit.edu/saman/
+[Todd Austin]: http://www.eecs.umich.edu/~taustin/
 [Luis Ceze]: http://homes.cs.washington.edu/~luisceze/
 [Hadi Esmaeilzadeh]: http://www.cc.gatech.edu/~hadi/
 [Dan Grossman]: http://homes.cs.washington.edu/~djg/
