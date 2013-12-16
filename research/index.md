@@ -10,7 +10,7 @@ projects:
     summary: Determinism is inevitable.
 ---
 
-Our research often crosses multiple layers of the system stack, from hardware to programming languages and applications.  Our research has four main themes, as below. The Concurrency theme addresses challenges in writing, testing and debugging concurrent programs. The Approximate Computing theme explores accuracy trade-offs across the system stack for better energy efficiency and performance. The Emerging Applications themes focuses on building systems to better support new applications, from  mobile apps to graph analytics. The Emerging Technologies theme aims at taking advantage of new storage and compute technologies in building new systems. 
+Our research crosses multiple layers of the system stack, from hardware to programming languages and applications.  Our research has four main themes. The *concurrency* theme addresses challenges in writing, testing and debugging concurrent programs. The *approximate computing* theme explores accuracy trade-offs across the system stack for better energy efficiency and performance. The *emerging applications* theme focuses on building systems to better support new applications, from  mobile apps to graph analytics. The *emerging technologies* theme aims at taking advantage of new storage and compute technologies in building new systems. 
 
 
 
@@ -18,7 +18,7 @@ Our research often crosses multiple layers of the system stack, from hardware to
 
 Concurrency is present in pretty much every computer system, from sensor nodes to supercomputers to distributed applications. With ubiquitous multicores, it is actually necessary to write concurrent code to take advantage of parallelism. However, concurrent software is notoriously difficult to write, test and debug. 
 
-Our concurrency research explores: new programming models ([OSHA](osha.html)) that make interaction between modules explicit and disciplined; new execution models that remove unnecessary non-determinism from parallel execution ([Deterministic multiprocessing (DMP)](dmp.html)); new techniques for debugging and even automatically avoiding concurrency bugs ([bug detection and avoidance](concurrencybugs.html)); and new language and hardware techniques that makes concurrency bugs exception ([concurrency exceptions](concurrencyexceptions.html)) much like segmentation fault or division by zero. 
+Our concurrency research explores: [new programming models](osha.html) that make interaction between threads explicit and disciplined; new execution models that remove unnecessary non-determinism from parallel execution ([Deterministic multiprocessing (DMP)](dmp.html)); new techniques for [debugging and even automatically avoiding concurrency bugs](bug detection and avoidance](concurrencybugs.html); and new language and hardware techniques that [turn concurrency bugs into exceptions](concurrencyexceptions.html) much like segmentation fault or division by zero. 
 
 
 ### Approximate Computing
@@ -32,11 +32,11 @@ processing, web search, augmented reality, big data analytics, and many more,
 can inherently tolerate inaccurate computation at various levels. With [approximate computing](approximation/), this fact can be exploited for fundamentally more
 efficient computing systems.
 
-The key idea in approximate computing is to trade-off accuracy in computation,
-storage and communication for better performance and energy efficiency. It enables effective use of more aggressive
+The key idea in approximate computing is to trade off accuracy in computation,
+storage, and communication for better performance and energy efficiency. It enables effective use of more aggressive
 transistor technology, analog computing techniques in a more general way, and new optimizations or code
 transformations (e.g., using fundamentally
-approximate models of execution like neural networks).
+approximate models of execution like [neural networks][npu]).
  
 Taking advantage of approximate computing, though, requires overcoming many
 technical challenges. Programmers need a reasonable model to write code for
@@ -47,18 +47,21 @@ stack, including: language and runtime techniques to
 express and enforce quality metrics where inaccuracy can be tolerated ([EnerJ](approximation/enerj.html)); language tools, including
 approximation recommenders and debuggers;  compilers to communicate the
 information to the hardware; microarchitectures and hardware techniques
-for approximate execution ([NPU](approximation/npu.html)); (e) approximate data storage and communication
-services; and (f) abstractions for approximate hardware design.
+for approximate execution ([NPU][]); approximate [data storage][approxstorage] and communication
+services; and abstractions for approximate hardware design.
 
-TODO: add more links above, e.g., approx storage etc. 
+[npu]: approximation/npu.html
+[approxstorage]: http://homes.cs.washington.edu/~asampson/media/papers/approxstorage-micro2013.pdf
 
 ### Emerging Applications
 
 Applications are often a major driver of progress in computer systems architecture. We are currently interested in two emerging application directions: the big and the small. The big is large-scale data analysis, which often involves forms of parallelism not very well supported by typical data-parallel systems. The small is mobile applications, which have stringent power requirements, but are often written in high-level languages that are difficult to optimized. 
 
-Our effort on "big" applications currently focuses on support large scale irregular applications, which don't have much locality and exhibits irregular forms of parallelism. A classic example is graph analysis of social network data. We developing a system called Grappa [Grappa](grappa.html), which aims at making it very simple to write large scale irregular applications with near optimal system utilization. The key lower-level research question is on how to exploit latency tolerance with concurrency in large systems. 
+Our effort on "big" applications currently focuses on support large scale irregular applications, which don't have much locality and exhibits irregular forms of parallelism. A classic example is graph analysis of social network data. We developing a system called [Grappa][], which aims at making it very simple to write large scale irregular applications with near optimal system utilization. The key lower-level research question is on how to exploit latency tolerance with concurrency in large systems. 
 
 Our effort on "small" applications focuses on better supporting scripting languages and web browsing in mobile devices. We are exploring [hardware support for scripting languages] (mobileweb.html) and ways to enable new optimizations in mobile browsers by [characterizing](webchar.html) sources of inefficiencies. 
+
+[grappa]: grappa.html
 
 ### Emerging Technologies
 
