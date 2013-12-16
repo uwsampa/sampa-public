@@ -102,3 +102,20 @@ body {
 dl.people dd {
     margin-bottom: 1em;
 }
+
+/* Front page news. */
+ul.news .date {
+    color: #999;
+    font-weight: bold;
+    display: block;
+}
+ul.news > li {
+    margin-top: 1em;
+}
+ul.news .shortnews .date {
+    float: left;
+    margin-right: 1em;
+}
+ul.news .bloglink a {
+    font-size: 1.4em;
+}
