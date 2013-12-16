@@ -14,6 +14,31 @@ listed in `_data/people.yml` and the news is generated from `_data/news.yml`.
 Try editing directly in GitHub! It's like magic.
 
 
+News Items and Blog Posts
+=========================
+
+For both long-form blog posts and short news updates, we use Jekyll's blogging system. To post a new item of either type, you create a file in the [_posts directory][postsdir] using the naming convention `YYYY-MM-DD-title-for-url.md`. The date part of the filename always matters; the title part is currently only used for full blog posts (but is still required for news updates).
+
+The file must begin with [YAML front matter][yfm]. For news updates, use this:
+
+    ---
+    layout: post
+    shortnews: true
+    ---
+
+For full blog posts, use this format:
+
+    ---
+    layout: post
+    title:  "Some Great Title Here"
+    ---
+
+And concoct a page title for your post. The body of the post goes after the `---` in either case.
+
+[yfm]: http://jekyllrb.com/docs/frontmatter/
+[postsdir]: https://github.com/uwsampa/sampa-www/tree/master/_posts
+
+
 Building and Deploying
 ----------------------
 

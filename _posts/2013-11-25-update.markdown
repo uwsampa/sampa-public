@@ -1,5 +1,0 @@
----
-layout: post
-shortnews: true
----
-This is a short update. This appears on the *homepage* in smaller print.
