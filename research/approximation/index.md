@@ -2,8 +2,7 @@
 layout: default
 title: Approximate Computing
 ---
+Our efforts on approximate computing include the [EnerJ][] approximation-aware programming language, hardware designs including [neural processing units][npu], programmer tools for dealing with the effects of approximation, and techniques for storing data approximately.
 
-
-[EnerJ](enerj.html) is a language. Then talk about truffle, NPU and new explorations on passert, wireless, hw prototyping etc. 
-
-Maybe a picture from recent papers/proposals with the levels of the stack and what we did in each?
+[enerj]: enerj.html
+[npu]: npu.html

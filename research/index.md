@@ -29,7 +29,7 @@ infrastructures. Even more importantly, as we approach the limits of silicon
 device scaling, it might be an enabler for future systems performance
 and features. Many important applications such as computer vision, machine learning, signal
 processing, web search, augmented reality, big data analytics, and many more,
-can inherently tolerate inaccurate computation at various levels. With [approximate computing](approximation/), this fact can be exploited for fundamentally more
+can inherently tolerate inaccurate computation at various levels. With [approximate computing][approx], this fact can be exploited for fundamentally more
 efficient computing systems.
 
 The key idea in approximate computing is to trade off accuracy in computation,
@@ -52,6 +52,8 @@ services; and abstractions for approximate hardware design.
 
 [npu]: approximation/npu.html
 [approxstorage]: http://homes.cs.washington.edu/~asampson/media/papers/approxstorage-micro2013.pdf
+[approx]: approximation/enerj.html
+{% comment %} Linking approximation to EnerJ until we have a real approximation landing page. {% endcomment %}
 
 ### Emerging Applications
 
