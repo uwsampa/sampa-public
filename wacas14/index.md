@@ -26,8 +26,9 @@ papers][cfp].
 
 ### Submission
 
-Instructions for paper submission are forthcoming. Submissions will be due on
-January 17, 2014.
+Use the [submission site][subs] to upload your paper by January 17, 2014.
+
+[subs]: http://sampa.cs.washington.edu/wacas14crp/
 
 
 ### Contact
