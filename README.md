@@ -15,7 +15,7 @@ Try editing directly in GitHub! It's like magic.
 
 
 News Items and Blog Posts
-=========================
+-------------------------
 
 For both long-form blog posts and short news updates, we use Jekyll's blogging system. To post a new item of either type, you create a file in the [_posts directory][postsdir] using the naming convention `YYYY-MM-DD-title-for-url.md`. The date part of the filename always matters; the title part is currently only used for full blog posts (but is still required for news updates).
 
