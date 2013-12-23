@@ -1,5 +1,5 @@
 name: Sampa
-url: http://sampa.cs.washington.edu/
+url: http://sampa.cs.washington.edu
 
 exclude: [bibble, README.md, Makefile]
 

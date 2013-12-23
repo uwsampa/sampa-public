@@ -5,10 +5,10 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
 	
 	<title type="text" xml:lang="en">{{ site.name }}</title>
-    <link type="application/atom+xml" href="{{ site.url }}{{ site.base }}blog/blog.xml" rel="self"/>
-    <link type="text" href="{{ site.url }}{{ site.base }}" rel="alternate"/>
+    <link type="application/atom+xml" href="{{ site.url }}{{ site.base }}/blog/blog.xml" rel="self"/>
+    <link type="text" href="{{ site.url }}{{ site.base }}/" rel="alternate"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-    <id>{{ site.url }}{{ site.base }}</id>
+    <id>{{ site.url }}{{ site.base }}/</id>
 	<author>
 		<name>the Sampa group</name>
 	</author>
@@ -17,7 +17,7 @@ layout: nil
 	<entry>
         {% if post.shortnews %}
             <title>{{ post.date | date_to_long_string }}</title>
-            <link href="{{ site.url }}{{ site.base }}blog/"/>
+            <link href="{{ site.url }}{{ site.base }}/blog/"/>
         {% else %}
             <title>{{ post.title }}</title>
             <link href="{{ site.url }}{{ site.base }}{{ post.url }}"/>
