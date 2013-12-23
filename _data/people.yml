@@ -67,6 +67,14 @@ bholt:
     display_name: "Brandon Holt"
     webpage: "https://homes.cs.washington.edu/~bholt/"
     role: grad
+vlee2:
+    display_name: Vincent Lee
+    webpage: "http://homes.cs.washington.edu/~vlee2/"
+    role: grad
+emackay:
+    display_name: Eric Mackay
+    webpage: "http://homes.cs.washington.edu/~emackay/"
+    role: grad
 moreau:
     display_name: "Thierry Moreau"
     role: grad
