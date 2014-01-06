@@ -44,7 +44,10 @@ opportunities. Topics include but are not limited to the following:
   we need to succeed, etc.
 
 Prospective authors of research papers should aim for 6 pages including
-references. Position papers and short notes should aim for 2 pages.
+references. Position papers and short notes should aim for 2 pages.  Use the
+[formatting guidelines][formatting] from the main conference.
+
+[formatting]: http://www.cs.utah.edu/asplos14/submission.html
 
 ### Important Dates
 
