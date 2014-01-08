@@ -18,7 +18,7 @@ Our research crosses multiple layers of the system stack, from hardware to progr
 
 Concurrency is present in pretty much every computer system, from sensor nodes to supercomputers to distributed applications. With ubiquitous multicores, it is actually necessary to write concurrent code to take advantage of parallelism. However, concurrent software is notoriously difficult to write, test and debug. 
 
-Our concurrency research explores: [new programming models](osha.html) that make interaction between threads explicit and disciplined; new execution models that remove unnecessary non-determinism from parallel execution ([Deterministic multiprocessing (DMP)](dmp.html)); new techniques for [debugging and even automatically avoiding concurrency bugs](bug detection and avoidance](concurrencybugs.html); and new language and hardware techniques that [turn concurrency bugs into exceptions](concurrencyexceptions.html) much like segmentation fault or division by zero. 
+Our concurrency research explores: [new programming models](osha.html) that make interaction between threads explicit and disciplined; new execution models that remove unnecessary non-determinism from parallel execution ([Deterministic multiprocessing (DMP)](dmp.html)); new techniques for [debugging and even automatically avoiding concurrency bugs](concurrencybugs.html); and new language and hardware techniques that [turn concurrency bugs into exceptions](concurrencyexceptions.html) much like segmentation fault or division by zero. 
 
 
 ### Approximate Computing
