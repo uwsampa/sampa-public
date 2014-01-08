@@ -32,6 +32,8 @@ notitle: true
 {% assign numposts = site.posts | size %}
 {% if numposts >= site.front_page_news %}
 <p><a href="{{ site.base }}/blog/">Older posts&hellip;</a></p>
+{% else %}
+<p><a href="{{ site.base }}/oldnews.html">Older news posts&hellip;</a></p>
 {% endif %}
 
 <h2>Funding</h2>
