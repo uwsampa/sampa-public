@@ -93,19 +93,20 @@
 
 - Our paper on "Composable Specifications for Structured Shared-Memory Communication" has been accepted to OOPSLA'10.
 
-- The CoreDet source code has been [http://depts.washington.edu/uwc4c/express-licenses/assets/coredet/ released].
+- The CoreDet source code has been [released](http://depts.washington.edu/uwc4c/express-licenses/assets/coredet/).
 
-- We recently got nice write-ups in [http://uwnews.org/uweek/article.aspx?id=56318 The UW "University Week"], [http://www.scientificamerican.com/blog/post.cfm?id=software-behaving-badly-machine-lea-2010-03-12 Scientific American], [http://www.theregister.co.uk/2010/03/11/multicore_progo_ware/ The Register], and [http://sify.com/news/now-well-behaving-multi-processor-computers-news-international-kdlq4idbajb.html Sifynews].
+- |
+    We recently got nice write-ups in [The UW "University Week"](http://uwnews.org/uweek/article.aspx?id=56318), [Scientific American](http://www.scientificamerican.com/blog/post.cfm?id=software-behaving-badly-machine-lea-2010-03-12), [The Register](http://www.theregister.co.uk/2010/03/11/multicore_progo_ware/), and [Sifynews](http://sify.com/news/now-well-behaving-multi-processor-computers-news-international-kdlq4idbajb.html).
 
 - Our paper "Lock Prediction" was accepted to HotPar 2010.
 
-- We have two papers accepted to ISCA! One on the [[Projects#Support_for__Concurrency_Exceptions|Concurrency Exceptions]] project and one on the  [[Projects#Dynamic_Concurrency_Bug_Detection_and_Avoidance|Concurrency Detection and Bug Avoidance]]  project.
+- We have two papers accepted to ISCA! One on the Concurrency Exceptions project and one on the  Concurrency Detection and Bug Avoidance  project.
 
 - Brandon wins an IBM Fellowship!
 
-- Luis was awarded a [http://www.sloan.org/pressroom/item/458/2010-sloan-research-fellowships 2010 Sloan Research Fellowship]!
+- Luis was awarded a [2010 Sloan Research Fellowship](http://www.sloan.org/pressroom/item/458/2010-sloan-research-fellowships)!
 
-- We, together with Vikram Adve from UIUC,  organized the  [http://wodet.cs.washington.edu Workshop on Deterministic Multiprocessing and Parallel Programming] in Seattle. Lots of great people and exciting research talks!
+- We, together with Vikram Adve from UIUC,  organized the  [Workshop on Deterministic Multiprocessing and Parallel Programming](http://wodet.cs.washington.edu) in Seattle. Lots of great people and exciting research talks!
 
 - |
     Our
@@ -115,11 +116,13 @@
 
 - The ASPLOS'09 DMP paper was selected for IEEE Micro Top Picks 2010.
 
-- Our [http://www.cs.washington.edu/homes/luisceze/publications/micro09-lucia.pdf paper] "Finding Concurrency Bugs with Context-Aware Communication Graphs" was accepted to MICRO'09.
+- |
+    Our [paper](http://www.cs.washington.edu/homes/luisceze/publications/micro09-lucia.pdf) "Finding Concurrency Bugs with Context-Aware Communication Graphs" was accepted to MICRO'09.
 
-- Luis was named a 2009 Microsoft New Faculty Fellow.  More information, and a brand-new 'glamour shot' photo, at [http://research.microsoft.com/en-us/collaboration/awards/nff_all.aspx Microsoft's NFF page]!
+- |
+    Luis was named a 2009 Microsoft New Faculty Fellow.  More information, and a brand-new 'glamour shot' photo, at [Microsoft's NFF page](http://research.microsoft.com/en-us/collaboration/awards/nff_all.aspx)!
 
-- Susan was named the [http://www.acm.org/press-room/news-releases/awards-08-groupb 2009-2010 ACM Athena Lecturer].
+- Susan was named the [2009-2010 ACM Athena Lecturer](http://www.acm.org/press-room/news-releases/awards-08-groupb).
 
 - Our paper on Concurrency Discovery for Very Large Windows of Execution was accepted to the PESPMA Workshop, held with ISCA'09.
 
