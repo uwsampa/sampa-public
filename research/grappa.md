@@ -25,7 +25,7 @@ works by:
 The application developer need only express parallelism, not decide when
 and how to exploit it.
 
-[More info on Grappa](http://sampa.cs.washington.edu/sampa/)
+[More info on Grappa](http://sampa.cs.washington.edu/grappa)
 
 ### Current Contributors
 
