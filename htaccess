@@ -2,6 +2,7 @@
 layout: none
 permalink: .htaccess
 ---
+ErrorDocument 404 /404.html
 RewriteEngine on
 RewriteBase {{ site.base }}/
 {% for item in site.redirects %}
