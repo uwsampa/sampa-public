@@ -28,6 +28,13 @@ papers][cfp].
 
 Use the [submission site][subs] to upload your paper by January 17, 2014.
 
+Submissions may optionally be blind: authors can choose whether to include names on the submitted PDF.
+Research papers should be around 6 pages; position papers and short notes should be about 2.
+Please use the [formatting guidelines][formatting] from the main conference
+(i.e., [SIGPLAN format][sigplan] with the 10pt option will suffice).
+
+[sigplan]: http://www.sigplan.org/authorinformation.htm
+[formatting]: http://www.cs.utah.edu/asplos14/submission.html
 [subs]: http://sampa.cs.washington.edu/wacas14crp/
 
 
