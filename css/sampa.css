@@ -119,3 +119,8 @@ ul.news .shortnews .date {
 ul.news .bloglink a {
     font-size: 1.4em;
 }
+
+.illustration {
+    float: right;
+    margin: 0 0 1em 1em;
+}
