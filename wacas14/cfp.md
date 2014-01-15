@@ -52,7 +52,7 @@ Submissions may optionally be blind: authors can choose whether to include their
 
 ### Important Dates
 
-- Paper submission: January 17, 2014
+- **Paper submission: January 20, 2014** (extended)
 - Author notification: January 31, 2014
 - Camera-ready submission: February 20, 2014
 - Workshop: Sunday, March 2, 2014

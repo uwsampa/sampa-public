@@ -26,7 +26,7 @@ papers][cfp].
 
 ### Submission
 
-Use the [submission site][subs] to upload your paper by January 17, 2014.
+Use the [submission site][subs] to upload your paper by **January 20, 2014.**
 
 Submissions may optionally be blind: authors can choose whether to include names on the submitted PDF.
 Research papers should be around 6 pages; position papers and short notes should be about 2.
