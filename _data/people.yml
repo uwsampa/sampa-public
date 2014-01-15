@@ -77,6 +77,7 @@ emackay:
     role: grad
 moreau:
     display_name: "Thierry Moreau"
+    webpage: "http://homes.cs.washington.edu/~moreau/"
     role: grad
 bdmyers:
     display_name: "Brandon Myers"
