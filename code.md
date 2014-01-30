@@ -7,6 +7,7 @@ you don't find the code you're looking for here, contact the corresponding
 authors.
 
  * [uwsampa on GitHub](https://github.com/uwsampa/)
+ * [grappa.io](http://grappa.io) &ndash; Grappa: scaling irregular applications on commodity clusters
  * [approxbench.org](http://approxbench.org/) &ndash; benchmarks for
    approximate computing
 
