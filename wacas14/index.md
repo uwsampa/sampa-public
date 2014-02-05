@@ -17,10 +17,12 @@ the system stack, from circuits to applications. WACAS is a venue for
 discussion, debate, and brainstorming on all of these topics.
 
 WACAS 2014 will be held on March 2, 2014, co-located with [ASPLOS
-2014][asplos]. For details about what to submit, please see the [call for
-papers][cfp].
+2014][asplos].  The [full program][program] is now available!
+
+(The archived [call for papers][cfp] is also available.)
 
 [asplos]: http://www.cs.utah.edu/asplos14/
+[program]: program.html
 [cfp]: cfp.html
 
 

@@ -6,7 +6,7 @@ exclude: [bibble, README.md, Makefile]
 # use this library to parse Markdown
 markdown: redcarpet
 redcarpet:
-    extensions: [smart]
+    extensions: [smart, tables]
 
 # colorize code snippets with the pygment module
 pygments: true
@@ -46,8 +46,8 @@ navigation:
 nav_wacas:
     - title: Home
       link: /wacas14/
-    - title: Call for Papers
-      link: /wacas14/cfp.html
+    - title: Program
+      link: /wacas14/program.html
 
 # Rewriting of old path names.
 redirects:
