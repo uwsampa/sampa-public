@@ -131,13 +131,12 @@ Short Notes
   Adrian Sampson,
   Dan Grossman, and
   Luis Ceze (University of Washington)
-
-{{ comment }}
+{% comment %}
 * **QBF-Based Synthesis of Optimal Word-Splitting in Approximate Multi-Level
   Storage Cells**<br />
   Daniel E. Holcomb and
   Kevin Fu (University of Michigan)
-{{ endcomment }}
+{% endcomment %}
 
 **3:00&ndash;3:30:**
 Afternoon break (refreshments provided)
