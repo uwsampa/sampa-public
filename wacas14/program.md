@@ -18,8 +18,7 @@ Full Papers
 
 **Programming Paradigms**
 
-* **DRACULA: Dynamically Reliable Approximate Computing Using Light-weight
-  Analysis**<br />
+* **Improving Coverage and Reliability in Approximate Computing Using Application-Specific, Light-Weight Checks**<br />
   Beayna Grigorian and
   Glenn Reinman (University of California, Los Angeles)
 * **Parallel Streaming Computation on Error-Prone Processors**<br />
