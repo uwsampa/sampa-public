@@ -18,14 +18,14 @@ Full Papers
 
 **Programming Paradigms**
 
-* **Improving Coverage and Reliability in Approximate Computing Using Application-Specific, Light-Weight Checks**  
+* [Improving Coverage and Reliability in Approximate Computing Using Application-Specific, Light-Weight Checks](papers/grigorian.pdf)  
   Beayna Grigorian and
   Glenn Reinman (University of California, Los Angeles)
-* **Parallel Streaming Computation on Error-Prone Processors**  
+* [Parallel Streaming Computation on Error-Prone Processors](papers/yetim.pdf)  
   Yavuz Yetim,
   Margaret Martonosi, and
   Sharad Malik (Princeton University)
-* **Synthesis of Randomized Accuracy-Aware Map-Fold Programs**  
+* [Synthesis of Randomized Accuracy-Aware Map-Fold Programs](papers/misailovic.pdf)  
   Sasa Misailovic and
   Martin Rinard (MIT)
 
@@ -37,17 +37,17 @@ Full Papers
 
 **Programming and Frameworks**
 
-* **iACT: A Software-Hardware Framework for Understanding the Scope of
-  Approximate Computing**  
+* [iACT: A Software-Hardware Framework for Understanding the Scope of
+  Approximate Computing](papers/mishra.pdf)  
   Asit K. Mishra,
   Rajkishore Barik, and
   Somnath Paul (Intel)
-* **Profiling and Autotuning for Energy-Aware Approximate Programming**  
+* [Profiling and Autotuning for Energy-Aware Approximate Programming](papers/ringenburg.pdf)  
   Michael F. Ringenburg,
   Adrian Sampson,
   Luis Ceze, and
   Dan Grossman (University of Washington)
-* **Expectation-Oriented Framework for Automating Approximate Programming**  
+* [Expectation-Oriented Framework for Automating Approximate Programming](papers/park.pdf)  
   Jongse Park,
   Kangqi Ni,
   Xin Zhang,
@@ -56,16 +56,16 @@ Full Papers
 
 **Hardware Approximation Mechanisms**
 
-* **Exploring a Brink-of-Failure Memory Controller to Design an Approximate
-  Memory System**  
+* [Exploring a Brink-of-Failure Memory Controller to Design an Approximate
+  Memory System](papers/taassori.pdf)  
   Meysam Taassori (University of Utah),
   Niladrish Chatterjee (NVidia),
   Ali Shafiee (University of Utah), and
   Rajeev Balasubramonian (University of Utah)
-* **Load Value Approximation: Approaching the Ideal Memory Access Latency**  
+* [Load Value Approximation: Approaching the Ideal Memory Access Latency](papers/sanmiguel.pdf)  
   Joshua San Miguel and
   Natalie Enright Jerger (University of Toronto)
-* **Toward General-Purpose Code Acceleration with Analog Computation**  
+* Toward General-Purpose Code Acceleration with Analog Computation  
   Amir Yazdanbakhsh (Georgia Institute of Technology),
   Renee St. Amant (The University of Texas at Austin),
   Bradley Thwaites (Georgia Institute of Technology),
@@ -81,57 +81,57 @@ Lunch (on your own)
 **1:30--3:00:**
 Full Papers, Position Papers and Short Papers
 
-Hardware Design
+**Hardware Design**
 
-* **Methodical Approximate Hardware Design and Reuse**  
+* Methodical Approximate Hardware Design and Reuse  
   Amir Yazdanbakhsh,
   Bradley Thwaites,
   Jongse Park, and
   Hadi Esmaeilzadeh (Georgia Institute of Technology)
-* **Automated High-Level Synthesis of Low Power/Area Approximate Computing
-  Circuits**  
+* [Automated High-Level Synthesis of Low Power/Area Approximate Computing
+  Circuits](papers/nepal.pdf)  
   Kumud Nepal,
   Yueting Li,
   R. Iris Bahar, and
   Sherief Reda (Brown University)
 
-Short Position Papers
+**Short Position Papers**
 
-* **Reliable Computation on Unreliable Hardware: Can We Have Our Digital Cake
-  and Eat It?**  
+* [Reliable Computation on Unreliable Hardware: Can We Have Our Digital Cake
+  and Eat It?](papers/kiriansky.pdf)  
   Vladimir Kiriansky and
   Saman Amarasinghe (MIT CSAIL)
-* **Context-Aware Adaptive Approximation**  
+* [Context-Aware Adaptive Approximation](papers/renganarayana.pdf)  
   Lakshminarayana Renganarayana,
   Vijayalakshmi Srinivasan,
   Ravi Nair, and
   Daniel Prener (IBM T.J. Watson Research Center)
-* **Refreshing Thoughts on DRAM: Power Saving vs. Data Integrity**  
+* [Refreshing Thoughts on DRAM: Power Saving vs. Data Integrity](papers/rahmati.pdf)  
   Amir Rahmati,
   Matthew Hicks,
   Daniel Holcomb, and
   Kevin Fu (University of Michigan)
-* **Revisiting Stochastic Computation: Approximate Estimation of Machine
-  Learning Kernels**  
+* [Revisiting Stochastic Computation: Approximate Estimation of Machine
+  Learning Kernels](papers/gupta.pdf)  
   Suyog Gupta and
   Kailash Gopalakrishnan (IBM Research)
 
-Short Notes
+**Short Notes**
 
-* **Approximate Semantics for Wirelessly Networked Applications**  
+* [Approximate Semantics for Wirelessly Networked Applications](papers/ransford.pdf)  
   Benjamin Ransford,
   Adrian Sampson, and
   Luis Ceze (University of Washington)
-* **CPU-GPU Collaboration for Output Quality Monitoring**  
+* [CPU-GPU Collaboration for Output Quality Monitoring](papers/samadi.pdf)  
   Mehrzad Samadi and
   Scott Mahlke (University of Michigan)
-* **Tuning Approximate Computations with Constraint-Based Type Inference**  
+* [Tuning Approximate Computations with Constraint-Based Type Inference](papers/boston.pdf)  
   Brett Boston,
   Adrian Sampson,
   Dan Grossman, and
   Luis Ceze (University of Washington)
-* **QBF-Based Synthesis of Optimal Word-Splitting in Approximate Multi-Level
-  Storage Cells**  
+* [QBF-Based Synthesis of Optimal Word-Splitting in Approximate Multi-Level
+  Storage Cells](papers/holcomb.pdf)  
   Daniel E. Holcomb and
   Kevin Fu (University of Michigan)
 
