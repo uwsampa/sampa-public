@@ -65,7 +65,7 @@ Full Papers
 * [Load Value Approximation: Approaching the Ideal Memory Access Latency](papers/sanmiguel.pdf)  
   Joshua San Miguel and
   Natalie Enright Jerger (University of Toronto)
-* Toward General-Purpose Code Acceleration with Analog Computation  
+* [Toward General-Purpose Code Acceleration with Analog Computation](papers/yazdanbakhsh-stamant.pdf)  
   Amir Yazdanbakhsh (Georgia Institute of Technology),
   Renee St. Amant (The University of Texas at Austin),
   Bradley Thwaites (Georgia Institute of Technology),
@@ -83,7 +83,7 @@ Full Papers, Position Papers and Short Papers
 
 **Hardware Design**
 
-* Methodical Approximate Hardware Design and Reuse  
+* [Methodical Approximate Hardware Design and Reuse](papers/yazdanbakhsh-thwaites.pdf)  
   Amir Yazdanbakhsh,
   Bradley Thwaites,
   Jongse Park, and
