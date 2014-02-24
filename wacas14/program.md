@@ -141,9 +141,6 @@ Afternoon break (refreshments provided)
 **3:30--5:00:**
 Panel/Debate
 
-**5:00--6:00:**
-Poster and demo session
-
 
 Contact the [organizers][] with questions.
 
