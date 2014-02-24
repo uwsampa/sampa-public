@@ -23,4 +23,4 @@ clean:
 
 CSEHOST := bicycle.cs.washington.edu
 deploy: clean all
-	rsync -avz -e ssh --delete _site/ $(CSEHOST):/cse/www2/sampa/new
+	rsync --compress --recursive --checksum --itemize-changes --delete -e ssh _site/ $(CSEHOST):/cse/www2/sampa/new
