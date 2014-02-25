@@ -59,7 +59,7 @@ Full Papers
 * [Exploring a Brink-of-Failure Memory Controller to Design an Approximate
   Memory System](papers/taassori.pdf)  
   Meysam Taassori (University of Utah),
-  Niladrish Chatterjee (NVidia),
+  Niladrish Chatterjee (NVIDIA),
   Ali Shafiee (University of Utah), and
   Rajeev Balasubramonian (University of Utah)
 * [Load Value Approximation: Approaching the Ideal Memory Access Latency](papers/sanmiguel.pdf)  
