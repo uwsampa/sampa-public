@@ -81,7 +81,7 @@ Lunch (on your own)
 **1:30--3:00:**
 Full Papers, Position Papers and Short Papers
 
-**Session 4: Hardware Design (Chair: TBD)**
+**Session 4: Hardware Design (Chair: Natalie Enright Jerger)**
 
 * [Methodical Approximate Hardware Design and Reuse](papers/yazdanbakhsh-thwaites.pdf)  
   Amir Yazdanbakhsh,
