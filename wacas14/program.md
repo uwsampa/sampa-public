@@ -16,7 +16,7 @@ Introduction
 **9:15--10:00:**
 Full Papers
 
-**Session 1: Programming Paradigms (Chair: Ben Ransford)**
+**Session 1: Programming Paradigms (Chair: Luis Ceze)**
 
 * [Improving Coverage and Reliability in Approximate Computing Using Application-Specific, Light-Weight Checks](papers/grigorian.pdf)  
   Beayna Grigorian and
@@ -35,7 +35,7 @@ Morning break (refreshments provided)
 **10:30--12:00:**
 Full Papers
 
-**Session 2: Programming and Frameworks (Chair: TBD)**
+**Session 2: Programming and Frameworks (Chair: Ben Ransford)**
 
 * [iACT: A Software-Hardware Framework for Understanding the Scope of
   Approximate Computing](papers/mishra.pdf)  
