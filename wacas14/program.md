@@ -54,7 +54,7 @@ Full Papers
   Hadi Esmaeilzadeh, and
   Mayur Naik (Georgia Institute of Technology)
 
-**Session 3: Hardware Approximation Mechanisms**
+**Session 3: Hardware Approximation Mechanisms (Venkatesh Akella)**
 
 * [Exploring a Brink-of-Failure Memory Controller to Design an Approximate
   Memory System](papers/taassori.pdf)  
