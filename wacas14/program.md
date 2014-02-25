@@ -16,7 +16,7 @@ Introduction
 **9:15--10:00:**
 Full Papers
 
-**Programming Paradigms**
+**Session 1: Programming Paradigms (Chair: Luis Ceze)**
 
 * [Improving Coverage and Reliability in Approximate Computing Using Application-Specific, Light-Weight Checks](papers/grigorian.pdf)  
   Beayna Grigorian and
@@ -35,7 +35,7 @@ Morning break (refreshments provided)
 **10:30--12:00:**
 Full Papers
 
-**Programming and Frameworks**
+**Session 2: Programming and Frameworks**
 
 * [iACT: A Software-Hardware Framework for Understanding the Scope of
   Approximate Computing](papers/mishra.pdf)  
@@ -54,7 +54,7 @@ Full Papers
   Hadi Esmaeilzadeh, and
   Mayur Naik (Georgia Institute of Technology)
 
-**Hardware Approximation Mechanisms**
+**Session 3: Hardware Approximation Mechanisms**
 
 * [Exploring a Brink-of-Failure Memory Controller to Design an Approximate
   Memory System](papers/taassori.pdf)  
@@ -81,7 +81,7 @@ Lunch (on your own)
 **1:30--3:00:**
 Full Papers, Position Papers and Short Papers
 
-**Hardware Design**
+**Session 4: Hardware Design**
 
 * [Methodical Approximate Hardware Design and Reuse](papers/yazdanbakhsh-thwaites.pdf)  
   Amir Yazdanbakhsh,
@@ -95,7 +95,7 @@ Full Papers, Position Papers and Short Papers
   R. Iris Bahar, and
   Sherief Reda (Brown University)
 
-**Short Position Papers**
+**Session 5: Short Position Papers (Chair: Ben Ransford)**
 
 * [Reliable Computation on Unreliable Hardware: Can We Have Our Digital Cake
   and Eat It?](papers/kiriansky.pdf)  
@@ -116,7 +116,7 @@ Full Papers, Position Papers and Short Papers
   Suyog Gupta and
   Kailash Gopalakrishnan (IBM Research)
 
-**Short Notes**
+**Session 6: Short Notes**
 
 * [Approximate Semantics for Wirelessly Networked Applications](papers/ransford.pdf)  
   Benjamin Ransford,
@@ -139,7 +139,7 @@ Full Papers, Position Papers and Short Papers
 Afternoon break (refreshments provided)
 
 **3:30--5:00:**
-Panel/Debate
+Panel on Open Questions/Challenges in Approximate Computing
 
 
 Contact the [organizers][] with questions.
