@@ -116,7 +116,7 @@ Full Papers, Position Papers and Short Papers
   Suyog Gupta and
   Kailash Gopalakrishnan (IBM Research)
 
-**Session 6: Short Notes**
+**Session 6: Short Notes (Chair: Karin Strauss)**
 
 * [Approximate Semantics for Wirelessly Networked Applications](papers/ransford.pdf)  
   Benjamin Ransford,
