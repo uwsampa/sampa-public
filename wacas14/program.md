@@ -16,7 +16,7 @@ Introduction
 **9:15--10:00:**
 Full Papers
 
-**Session 1: Programming Paradigms (Chair: Luis Ceze)**
+**Session 1: Programming Paradigms (Chair: Ben Ransford)**
 
 * [Improving Coverage and Reliability in Approximate Computing Using Application-Specific, Light-Weight Checks](papers/grigorian.pdf)  
   Beayna Grigorian and
@@ -35,7 +35,7 @@ Morning break (refreshments provided)
 **10:30--12:00:**
 Full Papers
 
-**Session 2: Programming and Frameworks**
+**Session 2: Programming and Frameworks (Chair: TBD)**
 
 * [iACT: A Software-Hardware Framework for Understanding the Scope of
   Approximate Computing](papers/mishra.pdf)  
@@ -81,7 +81,7 @@ Lunch (on your own)
 **1:30--3:00:**
 Full Papers, Position Papers and Short Papers
 
-**Session 4: Hardware Design**
+**Session 4: Hardware Design (Chair: TBD)**
 
 * [Methodical Approximate Hardware Design and Reuse](papers/yazdanbakhsh-thwaites.pdf)  
   Amir Yazdanbakhsh,
@@ -95,7 +95,7 @@ Full Papers, Position Papers and Short Papers
   R. Iris Bahar, and
   Sherief Reda (Brown University)
 
-**Session 5: Short Position Papers (Chair: Ben Ransford)**
+**Session 5: Short Position Papers (Chair: Hadi Esmaeilzadeh)**
 
 * [Reliable Computation on Unreliable Hardware: Can We Have Our Digital Cake
   and Eat It?](papers/kiriansky.pdf)  
