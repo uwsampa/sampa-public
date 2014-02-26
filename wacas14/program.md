@@ -142,6 +142,6 @@ Afternoon break (refreshments provided)
 Panel on Open Questions/Challenges in Approximate Computing
 
 
-Contact the [organizers][] with questions.
-
-[organizers]: mailto:wacas14@cs.washington.edu
+<p class="noprint">
+Contact the <a href="mailto:wacas14@cs.washington.edu">organizers</a> with questions.
+</p>
