@@ -76,7 +76,7 @@ Full Papers
   Doug Burger (The University of Texas at Austin)
 
 **12:00pm--1:30:**
-Lunch (on your own)
+Lunch (Provided!)
 
 **1:30--3:00:**
 Full Papers, Position Papers and Short Papers
