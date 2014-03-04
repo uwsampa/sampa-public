@@ -18,7 +18,8 @@ Full Papers
 
 **Session 1: Programming Paradigms (Chair: Luis Ceze)**
 
-* [Improving Coverage and Reliability in Approximate Computing Using Application-Specific, Light-Weight Checks](papers/grigorian.pdf)  
+* [Improving Coverage and Reliability in Approximate Computing Using Application-Specific, Light-Weight Checks](papers/grigorian.pdf)
+  ([slides](slides/grigorian.pdf))  
   Beayna Grigorian and
   Glenn Reinman (University of California, Los Angeles)
 * [Parallel Streaming Computation on Error-Prone Processors](papers/yetim.pdf)  
@@ -47,7 +48,8 @@ Full Papers
   Adrian Sampson,
   Luis Ceze, and
   Dan Grossman (University of Washington)
-* [Expectation-Oriented Framework for Automating Approximate Programming](papers/park.pdf)  
+* [Expectation-Oriented Framework for Automating Approximate Programming](papers/park.pdf)
+  ([slides](slides/park.pdf))  
   Jongse Park,
   Kangqi Ni,
   Xin Zhang,
@@ -65,7 +67,8 @@ Full Papers
 * [Load Value Approximation: Approaching the Ideal Memory Access Latency](papers/sanmiguel.pdf)  
   Joshua San Miguel and
   Natalie Enright Jerger (University of Toronto)
-* [Toward General-Purpose Code Acceleration with Analog Computation](papers/yazdanbakhsh-stamant.pdf)  
+* [Toward General-Purpose Code Acceleration with Analog Computation](papers/yazdanbakhsh-stamant.pdf)
+  ([slides](slides/yazdanbakhsh.pdf))  
   Amir Yazdanbakhsh (Georgia Institute of Technology),
   Renee St. Amant (The University of Texas at Austin),
   Bradley Thwaites (Georgia Institute of Technology),
@@ -118,7 +121,8 @@ Full Papers, Position Papers and Short Papers
 
 **Session 6: Short Notes (Chair: Karin Strauss)**
 
-* [Approximate Semantics for Wirelessly Networked Applications](papers/ransford.pdf)  
+* [Approximate Semantics for Wirelessly Networked Applications](papers/ransford.pdf)
+  ([slides](slides/ransford.pdf))  
   Benjamin Ransford,
   Adrian Sampson, and
   Luis Ceze (University of Washington)
