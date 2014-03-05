@@ -43,7 +43,8 @@ Full Papers
   Asit K. Mishra,
   Rajkishore Barik, and
   Somnath Paul (Intel)
-* [Profiling and Autotuning for Energy-Aware Approximate Programming](papers/ringenburg.pdf)  
+* [Profiling and Autotuning for Energy-Aware Approximate Programming](papers/ringenburg.pdf)
+  ([slides](slides/ringenburg.pdf))  
   Michael F. Ringenburg,
   Adrian Sampson,
   Luis Ceze, and
