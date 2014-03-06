@@ -18,11 +18,12 @@ Full Papers
 
 **Session 1: Programming Paradigms (Chair: Luis Ceze)**
 
-* [Improving Coverage and Reliability in Approximate Computing Using Application-Specific, Light-Weight Checks](papers/grigorian.pdf)
+* [Improving Coverage and Reliability in Approximate Computing Using Application-Specific, Light-Weight Checks](papers/grigorian.pdf)  
   ([slides](slides/grigorian.pdf))  
   Beayna Grigorian and
   Glenn Reinman (University of California, Los Angeles)
 * [Parallel Streaming Computation on Error-Prone Processors](papers/yetim.pdf)  
+  ([slides](slides/yetim.pdf))  
   Yavuz Yetim,
   Margaret Martonosi, and
   Sharad Malik (Princeton University)
@@ -40,6 +41,7 @@ Full Papers
 
 * [iACT: A Software-Hardware Framework for Understanding the Scope of
   Approximate Computing](papers/mishra.pdf)  
+  ([slides](slides/mishra.pdf))  
   Asit K. Mishra,
   Rajkishore Barik, and
   Somnath Paul (Intel)
@@ -66,10 +68,11 @@ Full Papers
   Ali Shafiee (University of Utah), and
   Rajeev Balasubramonian (University of Utah)
 * [Load Value Approximation: Approaching the Ideal Memory Access Latency](papers/sanmiguel.pdf)  
+  ([slides](slides/sanmiguel.pdf))  
   Joshua San Miguel and
   Natalie Enright Jerger (University of Toronto)
 * [Toward General-Purpose Code Acceleration with Analog Computation](papers/yazdanbakhsh-stamant.pdf)
-  ([slides](slides/yazdanbakhsh.pdf))  
+  ([slides](slides/yazdanbakhsh-stamant.pdf))  
   Amir Yazdanbakhsh (Georgia Institute of Technology),
   Renee St. Amant (The University of Texas at Austin),
   Bradley Thwaites (Georgia Institute of Technology),
@@ -88,6 +91,7 @@ Full Papers, Position Papers and Short Papers
 **Session 4: Hardware Design (Chair: Natalie Enright Jerger)**
 
 * [Methodical Approximate Hardware Design and Reuse](papers/yazdanbakhsh-thwaites.pdf)  
+  ([slides](slides/yazdanbakhsh-thwaites.pdf))  
   Amir Yazdanbakhsh,
   Bradley Thwaites,
   Jongse Park, and
