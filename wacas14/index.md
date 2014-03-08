@@ -16,28 +16,14 @@ that they be exactly correct. Approximate systems raise questions from across
 the system stack, from circuits to applications. WACAS is a venue for
 discussion, debate, and brainstorming on all of these topics.
 
-WACAS 2014 will be held on March 2, 2014, co-located with [ASPLOS
-2014][asplos].  The [full program][program] is now available!
+WACAS 2014 was be held on March 2, 2014, co-located with [ASPLOS
+2014][asplos].  See the [full program][program] for links to papers and slides.
 
 (The archived [call for papers][cfp] is also available.)
 
 [asplos]: http://www.cs.utah.edu/asplos14/
 [program]: program.html
 [cfp]: cfp.html
-
-
-### Submission
-
-Use the [submission site][subs] to upload your paper by **January 20, 2014** (formerly January 17).
-
-Submissions may optionally be blind: authors can choose whether to include names on the submitted PDF.
-Research papers should be around 6 pages; position papers and short notes should be about 2.
-Please use the [formatting guidelines][formatting] from the main conference
-(i.e., [SIGPLAN format][sigplan] with the 10pt option will suffice).
-
-[sigplan]: http://www.sigplan.org/authorinformation.htm
-[formatting]: http://www.cs.utah.edu/asplos14/submission.html
-[subs]: http://sampa.cs.washington.edu/wacas14crp/
 
 
 ### Contact
