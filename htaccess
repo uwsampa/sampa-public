@@ -8,5 +8,5 @@ RewriteBase {{ site.base }}/
 {% for item in site.redirects %}
 {% assign oldname=item[0] %}
 {% assign path=item[1] %}
-RewriteRule ^sampa/{{ oldname }} /{{ path }} [L,R=301]
+RewriteRule ^sampa/{{ oldname | replace: '(', '\(' | replace: ')', '\)' }} /{{ path }} [L,R=301]
 {% endfor %}
