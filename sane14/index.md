@@ -1,6 +1,6 @@
 ---
-title: SANE 2014
 layout: wacas
+title: SANE 2014
 ---
 
 
