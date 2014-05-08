@@ -1,5 +1,5 @@
 ---
-layout: wacas
+layout: default
 title: SANE 2014
 ---
 
