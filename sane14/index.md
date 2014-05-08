@@ -1,8 +1,8 @@
 ---
 title: SANE 2014
+layout: wacas
 ---
 
-<img src="{{ site.base }}/img/wacas.jpg" width="225" height="225" alt="WACAS 2014" style="float: right" />
 
 Welcome to the first UW-CSE Systems, Architecture and NEtworking (SANE) retreat.
 
