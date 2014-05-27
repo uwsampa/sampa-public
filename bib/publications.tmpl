@@ -16,8 +16,10 @@
 			<span class="pubtitle">
 				{%- set url = entry|main_url %}
 				{%- if url %}
-				<img src="img/pdficon_small.png" width="16"
-					height="16" alt="PDF" />
+					{%- if '.pdf' in url %}
+					<img src="img/pdficon_small.png" width="16"
+						height="16" alt="PDF" />
+					{%- endif %}
 				<a href="{{ url|escape }}">{{ entry|title }}</a>.
 				{%- else %}
 				{{ entry|title }}.
