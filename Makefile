@@ -22,5 +22,7 @@ clean:
 	$(RM) -r _site _includes/pubs.html
 
 CSEHOST := bicycle.cs.washington.edu
+RSYNCARGS := --compress --recursive --checksum --itemize-changes \
+	--delete -e ssh --perms --chmod=ug+rw
 deploy: clean all
-	rsync --compress --recursive --checksum --itemize-changes --delete -e ssh _site/ $(CSEHOST):/cse/www2/sampa/new
+	rsync $(RSYNCARGS) _site/ $(CSEHOST):/cse/www2/sampa/new
