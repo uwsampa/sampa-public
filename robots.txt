@@ -1,2 +1,6 @@
 User-agent: *
 Disallow: /papers/grappa-tr-14-05-03.pdf
+
+User-agent: *
+Disallow: /grappa/papers/grappa-tr-14-05-03.pdf
+
