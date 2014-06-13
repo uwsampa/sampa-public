@@ -120,6 +120,7 @@ fortuna:
 hunt:
     display_name: "Nick Hunt"
     role: alum
+    bio: "Now guiding at RMI."
 owen:
     display_name: Owen Anderson
     role: alum
@@ -131,9 +132,11 @@ angda:
 cody:
     display_name: Cody Schroeder
     role: alum
+    bio: "B.S. 2012, M.S. 2013. Now at Google."
 kristian:
     display_name: Kristian Lieberg
     role: alum
+    bio: "B.S. Now at Clean Power Research."
 
 shaz:
     display_name: Shaz Qadeer
