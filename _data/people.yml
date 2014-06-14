@@ -150,6 +150,18 @@ djnoboom:
 tliu24:
     display_name: Tianchi Liu
     role: ugrad
+wenjih:
+    display_name: Wenjie (Marissa) He
+    role: ugrad
+joshuay:
+    display_name: Joshua Yip
+    role: ugrad
+shichengfeng:
+    display_name: Chengfeng Shi
+    role: ugrad
+luluyi:
+    display_name: Luyi Lu
+    role: ugrad
 
 shaz:
     display_name: Shaz Qadeer
@@ -167,3 +179,11 @@ skahan:
 preston:
     display_name: Preston Briggs
     role: collab
+mckinley:
+    display_name: Kathryn McKinley
+    role: collab
+    webpage: http://research.microsoft.com/en-us/people/mckinley/
+toddm:
+    display_name: Todd Mytkowicz
+    role: collab
+    webpage: http://research.microsoft.com/en-us/people/toddm/
