@@ -45,8 +45,18 @@ Simon Kahan (PNNL)
 
 ### Publications
 
+[Grappa: A Latency-Tolerant Runtime for Large-Scale Irregular Applications](http://sampa.cs.washington.edu/papers/grappa-tr-2014-02.pdf).
+Jacob Nelson, Brandon Holt, Brandon Myers, Preston Briggs, Luis Ceze, Simon Kahan, and Mark Oskin. Tech report, February 2014
+
+[Flat Combining Synchronized Global Data Structures](http://sampa.cs.washington.edu/papers/holt-pgas13.pdf).
+Brandon Holt, Jacob Nelson, Brandon Myers, Preston Briggs, Luis Ceze, Simon Kahan, and Mark Oskin. International Conference on PGAS Programming Models (PGAS), October 2013
+
+[Compiled Plans for In-Memory Path-Counting Queries](http://sampa.cs.washington.edu/papers/myers-imdm13.pdf).
+Brandon Myers, Jeremy Hyrkas, Daniel Halperin, and Bill Howe. International Workshop on In-Memory Data Management and Analytics (IMDM w/ VLDB), August 2013
+
+[Do We Need a Crystal Ball for Task Migration?](https://www.usenix.org/system/files/conference/hotpar12/hotpar12-final46.pdf)
+Brandon Myers and Brandon Holt. USENIX Workshop on Hot Topics in Parallelism (HOTPAR), June 2012
+
 [Crunching Large Graphs with Commodity
-Processors](http://www.usenix.org/event/hotpar11/tech/final_files/Nelson.pdf)
-Jacob Nelson, Brandon Myers, A. H. Hunter, Preston Briggs, Luis Ceze,
-Carl Ebeling, Dan Grossman, Simon Kahan, Mark Oskin. Crunching Large
-Graphs with Commodity Processors. USENIX HotPar 2011.
+Processors](http://www.usenix.org/event/hotpar11/tech/final_files/Nelson.pdf).
+Jacob Nelson, Brandon Myers, A. H. Hunter, Preston Briggs, Luis Ceze, Carl Ebeling, Dan Grossman, Simon Kahan, and Mark Oskin. USENIX Workshop on Hot Topics in Parallelism (HOTPAR), June 2011
