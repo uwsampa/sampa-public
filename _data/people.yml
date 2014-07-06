@@ -59,9 +59,13 @@ katelin:
     display_name: "Katelin Bailey"
     webpage: "https://homes.cs.washington.edu/~katelin/"
     role: grad
-tbergan:
-    display_name: "Tom Bergan"
-    webpage: "https://homes.cs.washington.edu/~tbergan/"
+bornholt: 
+    display_name: "James Bornholt"
+    webpage: "http://homes.cs.washington.edu/~bornholt/"
+    role: grad
+cdel:
+    display_name: "Carlo Del Mundo"
+    webpage: "http://homes.cs.washington.edu/~cdel/"
     role: grad
 bholt:
     display_name: "Brandon Holt"
@@ -75,6 +79,10 @@ emackay:
     display_name: Eric Mackay
     webpage: "http://homes.cs.washington.edu/~emackay/"
     role: grad
+amrita: 
+    display_name: Amrita Mazumdar
+    webpage: "http://amritamaz.me"
+    role: grad
 moreau:
     display_name: "Thierry Moreau"
     webpage: "http://homes.cs.washington.edu/~moreau/"
@@ -87,10 +95,6 @@ nelson:
     display_name: "Jacob Nelson"
     webpage: "https://homes.cs.washington.edu/~nelson/"
     role: grad
-miker:
-    display_name: "Michael Ringenburg"
-    webpage: "http://homes.cs.washington.edu/~miker/"
-    role: grad
 asampson:
     display_name: "Adrian Sampson"
     webpage: "https://homes.cs.washington.edu/~asampson/"
@@ -101,6 +105,17 @@ bpw:
     webpage: "https://homes.cs.washington.edu/~bpw/"
     role: grad
 
+tbergan:
+    display_name: "Tom Bergan"
+    webpage: "https://homes.cs.washington.edu/~tbergan/"
+    role: alum
+    bio: "Ph.D., 2014. Now at Google."
+miker:
+    display_name: "Michael Ringenburg"
+    webpage: "http://homes.cs.washington.edu/~miker/"
+    role: alum
+    bio: "Ph.D., 2014. Now at Cray."
+    
 lucia:
     display_name: "Brandon Lucia"
     role: alum
