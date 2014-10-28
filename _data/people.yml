@@ -48,7 +48,7 @@ melody:
 
 ransford:
     display_name: "Ben Ransford"
-    webpage: "https://home.cs.washington.edu/~ransford/"
+    webpage: "https://homes.cs.washington.edu/~ransford/"
     github: ransford
     role: postdoc
 
@@ -61,7 +61,7 @@ katelin:
     role: grad
 bornholt: 
     display_name: "James Bornholt"
-    webpage: "http://homes.cs.washington.edu/~bornholt/"
+    webpage: "https://homes.cs.washington.edu/~bornholt/"
     role: grad
 cdel:
     display_name: "Carlo Del Mundo"
