@@ -81,7 +81,7 @@ emackay:
     role: grad
 amrita: 
     display_name: Amrita Mazumdar
-    webpage: "http://amritamaz.me"
+    webpage: "https://homes.cs.washington.edu/~amrita"
     role: grad
 moreau:
     display_name: "Thierry Moreau"
