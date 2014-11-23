@@ -24,4 +24,16 @@ See the [call for papers][cfp]. Here's the [submission site][hotcrp].
 ### Contact
 
 Have questions? Please contact the organizers at
-[address@example.com](address@example.com).
+[address@example.com](address@example.com). The organizers are:
+
+* [Emery Berger][], University of Massachusetts
+* [Luis Ceze][], University of Washington
+* [Kathryn S McKinley][], Microsoft Research
+* [Adrian Sampson][], University of Washington
+* [Ben Zorn][], Microsoft Research
+
+[Ben Zorn]: http://research.microsoft.com/en-us/people/zorn/
+[Emery Berger]: http://emeryberger.com/
+[Adrian Sampson]: http://homes.cs.washington.edu/~asampson/
+[Kathryn S McKinley]: http://research.microsoft.com/en-us/people/mckinley/
+[Luis Ceze]: http://homes.cs.washington.edu/~luisceze/
