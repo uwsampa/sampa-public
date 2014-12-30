@@ -34,14 +34,14 @@ detect and avoid and are developing new machine learning-based
 techniques.
 
 More information on our concurrency error detection research can be
-found [here](http://www.cs.washington.edu/homes/blucia0a/detect.html).
+found [here](http://brandonlucia.com/detect.html).
 
 More information on our research on avoiding failures in concurrent
 programs can be found
-[here](http://www.cs.washington.edu/homes/blucia0a/avoid.html).
+[here](http://brandonlucia.com/avoid.html).
 
 **Current contacts:**
-[Brandon Lucia](http://abstract.cs.washington.edu/~blucia0a/index.cgi)
+[Brandon Lucia](http://brandonlucia.com)
 and [Luis Ceze](http://www.cs.washington.edu/homes/luisceze).
 
 ### Software Tools
@@ -49,30 +49,27 @@ and [Luis Ceze](http://www.cs.washington.edu/homes/luisceze).
 We recently released a source version of a tool we developed called
 Recon. Recon is useful for finding concurrent programming mistakes, and
 using reconstructed execution fragments to explain their causes to
-programmers. You can read more about Recon, and download it and try it
-out on your programs
-[here](http://www.cs.washington.edu/homes/blucia0a/recon.html). Recon is
-available for both Java and C/C++.
+programmers.
 
 ### Publications
 
 [Cooperative Empirical Failure Avoidance for Multithreaded
-Programs](http://homes.cs.washington.edu/~blucia0a/pubs/aviso_preprint.pdf),
+Programs](/papers/aviso_ASPLOS2013.pdf),
 (**ASPLOS 2013**), Brandon Lucia and Luis Ceze
 
 [IFRit: Interference-Free Regions for Dynamic Data-Race
-Detection](http://homes.cs.washington.edu/~blucia0a/pubs/IFR_OOPSLA.pdf),
+Detection](/papers/oopsla12-ifrit.pdf),
 (**OOPSLA 2012**), Laura Effinger-Dean, Brandon Lucia, Luis Ceze, Dan
 Grossman, Hans-J. Boehm
 
 [Isolating and Understanding Concurrency Errors with Reconsructed
 Execution
-Fragments](http://abstract.cs.washington.edu/~blucia0a/pubs/pldi217-lucia.pdf),
+Fragments](/papers/recon-pldi2011.pdf),
 (**PLDI 2011**), Brandon Lucia, Benjamin P. Wood, and Luis Ceze.
 
 [ColorSafe: Architectural Support for Debugging and Dynamically Avoiding
 Multi-variable Atomicity
-Violations](http://abstract.cs.washington.edu/~blucia0a/pubs/ColorSafe.pdf)
+Violations](/papers/isca175-lucia.pdf)
 (**ISCA 2010**), Brandon Lucia, Luis Ceze and Karin Strauss.
 
 [Finding Concurrency Bugs with Context-Aware Communication

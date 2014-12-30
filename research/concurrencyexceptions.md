@@ -2,9 +2,6 @@
 layout: default
 title: Concurrency Exceptions
 ---
-See [Support for Explicit Runtime Concurrency
-Errors](Support for Explicit Runtime Concurrency Errors "wikilink").
-
 We argue that concurrency errors should be fail-stop. We want to put
 concurrency errors in the same category as segmentation fault and
 division-by-zero. This would make non-determinism in multithreaded
