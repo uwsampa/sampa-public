@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>AX2: {{ page.title }}</title>
+        <title>WAX: {{ page.title }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="{{ site.base }}/css/bootstrap.min.css" rel="stylesheet">
         <link href="{{ site.base }}/css/sampa.css" rel="stylesheet">
@@ -14,7 +14,7 @@
           <div class="header">
             <ul class="nav nav-pills pull-right">
               {% assign shorturl = page.url | replace:'index.html','' %}
-              {% for item in site.data.ax2.nav %}
+              {% for item in site.data.wax.nav %}
                 <li {% if item.link == shorturl %}class="active"{% endif %}>
                   <a href="{{ site.base }}{{ item.link }}">
                     {{ item.title }}
@@ -22,7 +22,7 @@
                 </li>
               {% endfor %}
             </ul>
-            <a href="./"><h1>AX2 2014</h1></a>
+            <h1><a href="./">WAX 2015</a></h1>
             </a>
           </div>
 

@@ -1,9 +1,9 @@
 ---
 layout: wax
-title: 'AX2: Call for Papers'
+title: 'WAX 2015: Call for Papers'
 notitle: true
 ---
-## AX2: Call for Papers
+## WAX 2015: Call for Papers
 
 The body of the CFP will go here.
 
@@ -12,7 +12,7 @@ The body of the CFP will go here.
 - **Paper submission: TBD**
 - Author notification: TBD
 - Camera-ready submission: TBD
-- Workshop: June 13 or 14, 2015
+- Workshop: June 13, 2015
 
 ### Organization
 
