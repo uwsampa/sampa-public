@@ -23,7 +23,7 @@ See the [call for papers][cfp]. Here's the [submission site][hotcrp].
 ### Contact
 
 Have questions? Please contact the organizers at
-[address@example.com](address@example.com). The organizers are:
+[wax2015@cs.washington.edu](mailto:wax2015@cs.washington.edu). The organizers are:
 
 * [Emery Berger][], University of Massachusetts
 * [Luis Ceze][], University of Washington
