@@ -4,6 +4,7 @@ Sampa group website
 This site uses [Jekyll][] and [bibble][] to generate a static Sampa website
 complete with publications, personnel, and news.
 
+Looking for how to add or edit the Sampa meeting schedule? Too bad. James put it in [the wrong repo](https://github.com/uwsampa/schedule).
 
 Editing
 -------
