@@ -100,11 +100,12 @@ asampson:
     webpage: "https://homes.cs.washington.edu/~asampson/"
     github: sampsyo
     role: grad
+    
 bpw:
     display_name: "Benjamin Wood"
     webpage: "https://homes.cs.washington.edu/~bpw/"
-    role: grad
-
+    role: alum
+    bio: "Ph.D., 2014. Now faculty at Wellesley."
 tbergan:
     display_name: "Tom Bergan"
     webpage: "https://homes.cs.washington.edu/~tbergan/"
@@ -119,7 +120,7 @@ miker:
 lucia:
     display_name: "Brandon Lucia"
     role: alum
-    bio: "Ph.D., 2013. Now at CMU."
+    bio: "Ph.D., 2013. Now faculty at CMU."
 hadi:
     display_name: "Hadi Esmaeilzadeh"
     role: alum
