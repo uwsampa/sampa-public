@@ -48,9 +48,10 @@ melody:
 
 ransford:
     display_name: "Ben Ransford"
-    webpage: "https://homes.cs.washington.edu/~ransford/"
+    webpage: "http://ben.ransford.org/"
     github: ransford
-    role: postdoc
+    role: alum
+    bio: "Postdoc, 2013&ndash;2014."
 
 andreolb:
     display_name: "Andre Baixo"
