@@ -46,12 +46,10 @@ melody:
         Melody is our Program Director. She actually makes magic stuff happen.
         And beware of the Spoon of Death.
 
-ransford:
-    display_name: "Ben Ransford"
-    webpage: "http://ben.ransford.org/"
-    github: ransford
-    role: alum
-    bio: "Postdoc, 2013&ndash;2014."
+nelson:
+    display_name: "Jacob Nelson"
+    webpage: "https://homes.cs.washington.edu/~nelson/"
+    role: postdoc
 
 andreolb:
     display_name: "Andre Baixo"
@@ -92,15 +90,18 @@ bdmyers:
     display_name: "Brandon Myers"
     webpage: "https://homes.cs.washington.edu/~bdmyers/"
     role: grad
-nelson:
-    display_name: "Jacob Nelson"
-    webpage: "https://homes.cs.washington.edu/~nelson/"
-    role: grad
 asampson:
     display_name: "Adrian Sampson"
     webpage: "https://homes.cs.washington.edu/~asampson/"
     github: sampsyo
     role: grad
+
+ransford:
+    display_name: "Ben Ransford"
+    webpage: "http://ben.ransford.org/"
+    github: ransford
+    role: alum
+    bio: "Postdoc, 2013&ndash;2014."
     
 bpw:
     display_name: "Benjamin Wood"
