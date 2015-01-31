@@ -95,6 +95,10 @@ asampson:
     webpage: "https://homes.cs.washington.edu/~asampson/"
     github: sampsyo
     role: grad
+wysem:
+    display_name: "Mark Wyse"
+    webpage: "https://homes.cs.washington.edu/~wysem/"
+    role: grad
 
 ransford:
     display_name: "Ben Ransford"
@@ -158,9 +162,6 @@ kristian:
 
 bboston:
     display_name: Brett Boston
-    role: ugrad
-mwyse:
-    display_name: Mark Wyse
     role: ugrad
 djnoboom:
     display_name: Daniel Noteboom
