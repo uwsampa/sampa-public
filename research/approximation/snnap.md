@@ -13,9 +13,9 @@ SNNAP was evaluated on a set of diverse benchmarks that span over application do
 
 This is a joint project at University of Washington and Georgia Tech.
 
-**Contacts:** [Thierry Moreau][] and [Luis Ceze][]
-
 ### Collaborators
+
+**Contacts:** [Thierry Moreau][] and [Luis Ceze][]
 
 [Thierry Moreau](http://www.cs.washington.edu/homes/moreau/),
 [Mark Wyse](http://homes.cs.washington.edu/homes/wysem/),
