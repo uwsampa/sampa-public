@@ -53,6 +53,7 @@ for approximate execution ([NPU][], [SNNAP][]); approximate [data storage][appro
 services; and abstractions for approximate hardware design.
 
 [npu]: approximation/npu.html
+[snnap]: approximation/snnap.html
 [approxstorage]: http://homes.cs.washington.edu/~asampson/media/papers/approxstorage-micro2013.pdf
 [approx]: approximation/enerj.html
 {% comment %} Linking approximation to EnerJ until we have a real approximation landing page. {% endcomment %}
