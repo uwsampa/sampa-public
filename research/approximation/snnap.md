@@ -7,7 +7,7 @@ SNNAP (Systolic Neural Network Accelerator on Programmable logic) is an FPGA-bas
 SNNAP is implemented on the programmable fabric of the Zynq, a commercial ARM-based SoC that incorporates an FPGA on the same die. This tight integration between the processors and the programmable fabric offers interesting opportunities for fine-grained acceleration, which is often required in the context of neural acceleration. SNNAP offloads computation by performing low-latency coherent memory accesses directly to the CPU’s caches. Additionally, SNNAP is design to exploit a parallelism in programs: it is composed of multiple processing units that can evaluate neural networks in parallel. Each processing unit utilizes DSP slices arranged in a systolic array to evaluate neural networks efficiently. SNNAP gets its flexibility from a micro-coded sequencer, and reconfigurable weight banks. This means that neural network 'frames' can be loaded into a processing unit dynamically.
 
 <img src="{{ site.base }}/img/snnap.png" class="illustration"
-  style="width: 300px; height: 208px;">
+  style="width: 300px; height: 225px;">
 
 SNNAP was evaluated on a set of diverse benchmarks that span over application domains such as image processing, machine learning, image compression etc. and provides a 3.8x speedup on average, and 2.8x energy savings on average.
 
