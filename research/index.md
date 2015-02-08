@@ -49,7 +49,7 @@ stack, including: language and runtime techniques to
 express and enforce quality metrics where inaccuracy can be tolerated ([EnerJ](approximation/enerj.html)); language tools, including
 approximation recommenders and debuggers;  compilers to communicate the
 information to the hardware; microarchitectures and hardware techniques
-for approximate execution ([NPU][]); approximate [data storage][approxstorage] and communication
+for approximate execution ([NPU][], [SNNAP][]); approximate [data storage][approxstorage] and communication
 services; and abstractions for approximate hardware design.
 
 [npu]: approximation/npu.html
