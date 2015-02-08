@@ -10,6 +10,8 @@ SNNAP was evaluated on a set of diverse benchmarks that span over application do
 
 This is a joint project at University of Washington and Georgia Tech.
 
+**Contacts:** [Thierry Moreau][] and [Luis Ceze][]
+
 ### Collaborators
 
 [Thierry Moreau](http://www.cs.washington.edu/homes/moreau/),
@@ -29,5 +31,5 @@ Thierry Moreau, Mark Wyse, Jacob Nelson, Adrian Sampson, Hadi Esmaeilzadeh, Luis
 ### Source release
 
 The SNNAP hardware design and the compiler framework to support neural acceleration will be open-sourced in the near future.
-If you wish to receive updates please submit your email address [here](https://docs.google.com/forms/d/1PCy3a6rK03DA3xL5hkXf28crINxFQW95shkbyyirLn8/viewform?usp=send_form) or feel free to email [Thierry Moreau](http://www.cs.washington.edu/homes/moreau/).
+If you wish to receive updates please submit your email address [here](https://docs.google.com/forms/d/1PCy3a6rK03DA3xL5hkXf28crINxFQW95shkbyyirLn8/viewform?usp=send_form) or feel free to email [Thierry Moreau](http://www.cs.washington.edu/homes/moreau/) directly.
 
