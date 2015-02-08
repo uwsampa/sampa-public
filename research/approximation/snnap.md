@@ -8,7 +8,7 @@ SNNAP is implemented on the programmable fabric of the Zynq, a commercial ARM-ba
 
 SNNAP was evaluated on a set of diverse benchmarks that span over application domains such as image processing, machine learning, image compression etc. and provides a 3.8x speedup on average, and 2.8x energy savings on average.
 
-This is a joint project at University of Washington, and Georgia Tech.
+This is a joint project at University of Washington and Georgia Tech.
 
 ### Collaborators
 
@@ -28,5 +28,5 @@ Thierry Moreau, Mark Wyse, Jacob Nelson, Adrian Sampson, Hadi Esmaeilzadeh, Luis
 ### Source release
 
 The SNNAP hardware design and the compiler framework to support neural acceleration will be open-sourced in the near future.
-If you wish to receive updates please submit your email address [here]  [https://docs.google.com/forms/d/1PCy3a6rK03DA3xL5hkXf28crINxFQW95shkbyyirLn8/viewform?usp=send_form] or feel free to email [Thierry Moreau](http://www.cs.washington.edu/homes/moreau/).
+If you wish to receive updates please submit your email address [here][https://docs.google.com/forms/d/1PCy3a6rK03DA3xL5hkXf28crINxFQW95shkbyyirLn8/viewform?usp=send_form] or feel free to email [Thierry Moreau](http://www.cs.washington.edu/homes/moreau/).
 
