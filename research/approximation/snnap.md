@@ -24,3 +24,9 @@ This is a joint project at University of Washington, and Georgia Tech.
 [SNNAP: Approximate Computing on Programmable SoCs via Neural Acceleration.](http://homes.cs.washington.edu/~asampson/media/papers/snnap-hpca2015.pdf)
 Thierry Moreau, Mark Wyse, Jacob Nelson, Adrian Sampson, Hadi Esmaeilzadeh, Luis Ceze, Mark Oskin. **HPCA
 2015**.
+
+### Source release
+
+The SNNAP hardware design and the compiler framework to support neural acceleration will be open-sourced in the near future.
+If you wish to receive updates please submit your email address [here]  [https://docs.google.com/forms/d/1PCy3a6rK03DA3xL5hkXf28crINxFQW95shkbyyirLn8/viewform?usp=send_form] or feel free to email [Thierry Moreau](http://www.cs.washington.edu/homes/moreau/).
+
