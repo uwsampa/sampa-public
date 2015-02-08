@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SNNAP: Neural Acceleration on Programmable SoCs
+title: SNNAP
 ---
 SNNAP (Systolic Neural Network Accelerator on Programmable logic) is an FPGA-based co-processor implemented on an ARM system-on-a-chip (SoC) that accelerates programs that can tolerate imprecision. To leverage SNNAP, programs have to undergo a process called [neural transformation](http://sampa.cs.washington.edu/research/approximation/npu.html). Neural transformation takes a computationally demanding region of code in a program, and approximates it with a neural network. This neural network can then be efficiently evaluated on a specialized neural accelerator, SNNAP. This two-phase process of approximation and acceleration can bring substantial speedups and energy savings at the cost of a degradation in quality. This degradation in quality is not necessarily a bad thing, especially in applications that deal with inherently noisy data. 
 
