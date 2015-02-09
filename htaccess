@@ -11,7 +11,7 @@ RewriteBase {{ site.base }}/
 RewriteRule ^sampa/{{ oldname | replace: '(', '\(' | replace: ')', '\)' }} /{{ path }} [L,R=301]
 {% endfor %}
 
-//301 Redirect Old File
-Redirect 301 /research/approximation/snnap.html snnap.html
+//301 Redirect Entire Directory
+RedirectMatch 301 /research/approximation(.*) //$1
 
 
