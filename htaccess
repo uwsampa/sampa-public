@@ -10,3 +10,12 @@ RewriteBase {{ site.base }}/
 {% assign path=item[1] %}
 RewriteRule ^sampa/{{ oldname | replace: '(', '\(' | replace: ')', '\)' }} /{{ path }} [L,R=301]
 {% endfor %}
+
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^sampa.cs.washington.edu[nc]
+RewriteRule ^(.*)$ http://www.sampa.cs.washington.edu/$1 [r=301,nc]
+
+//301 Redirect Old File
+Redirect 301 /research/approximation/snnap.html snnap.html
