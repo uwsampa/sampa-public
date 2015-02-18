@@ -37,10 +37,11 @@ The workshop will include a peer-reviewed program of short position papers. Pape
 
 Papers will *not* be published in a formal proceedings, so they do not preclude future publication. Final PDFs will be linked on the WAX web site.
 
-Papers should use the formatting guidelines for SIGPLAN conferences and be limited to 2 pages, excluding references. Review is single-blind, so please include authors' names on the submitted PDF.
+Papers should use [the formatting guidelines for SIGPLAN conferences][sigplanconf] and be limited to 2 pages, excluding references. Review is single-blind, so please include authors' names on the submitted PDF.
+
+[sigplanconf]: http://www.sigplan.org/Resources/Author/
 
 <!-- Insert HotCRP link here. -->
-<!-- Also add sigplanconf link. -->
 
 ### Lightning Talks
 
