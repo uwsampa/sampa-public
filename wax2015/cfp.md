@@ -33,25 +33,26 @@ We invite participation in three forms: position papers, lightning talks, and di
 
 ### Peer-Reviewed Position Papers
 
-The workshop will include a peer-reviewed program of short position papers. Papers can describe an early-stage research project, advocate an opinion about approximate computing, or reflect on trends in the community. Accepted papers will be presented at the workshop in slots ranging from 5 to 15 minutes (TK) depending on the paper's scope and the volume of submissions.
+The workshop will include a peer-reviewed program of short position papers. Papers can describe an early-stage research project, advocate an opinion about approximate computing, or reflect on trends in the community. Accepted papers will be presented at the workshop in slots ranging from approximately 5 to 15 minutes depending on the paper's scope and the volume of submissions.
 
 Papers will *not* be published in a formal proceedings, so they do not preclude future publication. Final PDFs will be linked on the WAX web site.
 
-Papers should use the formatting guidelines for SIGPLAN conferences [TK link] and be limited to 2 pages, excluding references (TK).
+Papers should use the formatting guidelines for SIGPLAN conferences and be limited to 2 pages, excluding references. Review is single-blind, so please include authors' names on the submitted PDF.
 
-Please submit papers by TK at: [ HotCRP link TK ]
+<!-- Insert HotCRP link here. -->
+<!-- Also add sigplanconf link. -->
 
 ### Lightning Talks
 
-WAX will feature a session for short talks in the morning that present a single opinion, a nugget of an idea, or just food for thought. Speakers will have 60 seconds (TK?) to present a single slide.
+WAX will feature a session for short talks in the morning that present a single opinion, a nugget of an idea, or just food for thought. Speakers will have approximately 60 seconds to present a single slide.
 
-Everyone is invited to give a lightning talk (they will not be rejected as long as they are on topic). Please email a single slide as a PDF by TK to: [ designate someone TK ]
+Everyone is invited to give a lightning talk (they will not be rejected as long as they are on topic). Please email a single slide as a PDF by June 3 to [asampson@cs.washington.edu](mailto:asampson@cs.washington.edu).
 
 ### Open Questions
 
 We will be holding discussions between WAX attendees. Groups will break out for discussion over lunch and report back to the rest of the attendees. We need your help building a list of discussion topics on approximate computing.
 
-Please fill out this form [ Google form link TK ] to suggest a topic by TK. If you have more than one idea, feel free to fill out the form multiple times.
+A form will appear here to suggest a topic by June 3. If you have more than one idea, feel free to fill out the form multiple times.
 
 ## Important Dates
 
@@ -72,14 +73,13 @@ Organizers:
 * [Adrian Sampson][], University of Washington
 * [Ben Zorn][], Microsoft Research
 
+The program committee for position papers will be listed here.
+
+Contact the [organizers][] with questions.
+
 [Ben Zorn]: http://research.microsoft.com/en-us/people/zorn/
 [Emery Berger]: http://emeryberger.com/
 [Adrian Sampson]: http://homes.cs.washington.edu/~asampson/
 [Kathryn S McKinley]: http://research.microsoft.com/en-us/people/mckinley/
 [Luis Ceze]: http://homes.cs.washington.edu/~luisceze/
-
-The program committee for position papers will be listed here.
-
-Contact the [organizers][] with questions.
-
 [organizers]: mailto:wax2015@cs.washington.edu
