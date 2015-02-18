@@ -45,9 +45,9 @@ Papers should use [the formatting guidelines for SIGPLAN conferences][sigplancon
 
 ### Lightning Talks
 
-WAX will feature a session for short talks in the morning that present a single opinion, a nugget of an idea, or just food for thought. Speakers will have approximately 60 seconds to present a single slide.
+WAX will feature a session for short talks in the morning that present a single opinion, a nugget of an idea, or just food for thought. Speakers will have approximately 60 seconds. Talks will consist of two slides, one of which is a title slide (including at least the title itself and the speaker's name, affiliation, and email address).
 
-Everyone is invited to give a lightning talk (they will not be rejected as long as they are on topic). Please email a single slide as a PDF by June 3 to [asampson@cs.washington.edu](mailto:asampson@cs.washington.edu).
+Everyone is invited to give a lightning talk (they will not be rejected as long as they are on topic). Please email your two slides as a PDF by June 3 to [asampson@cs.washington.edu](mailto:asampson@cs.washington.edu).
 
 ### Open Questions
 
