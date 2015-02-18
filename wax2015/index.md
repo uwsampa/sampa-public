@@ -15,24 +15,15 @@ WAX will be held on Saturday, June 13, 2015, [co-located][pldiwks] with [PLDI 20
 
 ### Submission
 
-See the [call for papers][cfp]. Here's the [submission site][hotcrp].
+Please see the [call for papers][cfp] for a full description of ways you can participate. We are soliciting three kinds of participation: peer-reviewed position papers, lightning talks, and discussion topics.
+
+A link to submit short position papers will appear here.
 
 [cfp]: cfp.html
-[hotcrp]: http://example.com
 
 ### Contact
 
 Have questions? Please contact the organizers at
-[wax2015@cs.washington.edu](mailto:wax2015@cs.washington.edu). The organizers are:
+[wax2015@cs.washington.edu][organizers].
 
-* [Emery Berger][], University of Massachusetts
-* [Luis Ceze][], University of Washington
-* [Kathryn S McKinley][], Microsoft Research
-* [Adrian Sampson][], University of Washington
-* [Ben Zorn][], Microsoft Research
-
-[Ben Zorn]: http://research.microsoft.com/en-us/people/zorn/
-[Emery Berger]: http://emeryberger.com/
-[Adrian Sampson]: http://homes.cs.washington.edu/~asampson/
-[Kathryn S McKinley]: http://research.microsoft.com/en-us/people/mckinley/
-[Luis Ceze]: http://homes.cs.washington.edu/~luisceze/
+[organizers]: mailto:wax2015@cs.washington.edu
