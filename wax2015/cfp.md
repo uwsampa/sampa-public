@@ -5,7 +5,7 @@ notitle: true
 ---
 # Call for Participation: Workshop on Approximate Computing Across the Stack
 
-WAX 2015 is a workshop on *approximate computing*, a research direction that asks how computer systems can be made better—faster, more efficient, and less complex—by relaxing the requirement that they be exactly correct. Approximate systems raise questions from across the system stack, from circuits to applications. WACAS is a venue for discussion, debate, and brainstorming on all of these topics.
+WAX 2015 is a workshop on *approximate computing*, a research direction that asks how computer systems can be made better—faster, more efficient, and less complex—by relaxing the requirement that they be exactly correct. Approximate systems raise questions from across the system stack, from circuits to applications. WAX is a venue for discussion, debate, and brainstorming on all of these topics.
 
 WAX will be co-located with PLDI 2015 at FCRC in Portland, Oregon.
 
