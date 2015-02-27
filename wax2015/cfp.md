@@ -74,10 +74,33 @@ Organizers:
 * [Adrian Sampson][], University of Washington
 * [Ben Zorn][], Microsoft Research
 
-The program committee for position papers will be listed here.
+Program committee for position papers:
 
-Contact the [organizers][] with questions.
+* [Michael Carbin][], MIT and Microsoft Research
+* [Swarat Chaudhuri][], Rice University
+* [Hadi Esmaeilzadeh][], Georgia Tech
+* [Hank Hoffmann][], University of Chicago
+* [Martha Kim][], Columbia
+* [Scott Mahlke][], University of Michigan
+* [Sasa Misailovic][], MIT
+* [Asit Mishra][], Intel
+* [Subhasish Mitra][], Stanford University
+* [Ravi Nair][], IBM
+* [Sriram Sankaranarayanan][], University of Colorado, Boulder
 
+Please contact the [organizers][] with questions.
+
+[Sriram Sankaranarayanan]: http://www.cs.colorado.edu/~srirams/
+[Ravi Nair]: http://researcher.watson.ibm.com/researcher/view.php?person=us-nair
+[Asit Mishra]: http://www.cse.psu.edu/~amishra/
+[Subhasish Mitra]: http://web.stanford.edu/~subh/
+[Sasa Misailovic]: http://people.csail.mit.edu/misailo/
+[Scott Mahlke]: http://web.eecs.umich.edu/~mahlke/
+[Martha Kim]: http://www.cs.columbia.edu/~martha/
+[Hank Hoffmann]: http://people.cs.uchicago.edu/~hankhoffmann/
+[Hadi Esmaeilzadeh]: http://www.cc.gatech.edu/~hadi/
+[Swarat Chaudhuri]: http://www.cs.rice.edu/~sc40/
+[Michael Carbin]: http://people.csail.mit.edu/mcarbin/
 [Ben Zorn]: http://research.microsoft.com/en-us/people/zorn/
 [Emery Berger]: http://emeryberger.com/
 [Adrian Sampson]: http://homes.cs.washington.edu/~asampson/
