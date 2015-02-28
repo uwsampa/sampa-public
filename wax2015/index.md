@@ -19,7 +19,7 @@ Please see the [call for participation][cfp] for background on how you can contr
 
 * Position papers (due March 20): A link to the submission site will appear here.
 * Lightning talks (due June 3): Email your two slides (one title, one "content") as a PDF to [asampson@cs.washington.edu](mailto:asampson@cs.washington.edu).
-* Discussion topics (also due June 3): A form will appear here.
+* Discussion topics (also due June 3): Fill out [the form on the CFP page](cfp.html#open-questions).
 
 [cfp]: cfp.html
 
