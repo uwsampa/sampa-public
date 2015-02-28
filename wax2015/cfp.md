@@ -59,9 +59,9 @@ A form will appear here to suggest a topic by June 3. If you have more than one 
 
 We are finalizing the deadlines, but they will be close to:
 
-* Position papers due: (approximately) March 20, 2015
-* Position papers notification: (approximately) May 1, 2015
-* Lightning talks and discussion topics due: (approximately) June 3, 2015
+* Position papers due: March 20, 2015
+* Position papers notification: May 1, 2015
+* Lightning talks and discussion topics due: June 3, 2015
 * Workshop: June 13, 2015
 
 ## Organization
