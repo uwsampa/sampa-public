@@ -53,22 +53,7 @@ Everyone is invited to give a lightning talk (they will not be rejected as long 
 
 We will be holding discussions between WAX attendees. Groups will break out for discussion over lunch and report back to the rest of the attendees. We need your help building a list of discussion topics on approximate computing.
 
-Please fill out the form below by June 3. If you have more than one idea, feel free to fill out the form multiple times.
-
-<form action="https://docs.google.com/forms/d/1p3KiYi1wYkjrjyPzhd3yEPuuyy0Q9ziNjirMbJfuEZI/formResponse" method="POST" style="max-width: 40em; margin: 0 auto;">
-  <div class="form-group">
-    <label for="entry.2119145109">Name</label>
-    <input type="text" name="entry.2119145109" class="form-control" placeholder="Grace Hopper">
-  </div>
-  <div class="form-group">
-    <label for="entry.562970628">Your topic idea</label>
-    <textarea name="entry.562970628" class="form-control"
-        placeholder="Can approximate computing techniques help tolerate real, biological bugs that appear inside systems?"></textarea>
-  </div>
-  <input type="hidden" name="pageHistory" value="0">
-  <input type="hidden" name="fbzx" value="-1381109981857871204">
-  <input type="submit" name="submit" value="Suggest" class="btn btn-default">
-</form>
+Please fill out [the form on the homepage](http://sampa.cs.washington.edu/wax2015/) by June 3.
 
 ## Important Dates
 

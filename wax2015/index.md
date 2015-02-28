@@ -19,9 +19,28 @@ Please see the [call for participation][cfp] for background on how you can contr
 
 * Position papers (due March 20): A link to the submission site will appear here.
 * Lightning talks (due June 3): Email your two slides (one title, one "content") as a PDF to [asampson@cs.washington.edu](mailto:asampson@cs.washington.edu).
-* Discussion topics (also due June 3): Fill out [the form on the CFP page](cfp.html#open-questions).
+* Discussion topics (also due June 3): Fill out the form below.
 
 [cfp]: cfp.html
+
+### Suggest a Discussion Topic
+
+Use this form to suggest topics for discussion at WAX. If you have more than one idea, feel free to fill out the form multiple times.
+
+<form action="https://docs.google.com/forms/d/1p3KiYi1wYkjrjyPzhd3yEPuuyy0Q9ziNjirMbJfuEZI/formResponse" method="POST" style="max-width: 40em;">
+  <div class="form-group">
+    <label for="entry.2119145109">Your name</label>
+    <input type="text" name="entry.2119145109" class="form-control" placeholder="Grace Hopper">
+  </div>
+  <div class="form-group">
+    <label for="entry.562970628">Your topic idea</label>
+    <textarea name="entry.562970628" class="form-control"
+        placeholder="Can approximate computing techniques help tolerate real, biological bugs that appear inside systems?"></textarea>
+  </div>
+  <input type="hidden" name="pageHistory" value="0">
+  <input type="hidden" name="fbzx" value="-1381109981857871204">
+  <input type="submit" name="submit" value="Suggest" class="btn btn-default">
+</form>
 
 ### Contact
 
