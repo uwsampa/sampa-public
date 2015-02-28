@@ -6,7 +6,7 @@ exclude: [bibble, README.md, Makefile]
 # use this library to parse Markdown
 markdown: redcarpet
 redcarpet:
-    extensions: [smart, tables]
+    extensions: [smart, tables, with_toc_data]
 
 # colorize code snippets with the pygment module
 highlighter: pygments
