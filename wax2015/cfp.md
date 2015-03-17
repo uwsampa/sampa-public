@@ -41,7 +41,9 @@ Papers should use [the formatting guidelines for SIGPLAN conferences][sigplancon
 
 [sigplanconf]: http://www.sigplan.org/Resources/Author/
 
-<!-- Insert HotCRP link here. -->
+Use the [submission site here][hotcrp].
+
+[hotcrp]: {{site.base}}/wax2015/crp/
 
 ### Lightning Talks
 

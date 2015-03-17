@@ -17,11 +17,12 @@ WAX will be held on Saturday, June 13, 2015, [co-located][pldiwks] with [PLDI 20
 
 Please see the [call for participation][cfp] for background on how you can contribute to WAX. We are soliciting three kinds of participation: peer-reviewed position papers, lightning talks, and discussion topics.
 
-* Position papers (due March 20): A link to the submission site will appear here.
+* Position papers (due March 20): [Submit here.](hotcrp)
 * Lightning talks (due June 3): Email your two slides (one title, one "content") as a PDF to [asampson@cs.washington.edu](mailto:asampson@cs.washington.edu).
 * Discussion topics (also due June 3): Fill out the form below.
 
 [cfp]: cfp.html
+[hotcrp]: {{site.base}}/wax2015/crp/
 
 ### Suggest a Discussion Topic
 
