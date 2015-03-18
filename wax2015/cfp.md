@@ -61,7 +61,7 @@ Please fill out [the form on the homepage](http://sampa.cs.washington.edu/wax201
 
 We are finalizing the deadlines, but they will be close to:
 
-* Position papers due: March 20, 2015
+* Position papers due: March 30, 2015
 * Position papers notification: May 1, 2015
 * Lightning talks and discussion topics due: June 3, 2015
 * Workshop: June 13, 2015
