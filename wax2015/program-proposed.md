@@ -24,8 +24,20 @@ Position paper talks have 10-minute slots. Each has 10 minutes for discussion: 5
 
 **10:00--10:20am:** Break
 
-**10:30--11:00am:** Lightning talks. Each speaker gets 90 seconds and 90
+**10:30--11:00am:** Lightning talks.
+
+Each speaker gets 90 seconds and 90
 seconds for questions. The rest of the time is for discussion.
+
+  * Mithra: Controlling Quality Tradeoffs in Approximate Acceleration  
+    Divya Mahajan, Amir Yazdanbakhsh, Jongse Park, Bradley Thwaites, Hadi
+    Esmaeilzadeh
+  * Axilog: Language Support for Approximate Hardware Design  
+    Amir Yazdanbakhsh, Divya Mahajan, Bradley Thwaites, Jongse Park, Anandhavel
+    Nagendrakumar, Sindhuja Sethuraman, Kartik Ramkrishnan, Nishanthi
+    Ravindran, Rudra Jariwala, Abbas Rahimi, Hadi Esmaeilzadeh, Kia Bazargan
+  * something from Ben Zorn
+  * something by Adrian
 
 **11:00am--noon:** Position paper talks: *Domains*
 
