@@ -5,11 +5,17 @@ notitle: true
 ---
 ## Workshop Program
 
-Position paper talks have 10-minute slots. Each has 10 minutes for discussion: 5 minutes for discussion within tables, and 5 minutes for whole-group discussion with questions for the speaker. Each session has 3 papers, where (10 minutes + 10 minutes) * 3 = 1 hour.
-
 ### Saturday, June 13, 2015; OCC C120--C121
 
-**9:00--10:00am:** Position paper talks: *Quality*
+**9:00--9:30am:** Opening and introductions
+
+Be ready to say who you are, where you're affiliated with, and why you're at the workshop.
+
+**9:30--10:30am:** Position paper talks, session 1: *Quality*
+
+Each talk will be 10 minutes, and each will have 3 minutes for short clarification questions immediately afterward.
+
+The last 20 minutes of the session will be for discussion of all three papers: first, we'll spend 10 minutes in small-group discussion; the last 10 minutes will be for discussion among the whole group and asking questions of the speakers.
 
   * Towards Automated Differential Program Verification for Approximate
     Computing.  
@@ -22,12 +28,11 @@ Position paper talks have 10-minute slots. Each has 10 minutes for discussion: 5
     Mark Wyse, Andre Baixo, Thierry Moreau, Bill Zorn, James Bornholt, Adrian
     Sampson, Luis Ceze, and Mark Oskin (University of Washington)
 
-**10:00--10:20am:** Break
+**10:30--11:00am:** Break
 
-**10:30--11:00am:** Lightning talks.
+**11:00--11:30am:** Lightning talks
 
-Each speaker gets 90 seconds and 90
-seconds for questions. The rest of the time is for discussion.
+Each speaker gets 60 seconds and 60 seconds for questions while the next speaker gets in position. Any time left over at the end will be for large-group discussion and more questions for the speakers.
 
   * Mithra: Controlling Quality Tradeoffs in Approximate Acceleration  
     Divya Mahajan, Amir Yazdanbakhsh, Jongse Park, Bradley Thwaites, Hadi
@@ -36,10 +41,23 @@ seconds for questions. The rest of the time is for discussion.
     Amir Yazdanbakhsh, Divya Mahajan, Bradley Thwaites, Jongse Park, Anandhavel
     Nagendrakumar, Sindhuja Sethuraman, Kartik Ramkrishnan, Nishanthi
     Ravindran, Rudra Jariwala, Abbas Rahimi, Hadi Esmaeilzadeh, Kia Bazargan
-  * something from Ben Zorn
-  * something by Adrian
+  * ...
 
-**11:00am--noon:** Position paper talks: *Domains*
+**11:30am--noon:** Organizing for lunchtime discussions
+
+We'll select topics for discussion over lunch, assign groups to topics, and choose a scribe for each group. The scribe will be responsible for reporting out from the discussion after lunch.
+
+**noon--1:30pm:** Lunch
+
+If you're a group's scribe, be sure to use the last few minutes of the lunch slot to prepare for reporting out---make your slides if you want to use any.
+
+**1:30--2:00pm:** Summary discussion from lunch breakouts
+
+Each group's scribe has a few minutes to talk and lead discussion on the results from the topic.
+
+**2:00--3:00pm:** Position paper talks, session 2: *Domains*
+
+10+3 minutes per talk; 10 minutes small-group discussion; 10 minutes large-group discussion.
 
   * Statistical Information Processing: Extending the Limits of Approximate
     Computing.  
@@ -52,11 +70,11 @@ seconds for questions. The rest of the time is for discussion.
     Parker Hill, Michael Laurenzano, Mehrzad Samadi, Scott Mahlke, Jason Mars,
     and Lingjia Tang (University of Michigan, Ann Arbor)
 
-**noon--1:30pm:** Lunch, with each table assigned a discussion question.
+**3:00--3:30pm:** Break
 
-**1:30--2:30pm:** Summary discussion from lunch breakouts.
+**3:30pm--4:30pm:** Position paper talks, session 3: *Efficiency*
 
-**2:30pm--3:30pm:** Position paper talks: *Efficiency*
+10+3 minutes per talk; 10 minutes small-group discussion; 10 minutes large-group discussion.
 
   * Colony of NPUs: Scaling the Efficiency of Neural Accelerators.  
     Babak Zamirai, Daya Shanker Khudia, Mehrzad Samadi, and Scott Mahlke
@@ -68,5 +86,4 @@ seconds for questions. The rest of the time is for discussion.
     James Bornholt, Emina Torlak, Luis Ceze, and Dan Grossman (University of
     Washington)
 
-**3:30pm--4:00:** Wrap-up discussions; any last questions for speakers from
-the day. Assemble a "report" document?
+**4:30--5:00pm:** Closing discussion: The future of approximate computing
