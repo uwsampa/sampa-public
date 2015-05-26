@@ -34,10 +34,10 @@ The last 20 minutes of the session will be for discussion of all three papers: f
 
 Each speaker gets 60 seconds and 60 seconds for questions while the next speaker gets in position. Any time left over at the end will be for large-group discussion and more questions for the speakers.
 
-  * Mithra: Controlling Quality Tradeoffs in Approximate Acceleration  
+  * [Mithra: Controlling Quality Tradeoffs in Approximate Acceleration](lightning/mahajan.pdf)  
     Divya Mahajan, Amir Yazdanbakhsh, Jongse Park, Bradley Thwaites, Hadi
     Esmaeilzadeh
-  * Axilog: Language Support for Approximate Hardware Design  
+  * [Axilog: Language Support for Approximate Hardware Design](lightning/yazdanbakhsh.pdf)  
     Amir Yazdanbakhsh, Divya Mahajan, Bradley Thwaites, Jongse Park, Anandhavel
     Nagendrakumar, Sindhuja Sethuraman, Kartik Ramkrishnan, Nishanthi
     Ravindran, Rudra Jariwala, Abbas Rahimi, Hadi Esmaeilzadeh, Kia Bazargan
