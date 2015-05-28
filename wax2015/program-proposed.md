@@ -32,7 +32,7 @@ The last 20 minutes of the session will be for discussion of all three papers: f
 
 **11:00--11:30am:** Lightning talks
 
-Each speaker gets 60 seconds and 60 seconds for questions while the next speaker gets in position. Any time left over at the end will be for large-group discussion and more questions for the speakers.
+Each speaker gets 60 seconds to present and 60 seconds for questions while the next speaker gets in position. Any time left over at the end will be for large-group discussion and more questions for the speakers.
 
   * [Mithra: Controlling Quality Tradeoffs in Approximate Acceleration](lightning/mahajan.pdf)  
     Divya Mahajan, Amir Yazdanbakhsh, Jongse Park, Bradley Thwaites, Hadi
@@ -41,6 +41,8 @@ Each speaker gets 60 seconds and 60 seconds for questions while the next speaker
     Amir Yazdanbakhsh, Divya Mahajan, Bradley Thwaites, Jongse Park, Anandhavel
     Nagendrakumar, Sindhuja Sethuraman, Kartik Ramkrishnan, Nishanthi
     Ravindran, Rudra Jariwala, Abbas Rahimi, Hadi Esmaeilzadeh, Kia Bazargan
+  * People are Approximate, Too  
+    Emery Berger
   * ...
 
 **11:30am--noon:** Organizing for lunchtime discussions
