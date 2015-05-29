@@ -51,7 +51,7 @@ Each speaker gets 60 seconds to present and 60 seconds for questions while the n
     Ravindran, Rudra Jariwala, Abbas Rahimi, Hadi Esmaeilzadeh, Kia Bazargan
   * People are Approximate, Too  
     Emery Berger
-  * Programming Uncertain &lt;T&gt;hings  
+  * [Programming Uncertain &lt;T&gt;hings](lightning/mckinley.pdf)  
     Kathryn S McKinley
   * ...
 
