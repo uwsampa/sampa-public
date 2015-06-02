@@ -53,6 +53,8 @@ Each speaker gets 60 seconds to present and 60 seconds for questions while the n
     Emery Berger
   * [Programming Uncertain &lt;T&gt;hings](lightning/mckinley.pdf)  
     Kathryn S McKinley
+  * [Preventing Skynet (or at least understanding why it happened)](lightning/zorn.pdf)  
+    Ben Zorn
   * ...
 
 **11:30am--noon:** Organizing for lunchtime discussions
