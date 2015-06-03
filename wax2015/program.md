@@ -43,19 +43,19 @@ The last 20 minutes of the session will be for discussion of all three papers: f
 Each speaker gets 60 seconds to present and 60 seconds for questions while the next speaker gets in position. Any time left over at the end will be for large-group discussion and more questions for the speakers.
 
   * [Mithra: Controlling Quality Tradeoffs in Approximate Acceleration](lightning/mahajan.pdf)  
-    Hadi Esmaeilzadeh
+    Hadi Esmaeilzadeh (Georgia Tech)
   * [Axilog: Language Support for Approximate Hardware Design](lightning/yazdanbakhsh.pdf)  
-    Hadi Esmaeilzadeh
+    Hadi Esmaeilzadeh (Georgia Tech)
   * People are Approximate, Too  
-    Emery Berger
+    Emery Berger (University of Massachusetts Amherst)
   * [Programming Uncertain &lt;T&gt;hings](lightning/mckinley.pdf)  
-    Kathryn S McKinley
+    Kathryn S McKinley (Microsoft Research)
   * [Preventing Skynet (or at least understanding why it happened)](lightning/zorn.pdf)  
-    Ben Zorn
+    Ben Zorn (Microsoft Research)
   * Ground-Truth Quality Measurement  
     Adrian Sampson
   * [Approximate Computa.on with Topaz](lightning/achour.pdf)  
-    Sara Achour
+    Sara Achour (MIT)
   * ...
 
 **11:30am--noon:** Organizing for lunchtime discussions
