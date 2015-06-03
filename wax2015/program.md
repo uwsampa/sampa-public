@@ -55,6 +55,8 @@ Each speaker gets 60 seconds to present and 60 seconds for questions while the n
     Kathryn S McKinley
   * [Preventing Skynet (or at least understanding why it happened)](lightning/zorn.pdf)  
     Ben Zorn
+  * Ground-Truth Quality Measurement  
+    Adrian Sampson
   * ...
 
 **11:30am--noon:** Organizing for lunchtime discussions
