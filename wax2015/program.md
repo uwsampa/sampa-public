@@ -54,6 +54,8 @@ Each speaker gets 60 seconds to present and 60 seconds for questions while the n
     Ben Zorn
   * Ground-Truth Quality Measurement  
     Adrian Sampson
+  * [Approximate Computa.on with Topaz](lightning/achour.pdf)  
+    Sara Achour
   * ...
 
 **11:30am--noon:** Organizing for lunchtime discussions
