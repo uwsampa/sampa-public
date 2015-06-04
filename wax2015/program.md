@@ -52,12 +52,14 @@ Each speaker gets 60 seconds to present and 60 seconds for questions while the n
     Kathryn S McKinley (Microsoft Research)
   * [Preventing Skynet (or at least understanding why it happened)](lightning/zorn.pdf)  
     Ben Zorn (Microsoft Research)
-  * Ground-Truth Quality Measurement  
+  * Ground-Truth Quality  
     Adrian Sampson
   * [Approximate Computa.on with Topaz](lightning/achour.pdf)  
     Sara Achour (MIT)
   * Risks and Rewards  
     Luis Ceze (University of Washington)
+  * [Deterministic, Compile-Time Quality of Result Computation for Approximate Programs](lightning/stewart.pdf)  
+    Kendall Stewart (Portland State University)
   * ...
 
 **11:30am--noon:** Organizing for lunchtime discussions
