@@ -60,7 +60,7 @@ Each speaker gets 60 seconds to present and 60 seconds for questions while the n
     Luis Ceze (University of Washington)
   * [Deterministic, Compile-Time Quality of Result Computation for Approximate Programs](lightning/stewart.pdf)  
     Kendall Stewart (Portland State University)
-  * [Disciplined Inconsistency: Managing Disorder in Weakly Consistent   Distributed Systems](lightning/holt.pdf)  
+  * [Disciplined Inconsistency: Managing Disorder in Weakly Consistent Distributed Systems](lightning/holt.pdf)  
     James Bornholt, for Brandon Holt (University of Washington)
   * ...
 
