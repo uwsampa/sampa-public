@@ -25,14 +25,12 @@ Each talk will be 10 minutes, and each will have 3 minutes for short clarificati
 
 The last 20 minutes of the session will be for discussion of all three papers: first, we'll spend 10 minutes in small-group discussion; the last 10 minutes will be for discussion among the whole group and asking questions of the speakers.
 
-  * Towards Automated Differential Program Verification for Approximate
-    Computing.  
-    Shuvendu K. Lahiri (Microsoft Research) and Zvonimir Rakamaric (University
+  * [Towards Automated Differential Program Verification for Approximate Computing](papers/lahiri.pdf)  
+    Shuvendu K. Lahiri (Microsoft Research) and Zvonimir Rakamari&cacute; (University
     of Utah)
-  * ACOCO: Adaptive Coding for Approximate Computing on Faulty Memories.  
+  * [ACOCO: Adaptive Coding for Approximate Computing on Faulty Memories](papers/huang.pdf)  
     Chu-Hsiang Huang, Yao Li, and Lara Dolecek (UCLA)
-  * REACT: A Framework for Rapid Exploration of Approximate Computing
-    Techniques.  
+  * [REACT: A Framework for Rapid Exploration of Approximate Computing Techniques](papers/wyse.pdf)  
     Mark Wyse, Andre Baixo, Thierry Moreau, Bill Zorn, James Bornholt, Adrian
     Sampson, Luis Ceze, and Mark Oskin (University of Washington)
 
@@ -80,14 +78,13 @@ Each group's scribe has a few minutes to talk and lead discussion on the results
 
 10+3 minutes per talk; 10 minutes small-group discussion; 10 minutes large-group discussion.
 
-  * Statistical Information Processing: Extending the Limits of Approximate
-    Computing.  
+  * [Statistical Information Processing: Extending the Limits of Approximate Computing](papers/malik.pdf)  
     Sharad Malik and Naveen Verma (Princeton University), Subhasish Mitra
     (Stanford University), and Naresh Shanbhag (University of Illinois, Urbana
     Champaign)
-  * Approximating Outside the Processor.  
+  * [Approximating Outside the Processor](papers/stanley-marbell.pdf)  
     Phillip Stanley-Marbell and Martin Rinard (MIT)
-  * Approximating with Input Level Granularity.  
+  * [Approximating with Input Level Granularity](papers/hill.pdf)  
     Parker Hill, Michael Laurenzano, Mehrzad Samadi, Scott Mahlke, Jason Mars,
     and Lingjia Tang (University of Michigan, Ann Arbor)
 
@@ -97,13 +94,13 @@ Each group's scribe has a few minutes to talk and lead discussion on the results
 
 10+3 minutes per talk; 10 minutes small-group discussion; 10 minutes large-group discussion.
 
-  * Colony of NPUs: Scaling the Efficiency of Neural Accelerators.  
+  * [Colony of NPUs: Scaling the Efficiency of Neural Accelerators](papers/zamirai.pdf)  
     Babak Zamirai, Daya Shanker Khudia, Mehrzad Samadi, and Scott Mahlke
     (University of Michigan)
-  * Texture Cache Approximation on GPUs.  
+  * [Texture Cache Approximation on GPUs](papers/sutherland.pdf)  
     Mark Sutherland, Joshua San Miguel, and Natalie Enright Jerger (University
     of Toronto)
-  * Approximate Program Synthesis.  
+  * [Approximate Program Synthesis](papers/bornholt.pdf)  
     James Bornholt, Emina Torlak, Luis Ceze, and Dan Grossman (University of
     Washington)
 
