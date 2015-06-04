@@ -56,7 +56,7 @@ Each speaker gets 60 seconds to present and 60 seconds for questions while the n
     Adrian Sampson
   * [Approximate Computa.on with Topaz](lightning/achour.pdf)  
     Sara Achour (MIT)
-  * Risk and Reward  
+  * Risks and Rewards  
     Luis Ceze (University of Washington)
   * ...
 
