@@ -86,7 +86,7 @@ Each group's scribe has a few minutes to talk and lead discussion on the results
     Phillip Stanley-Marbell and Martin Rinard (MIT)
   * [Approximating with Input Level Granularity](papers/hill.pdf)  
     Parker Hill, Michael Laurenzano, Mehrzad Samadi, Scott Mahlke, Jason Mars,
-    and Lingjia Tang (University of Michigan, Ann Arbor)
+    and Lingjia Tang (University of Michigan)
 
 **3:00--3:30pm:** Break
 
