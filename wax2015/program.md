@@ -60,6 +60,8 @@ Each speaker gets 60 seconds to present and 60 seconds for questions while the n
     Kendall Stewart (Portland State University)
   * [Disciplined Inconsistency: Managing Disorder in Weakly Consistent Distributed Systems](lightning/holt.pdf)  
     James Bornholt, for Brandon Holt (University of Washington)
+  * Exploring Goal-Oriented Adaptive Language (GOAL) Computing in Parallel GPU Architectures  
+    Dan Connors (University of Colorado Denver)
   * ...
 
 **11:30am--noon:** Organizing for lunchtime discussions
