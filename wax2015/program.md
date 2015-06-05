@@ -50,7 +50,7 @@ Each speaker gets 60 seconds to present and 60 seconds for questions while the n
     Kathryn S McKinley (Microsoft Research)
   * [Preventing Skynet (or at least understanding why it happened)](lightning/zorn.pdf)  
     Ben Zorn (Microsoft Research)
-  * Ground-Truth Quality  
+  * [Ground-Truth Quality](lightning/sampson.pdf)  
     Adrian Sampson
   * [Approximate Computation with Topaz](lightning/achour.pdf)  
     Sara Achour (MIT)
