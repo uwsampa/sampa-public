@@ -52,7 +52,7 @@ Each speaker gets 60 seconds to present and 60 seconds for questions while the n
     Ben Zorn (Microsoft Research)
   * Ground-Truth Quality  
     Adrian Sampson
-  * [Approximate Computa.on with Topaz](lightning/achour.pdf)  
+  * [Approximate Computation with Topaz](lightning/achour.pdf)  
     Sara Achour (MIT)
   * Risks and Rewards  
     Luis Ceze (University of Washington)
