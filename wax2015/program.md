@@ -60,7 +60,7 @@ Each speaker gets 60 seconds to present and 60 seconds for questions while the n
   Hadi Esmaeilzadeh (Georgia Tech)
 * [Disciplined Inconsistency: Managing Disorder in Weakly Consistent Distributed Systems](lightning/holt.pdf)  
   James Bornholt, for Brandon Holt (University of Washington)
-* Risks and Rewards  
+* [Why Are We So Afraid of Bad Quality?](lightning/ceze.pdf)  
   Luis Ceze (University of Washington)
 * [Preventing Skynet (or at least understanding why it happened)](lightning/zorn.pdf)  
   Ben Zorn (Microsoft Research)
