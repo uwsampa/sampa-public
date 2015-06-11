@@ -13,9 +13,8 @@ Be ready to say who you are, where you're affiliated with, and why you're at the
 
 **9:45--10:30am:** Position paper talks, session 1: *Quality*
 
-Each talk will be 10 minutes, and each will have 3 minutes for short clarification questions immediately afterward.
-
-The last 20 minutes of the session will be for discussion of all of the papers in the session: first, we'll spend 10 minutes in small-group discussion; the last 10 minutes will be for discussion among the whole group and asking questions of the speakers.
+Talks are 10 minutes, and each has 3 minutes for short clarification questions immediately afterward.
+The last 20 minutes are for discussion of all of the papers in the session: we'll spend 10 minutes in small-group discussion; the last 10 minutes are for discussion among the whole group and asking questions of the speakers.
 
   * [Towards Automated Differential Program Verification for Approximate Computing](papers/lahiri.pdf)  
     Shuvendu K. Lahiri (Microsoft Research) and Zvonimir Rakamari&cacute; (University
@@ -28,7 +27,7 @@ The last 20 minutes of the session will be for discussion of all of the papers i
 
 **11:00--11:30am:** Lightning talks
 
-Each speaker gets 60 seconds to present and 60 seconds for questions while the next speaker gets in position. Any time left over at the end will be for large-group discussion and more questions for the speakers.
+Each speaker gets 60 seconds to present and 60 seconds for questions. Any time left over at the end will be for large-group discussion and more questions for the speakers.
 
 <!-- lightning -->
 
