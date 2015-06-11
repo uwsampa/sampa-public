@@ -15,21 +15,19 @@ If you have any questions, please [email the organizers][organizers].
 
 ### Saturday, June 13, 2015; OCC C120--C121
 
-**9:00--9:30am:** Opening and introductions
+**9:30--9:45:** Opening and introductions
 
 Be ready to say who you are, where you're affiliated with, and why you're at the workshop.
 
-**9:30--10:30am:** Position paper talks, session 1: *Quality*
+**9:45--10:30am:** Position paper talks, session 1: *Quality*
 
 Each talk will be 10 minutes, and each will have 3 minutes for short clarification questions immediately afterward.
 
-The last 20 minutes of the session will be for discussion of all three papers: first, we'll spend 10 minutes in small-group discussion; the last 10 minutes will be for discussion among the whole group and asking questions of the speakers.
+The last 20 minutes of the session will be for discussion of all of the papers in the session: first, we'll spend 10 minutes in small-group discussion; the last 10 minutes will be for discussion among the whole group and asking questions of the speakers.
 
   * [Towards Automated Differential Program Verification for Approximate Computing](papers/lahiri.pdf)  
     Shuvendu K. Lahiri (Microsoft Research) and Zvonimir Rakamari&cacute; (University
     of Utah)
-  * [ACOCO: Adaptive Coding for Approximate Computing on Faulty Memories](papers/huang.pdf)  
-    Chu-Hsiang Huang, Yao Li, and Lara Dolecek (UCLA)
   * [REACT: A Framework for Rapid Exploration of Approximate Computing Techniques](papers/wyse.pdf)  
     Mark Wyse, Andre Baixo, Thierry Moreau, Bill Zorn, James Bornholt, Adrian
     Sampson, Luis Ceze, and Mark Oskin (University of Washington)
