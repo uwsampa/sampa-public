@@ -78,6 +78,8 @@ Each group's scribe has a few minutes to talk and lead discussion on the results
   * [Towards Automated Differential Program Verification for Approximate Computing](papers/lahiri.pdf)  
     Shuvendu K. Lahiri (Microsoft Research) and Zvonimir Rakamari&cacute; (University
     of Utah)
+  * [ACOCO: Adaptive Coding for Approximate Computing on Faulty Memories](papers/huang.pdf)  
+    Chu-Hsiang Huang, Yao Li, and Lara Dolecek (UCLA)
   * [REACT: A Framework for Rapid Exploration of Approximate Computing Techniques](papers/wyse.pdf)  
     Mark Wyse, Andre Baixo, Thierry Moreau, Bill Zorn, James Bornholt, Adrian
     Sampson, Luis Ceze, and Mark Oskin (University of Washington)
