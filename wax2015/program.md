@@ -3,15 +3,7 @@ layout: wax
 title: 'WAX 2015: Preliminary Program'
 notitle: true
 ---
-## Preliminary Program
-
-This is the preliminary schedule for WAX. We may continue to make small changes, so please check back. In particular, lightning talks are still coming in---please [submit yours][lightning]! We will also link to the final versions of the position papers here after June 3. (If you're an author, please upload your final version to [the HotCRP instance][hotcrp].)
-
-If you have any questions, please [email the organizers][organizers].
-
-[organizers]: mailto:wax2015@cs.washington.edu
-[lightning]: cfp.html#lightning-talks
-[hotcrp]: {{site.base}}/wax2015/crp/
+## WAX 2015 Workshop Program
 
 ### Saturday, June 13, 2015; OCC C120--C121
 
