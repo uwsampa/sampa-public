@@ -98,4 +98,4 @@ Each group's scribe has a few minutes to talk and lead discussion on the results
     James Bornholt, Emina Torlak, Luis Ceze, and Dan Grossman (University of
     Washington)
 
-**4:30--5:00pm:** Closing discussion: The future of approximate computing
+**4:30--5:00pm:** Closing discussion: How could approximate computing fail, and how can it gain traction?
