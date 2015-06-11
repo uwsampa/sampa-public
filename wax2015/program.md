@@ -13,7 +13,7 @@ Be ready to say who you are, where you're affiliated with, and why you're at the
 
 **10:00--11:00am:** Position paper talks, session 1: *Domains*
 
-Talks are 10 minutes, and each has 3 minutes for short clarification questions immediately afterward.
+Talks are 10 minutes each, and each talk will have 3 minutes for short clarification questions immediately afterward.
 The last 20 minutes are for discussion of all of the papers in the session: we'll spend 10 minutes in small-group discussion; the last 10 minutes are for discussion among the whole group and asking questions of the speakers.
 
   * [Statistical Information Processing: Extending the Limits of Approximate Computing](papers/malik.pdf)  
@@ -30,7 +30,7 @@ The last 20 minutes are for discussion of all of the papers in the session: we'l
 
 **11:30--noon:** Lightning talks
 
-Each speaker gets 60 seconds to present and 60 seconds for questions. Any time left over at the end will be for large-group discussion and more questions for the speakers.
+Each speaker gets 60 seconds to present and 60 seconds for questions. We will use any time left over at the end for ad-hoc slide-free talks, large-group discussion, and more questions for the speakers.
 
 <!-- lightning -->
 
