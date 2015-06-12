@@ -42,7 +42,7 @@ Each speaker gets 60 seconds to present and 60 seconds for questions. We will us
   Sara Achour (MIT)
 * [Programming Uncertain &lt;T&gt;hings](lightning/mckinley.pdf)  
   Kathryn S McKinley (Microsoft Research)
-* Exploring Goal-Oriented Adaptive Language (GOAL) Computing in Parallel GPU Architectures  
+* [Exploring Goal-Oriented Adaptive Language (GOAL) Computing in Parallel GPU Architectures](lightning/connors.pdf)  
   Dan Connors (University of Colorado Denver)
 * [Deterministic, Compile-Time Quality of Result Computation for Approximate Programs](lightning/stewart.pdf)  
   Kendall Stewart (Portland State University)
