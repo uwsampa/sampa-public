@@ -51,9 +51,6 @@ nelson:
     webpage: "https://homes.cs.washington.edu/~nelson/"
     role: postdoc
 
-andreolb:
-    display_name: "Andre Baixo"
-    role: grad
 katelin:
     display_name: "Katelin Bailey"
     webpage: "https://homes.cs.washington.edu/~katelin/"
@@ -74,10 +71,6 @@ vlee2:
     display_name: Vincent Lee
     webpage: "http://homes.cs.washington.edu/~vlee2/"
     role: grad
-emackay:
-    display_name: Eric Mackay
-    webpage: "http://homes.cs.washington.edu/~emackay/"
-    role: grad
 amrita: 
     display_name: Amrita Mazumdar
     webpage: "https://homes.cs.washington.edu/~amrita"
@@ -90,23 +83,32 @@ bdmyers:
     display_name: "Brandon Myers"
     webpage: "https://homes.cs.washington.edu/~bdmyers/"
     role: grad
-asampson:
-    display_name: "Adrian Sampson"
-    webpage: "https://homes.cs.washington.edu/~asampson/"
-    github: sampsyo
-    role: grad
 wysem:
     display_name: "Mark Wyse"
     webpage: "https://homes.cs.washington.edu/~wysem/"
     role: grad
 
+asampson:
+    display_name: "Adrian Sampson"
+    webpage: "https://homes.cs.washington.edu/~asampson/"
+    github: sampsyo
+    role: alum
+    bio: "Ph.D., 2015. Now at MSR/faculty at Cornell."
+andreolb:
+    display_name: "Andre Baixo"
+    role: alum
+    bio: "M.S., 2015."
+emackay:
+    display_name: Eric Mackay
+    webpage: "http://homes.cs.washington.edu/~emackay/"
+    role: alum
+    bio: "M.S., 2015. Now at Amazon."
 ransford:
     display_name: "Ben Ransford"
     webpage: "http://ben.ransford.org/"
     github: ransford
     role: alum
     bio: "Postdoc, 2013&ndash;2014."
-    
 bpw:
     display_name: "Benjamin Wood"
     webpage: "https://homes.cs.washington.edu/~bpw/"
