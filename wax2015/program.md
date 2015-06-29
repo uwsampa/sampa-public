@@ -24,7 +24,8 @@ The last 20 minutes are for discussion of all of the papers in the session: we'l
     Phillip Stanley-Marbell and Martin Rinard (MIT)
   * [Approximating with Input Level Granularity](papers/hill.pdf)  
     Parker Hill, Michael Laurenzano, Mehrzad Samadi, Scott Mahlke, Jason Mars,
-    and Lingjia Tang (University of Michigan)
+    and Lingjia Tang (University of Michigan)  
+    [talk slides](talks/hill.pdf)
 
 **11:00--11:30am:** Break
 
@@ -77,7 +78,8 @@ Each group's scribe has a few minutes to talk and lead discussion on the results
 
   * [Towards Automated Differential Program Verification for Approximate Computing](papers/lahiri.pdf)  
     Shuvendu K. Lahiri (Microsoft Research) and Zvonimir Rakamari&cacute; (University
-    of Utah)
+    of Utah)  
+    [talk slides](talks/lahiri.pdf)
   * [ACOCO: Adaptive Coding for Approximate Computing on Faulty Memories](papers/huang.pdf)  
     Chu-Hsiang Huang, Yao Li, and Lara Dolecek (UCLA)
   * [REACT: A Framework for Rapid Exploration of Approximate Computing Techniques](papers/wyse.pdf)  
@@ -95,7 +97,8 @@ Each group's scribe has a few minutes to talk and lead discussion on the results
     (University of Michigan)
   * [Texture Cache Approximation on GPUs](papers/sutherland.pdf)  
     Mark Sutherland, Joshua San Miguel, and Natalie Enright Jerger (University
-    of Toronto)
+    of Toronto)  
+    [talk slides](talks/sutherland.pdf)
   * [Approximate Program Synthesis](papers/bornholt.pdf)  
     James Bornholt, Emina Torlak, Luis Ceze, and Dan Grossman (University of
     Washington)
