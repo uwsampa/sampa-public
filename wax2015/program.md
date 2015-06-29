@@ -34,7 +34,7 @@ Each speaker gets 60 seconds to present and 60 seconds for questions. We will us
 
 <!-- lightning -->
 
-* People are Approximate, Too  
+* [People are Approximate, Too](lightning/berger.pdf)  
   Emery Berger (University of Massachusetts Amherst)
 * [Ground-Truth Quality](lightning/sampson.pdf)  
   Adrian Sampson
