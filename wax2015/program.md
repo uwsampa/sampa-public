@@ -101,6 +101,7 @@ Each group's scribe has a few minutes to talk and lead discussion on the results
     [talk slides](talks/sutherland.pdf)
   * [Approximate Program Synthesis](papers/bornholt.pdf)  
     James Bornholt, Emina Torlak, Luis Ceze, and Dan Grossman (University of
-    Washington)
+    Washington)  
+    [talk slides](talks/bornholt.pdf)
 
 **5:00--5:30pm:** Closing discussion: How could approximate computing fail, and how can it gain traction?
