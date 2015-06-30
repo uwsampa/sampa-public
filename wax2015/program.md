@@ -21,7 +21,8 @@ The last 20 minutes are for discussion of all of the papers in the session: we'l
     (Stanford University), and Naresh Shanbhag (University of Illinois, Urbana
     Champaign)
   * [Approximating Outside the Processor](papers/stanley-marbell.pdf)  
-    Phillip Stanley-Marbell and Martin Rinard (MIT)
+    Phillip Stanley-Marbell and Martin Rinard (MIT)  
+    [talk slides](talks/stanley-marbell.pdf)
   * [Approximating with Input Level Granularity](papers/hill.pdf)  
     Parker Hill, Michael Laurenzano, Mehrzad Samadi, Scott Mahlke, Jason Mars,
     and Lingjia Tang (University of Michigan)  
@@ -84,7 +85,8 @@ Each group's scribe has a few minutes to talk and lead discussion on the results
     Chu-Hsiang Huang, Yao Li, and Lara Dolecek (UCLA)
   * [REACT: A Framework for Rapid Exploration of Approximate Computing Techniques](papers/wyse.pdf)  
     Mark Wyse, Andre Baixo, Thierry Moreau, Bill Zorn, James Bornholt, Adrian
-    Sampson, Luis Ceze, and Mark Oskin (University of Washington)
+    Sampson, Luis Ceze, and Mark Oskin (University of Washington)  
+    [talk slides](talks/wyse.pdf)
 
 **3:30--4:00pm:** Break
 
