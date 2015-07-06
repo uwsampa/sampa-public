@@ -96,7 +96,8 @@ Each group's scribe has a few minutes to talk and lead discussion on the results
 
   * [Colony of NPUs: Scaling the Efficiency of Neural Accelerators](papers/zamirai.pdf)  
     Babak Zamirai, Daya Shanker Khudia, Mehrzad Samadi, and Scott Mahlke
-    (University of Michigan)
+    (University of Michigan)  
+    [talk slides](talks/zamirai.pdf)
   * [Texture Cache Approximation on GPUs](papers/sutherland.pdf)  
     Mark Sutherland, Joshua San Miguel, and Natalie Enright Jerger (University
     of Toronto)  
