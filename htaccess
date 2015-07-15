@@ -15,5 +15,5 @@ RewriteRule ^sampa/{{ oldname | replace: '(', '\(' | replace: ')', '\)' }} /{{ p
 {% for item in site.short_urls %}
 {% assign shortname=item[0] %}
 {% assign path=item[1] %}
-RewriteRule ^/{{ shortname }} /{{ path }} [L,R=301]
+RewriteRule ^{{ shortname }} /{{ path }} [L,R=301]
 {% endfor %}
