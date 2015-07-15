@@ -5,10 +5,15 @@ permalink: .htaccess
 ErrorDocument 404 /404.html
 RewriteEngine on
 RewriteBase {{ site.base }}/
-{% for item in site.redirects %}
+
+{% for item in site.wiki_redirects %}
 {% assign oldname=item[0] %}
 {% assign path=item[1] %}
 RewriteRule ^sampa/{{ oldname | replace: '(', '\(' | replace: ')', '\)' }} /{{ path }} [L,R=301]
 {% endfor %}
 
-
+{% for item in site.short_urls %}
+{% assign shortname=item[0] %}
+{% assign path=item[1] %}
+RewriteRule ^/{{ shortname }} /{{ path }} [L,R=301]
+{% endfor %}

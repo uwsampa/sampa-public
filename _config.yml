@@ -51,7 +51,7 @@ nav_wacas:
       link: /wacas14/program.html
 
 # Rewriting of old path names.
-redirects:
+wiki_redirects:
     People: people.html
     Projects: research/
     Publications: publications.html
@@ -71,3 +71,7 @@ redirects:
     Seminars: seminars.html
     Funding: ''
     Main_Page: ''
+
+# Convenient short-URL redirects.
+short_urls:
+    decaf: research/approximation/decaf/
