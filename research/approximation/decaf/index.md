@@ -16,16 +16,24 @@ Link TK.
 [dan]: http://homes.cs.washington.edu/~djg/
 [luis]: http://homes.cs.washington.edu/~luisceze/
 
-### Source Code and Data
+## Source Code
 
-* Link to compiler source.
-* Link to the benchmark code.
-* Link to the evaluation data.
+The source code for the compiler, simulator, and benchmarks is available for download. The compiler and simulator are modified versions of the [EnerJ][] infrastructure. You will need three bundles of source code in total:
 
-#### Using the Compiler
+* [The `enerj` directory][tarball-enerj], which contains the compiler and simulator.
+* [The `checker-runtime` directory][tarball-cfrt], a support library.
+* [The `approx-within-apps` directory][tarball-apps], the annotated benchmarks and associated scripts for collecting data.
+
+[enerj]: /research/approximation/enerj.html
+[tarball-enerj]: enerj-802f7e4a1e1c.tar.gz
+[tarball-cfrt]: checker-runtime-a8a1e794bb86.tar.gz
+[tarball-apps]: approx-within-apps-f55f9c0.tar.gz
+
+### Building
 
 Some cursory instructions here.
 
-#### Using the Data
+## Result Data
 
+Link to the data tarball.
 Explain each JSON file in the release.
