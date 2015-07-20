@@ -10,7 +10,7 @@ Approximate computing needs programming systems that can bound the chance that a
 Brett Boston, [Adrian Sampson][adrian], [Dan Grossman][dan], and [Luis Ceze][luis].
 To appear in OOPSLA 2015.
 
-Link TK.
+(We'll post a link to the final version of the paper when it's ready.)
 
 [adrian]: http://homes.cs.washington.edu/~asampson/
 [dan]: http://homes.cs.washington.edu/~djg/
