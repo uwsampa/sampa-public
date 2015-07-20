@@ -24,14 +24,20 @@ The source code for the compiler, simulator, and benchmarks is available for dow
 * [The `checker-runtime` directory][tarball-cfrt], a support library.
 * [The `approx-within-apps` directory][tarball-apps], the annotated benchmarks and associated scripts for collecting data.
 
-[enerj]: /research/approximation/enerj.html
+[enerj-source]: /research/approximation/enerj.html#source-release
 [tarball-enerj]: enerj-802f7e4a1e1c.tar.gz
 [tarball-cfrt]: checker-runtime-a8a1e794bb86.tar.gz
 [tarball-apps]: approx-within-apps-f55f9c0.tar.gz
 
 ### Building
 
-Some cursory instructions here.
+To build the system, follow [the instructions for building EnerJ][enerj-readme] with the following differences:
+
+* Use version 1.8.0 of the Checker Framework. (The original EnerJ compiler uses an older version.)
+* You will need [Z3][]. We used version 4.3.1 in our experiments.
+
+[enerj-readme]: https://bitbucket.org/adrian/enerj
+[z3]: https://github.com/Z3Prover/z3
 
 ## Result Data
 
