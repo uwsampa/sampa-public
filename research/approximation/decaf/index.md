@@ -34,6 +34,7 @@ The source code for the compiler, simulator, and benchmarks is available for dow
 To build the system, follow [the instructions for building EnerJ][enerj-readme] with the following differences:
 
 * Use version 1.8.0 of the Checker Framework. (The original EnerJ compiler uses an older version.)
+* To tell DECAF where to find the Checker Framework, set your `CHECKERFRAMEWORK` environment variable to point to the directory containing the "checker" directory. (Note that this differs from the `JSR308` variable used by the original EnerJ version.)
 * You will need [Z3][]. We used version 4.3.1 in our experiments.
 
 [enerj-readme]: https://bitbucket.org/adrian/enerj
