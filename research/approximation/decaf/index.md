@@ -25,7 +25,7 @@ The source code for the compiler, simulator, and benchmarks is available for dow
 * [The `approx-within-apps` directory][tarball-apps], the annotated benchmarks and associated scripts for collecting data.
 
 [enerj-source]: /research/approximation/enerj.html#source-release
-[tarball-enerj]: enerj-802f7e4a1e1c.tar.gz
+[tarball-enerj]: enerj-6e1c1193e10a.tar.gz
 [tarball-cfrt]: checker-runtime-a8a1e794bb86.tar.gz
 [tarball-apps]: approx-within-apps-f55f9c0.tar.gz
 
