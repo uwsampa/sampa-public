@@ -8,4 +8,3 @@ Sampa's going formal: congrats to [James][], [Luis][], [Dan][], and [Emina][] on
 [Luis]: http://homes.cs.washington.edu/~luisceze/
 [Dan]: http://homes.cs.washington.edu/~djg/
 [Emina]: http://homes.cs.washington.edu/~emina/
-
