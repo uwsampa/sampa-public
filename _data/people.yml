@@ -51,10 +51,12 @@ nelson:
     webpage: "https://homes.cs.washington.edu/~nelson/"
     role: postdoc
 
-katelin:
-    display_name: "Katelin Bailey"
-    webpage: "https://homes.cs.washington.edu/~katelin/"
-    role: grad
+alaghi:
+    display_name: "Armin Alaghi"
+    webpage: ""
+    role: postdoc
+	
+	
 bornholt: 
     display_name: "James Bornholt"
     webpage: "https://homes.cs.washington.edu/~bornholt/"
