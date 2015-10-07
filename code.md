@@ -10,6 +10,7 @@ authors.
  * [grappa.io](http://grappa.io) &ndash; Grappa: scaling irregular applications on commodity clusters
  * [approxbench.org](http://approxbench.org/) &ndash; benchmarks for
    approximate computing
+ * [SQL for PGAS](https://github.com/uwescience/raco#c-and-grappa-output-radish) &ndash; compiling queries to high performance languages, including Grappa
 
 See the licensing terms within each project's codebase for the requisite legal
 details.
