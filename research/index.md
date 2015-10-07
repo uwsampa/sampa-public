@@ -64,7 +64,7 @@ Applications are often a major driver of progress in computer systems architectu
 
 Our effort on "big" applications currently focuses on support large scale irregular applications, which don't have much locality and exhibits irregular forms of parallelism. A classic example is graph analysis of social network data. We developing a system called [Grappa][], which aims at making it very simple to write large scale irregular applications with near optimal system utilization. The key lower-level research question is on how to exploit latency tolerance with concurrency in large systems. 
 
-Grappa is being used to enable fast, in-memory computation of complex data analytics pipelines from domains like bibliometrics. To use Grappa without writing low-level code, we have built a compiler called [Radish](https://github.com/uwescience/raco#c-and-grappa-output-radish) (read the [paper](ftp://ftp.cs.washington.edu/tr/2014/10/UW-CSE-14-10-01.pdf)) that translates SQL and other high-level languages to efficient distributed memory programs.
+Grappa is being used to enable fast, in-memory computation of complex data analytics pipelines from domains like bibliometrics. To use Grappa without writing low-level code, we have built a compiler called [Radish](https://github.com/uwescience/raco#c-and-grappa-output-radish) that translates SQL and other high-level languages to efficient distributed memory programs.
 
 Our effort on "small" applications focuses on better supporting scripting languages and web browsing in mobile devices. We are exploring [hardware support for scripting languages] (mobileweb.html) and ways to enable new optimizations in mobile browsers by [characterizing](webchar.html) sources of inefficiencies. 
 
