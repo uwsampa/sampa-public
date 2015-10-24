@@ -50,10 +50,11 @@ nelson:
     display_name: "Jacob Nelson"
     webpage: "https://homes.cs.washington.edu/~nelson/"
     role: postdoc
-
-alaghi:
+armin:
     display_name: "Armin Alaghi"
-    webpage: ""
+    role: postdoc
+jevdjic:
+    display_name: "Djordje Jevdjic"
     role: postdoc
 
 bornholt: 
