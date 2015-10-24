@@ -14,8 +14,7 @@ djg:
     bio: |
         Dan is a Professor at UW-CSE. His research background is
         programming language design and implementation, particularly for
-        improving software quality. In Sampa, he's mostly involved with the
-        DMP and OSHA projects. To get Dan excited about a non-computer-science
+        improving software quality. To get Dan excited about a non-computer-science
         topic, try ice hockey (playing or watching), non-fiction books, live
         theatre, hiking, or his nephew.
 oskin:
@@ -99,6 +98,11 @@ wysem:
     webpage: "https://homes.cs.washington.edu/~wysem/"
     role: grad
 
+katelin:
+    display_name: "Katelin Bailey"
+    webpage: "https://homes.cs.washington.edu/~katelin/"
+    role: alum
+    bio: "M.S., 2015."
 bboston:
     display_name: Brett Boston
     webpage: "http://people.csail.mit.edu/boston/"
@@ -202,16 +206,6 @@ zbsimon:
     display_name: Zach Simon
     role: ugrad
 
-shaz:
-    display_name: Shaz Qadeer
-    webpage: http://research.microsoft.com/en-us/people/qadeer/
-    bio: "Shaz is a Sr. Researcher at Microsoft Research collaborating with us on the concurrency exceptions project."
-    role: collab
-gribble:
-    display_name: Steve Gribble
-    webpage: http://www.cs.washington.edu/homes/gribble/
-    bio: "Steve is an Associate Professor at UW-CSE. He is collaborating with us on operating system aspects of deterministic multiprocessing."
-    role: collab
 skahan:
     display_name: Simon Kahan
     role: collab
