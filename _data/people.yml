@@ -64,6 +64,9 @@ cdel:
     display_name: "Carlo Del Mundo"
     webpage: "http://homes.cs.washington.edu/~cdel/"
     role: grad
+eafurst:
+    display_name: "Emily Furst"
+    role: grad
 bholt:
     display_name: "Brandon Holt"
     webpage: "https://homes.cs.washington.edu/~bholt/"
@@ -71,6 +74,12 @@ bholt:
 vlee2:
     display_name: Vincent Lee
     webpage: "http://homes.cs.washington.edu/~vlee2/"
+    role: grad
+mgliu:
+    display_name: Ming Liu
+    role: grad
+liangluo:
+    display_name: Liang Luo
     role: grad
 amrita: 
     display_name: Amrita Mazumdar
