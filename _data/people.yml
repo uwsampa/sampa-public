@@ -29,7 +29,7 @@ karin:
     role: faculty
     bio: |
         Karin is a Researcher at Microsoft Research in Redmond, WA. She is
-        also an Affiliate Assistant Professor at UW-CSE.
+        also an Affiliate Associate Professor at UW-CSE.
 eggers:
     display_name: "Susan Eggers"
     webpage: "http://homes.cs.washington.edu/~eggers/"
