@@ -98,9 +98,14 @@ wysem:
     webpage: "https://homes.cs.washington.edu/~wysem/"
     role: grad
 
+bboston:
+    display_name: Brett Boston
+    webpage: "http://people.csail.mit.edu/boston/"
+    role: alum
+    bio: "B.S., 2015. Now a PhD student at MIT."
 asampson:
     display_name: "Adrian Sampson"
-    webpage: "https://homes.cs.washington.edu/~asampson/"
+    webpage: "https://adriansampson.net/"
     github: sampsyo
     role: alum
     bio: "Ph.D., 2015. Now at MSR/faculty at Cornell."
@@ -134,7 +139,6 @@ miker:
     webpage: "http://homes.cs.washington.edu/~miker/"
     role: alum
     bio: "Ph.D., 2014. Now at Cray."
-    
 lucia:
     display_name: "Brandon Lucia"
     role: alum
@@ -172,9 +176,6 @@ kristian:
     role: alum
     bio: "B.S. Now at Clean Power Research."
 
-bboston:
-    display_name: Brett Boston
-    role: ugrad
 djnoboom:
     display_name: Daniel Noteboom
     role: ugrad
