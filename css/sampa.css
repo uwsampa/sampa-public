@@ -2,8 +2,16 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-size: 14px;
+  font-weight: 300;
 }
 
+/*.nav li { padding: 10px 15px; }*/
+/*.nav li a {
+  padding: 10px 15px;
+  margin: 0px;
+}
+*/
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .footer {
@@ -45,6 +53,7 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
+  font-weight: 200;
 }
 .jumbotron p {
     font-size: 15px;

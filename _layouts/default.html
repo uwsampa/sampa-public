@@ -4,23 +4,23 @@
         <meta charset="utf-8">
         <title>{{ site.name }}: {{ page.title }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="{{ site.base }}/css/bootstrap.min.css" rel="stylesheet">
-        <link href="{{ site.base }}/css/sampa.css" rel="stylesheet">
+        <link href="{{site.base}}/css/bootstrap.min.css" rel="stylesheet">
+        <link href="{{site.base}}/css/sampa.css" rel="stylesheet">
         <link rel="alternate" type="application/atom+xml" title="Atom"
             href="{{ site.base }}/blog/blog.xml">
     </head>
-    <body>
+    <body>      
         <div class="container">
           <div class="header">
             <ul class="nav nav-pills pull-right">
-              {% assign shorturl = page.url | replace:'index.html','' %}
-              {% for item in site.navigation %}
-                <li {% if item.link == shorturl %}class="active"{% endif %}>
-                  <a href="{{ site.base }}{{ item.link }}">
-                    {{ item.title }}
-                  </a>
-                </li>
-              {% endfor %}
+                  {% assign shorturl = page.url | replace:'index.html','' %}
+                  {% for item in site.navigation %}
+                    <li class="nav-item">
+                      <a class="nav-link {% if item.link == shorturl %}active{% endif %}" href="{{ site.base }}{{ item.link }}">
+                        {{ item.title }}
+                      </a>
+                    </li>
+                  {% endfor %}
             </ul>
             <a href="{{ site.base }}/">
                 <img src="{{ site.base }}/img/sampa.png"
@@ -55,5 +55,8 @@
         <!-- Support retina images. -->
         <script type="text/javascript"
             src="{{ site.base }}/js/srcset-polyfill.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="{{site.base}}/js/bootstrap.min.js"></script>
+        
     </body>
 </html>
