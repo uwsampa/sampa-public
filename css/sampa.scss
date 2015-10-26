@@ -1,9 +1,19 @@
+---
+# Frontmatter is necessary to make Jekyll process this into sampa.css.
+---
+
+$link-color: #428bca;
+
 /* Space out content a bit */
 body {
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 14px;
   font-weight: 300;
+}
+
+a {
+  color: $link-color;
 }
 
 /*.nav li { padding: 10px 15px; }*/
