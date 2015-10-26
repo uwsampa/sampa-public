@@ -3,6 +3,7 @@
 ---
 
 $link-color: #428bca;
+$default-rule: 1px solid #e5e5e5;
 
 /* Space out content a bit */
 body {
@@ -31,14 +32,14 @@ a {
 
 /* Custom page header */
 .header {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: $default-rule;
 }
 
 /* Custom page footer */
 .footer {
   padding-top: 19px;
   color: #777;
-  border-top: 1px solid #e5e5e5;
+  border-top: $default-rule;
   text-align: center;
   font-size: 0.8em;
 }
@@ -88,6 +89,7 @@ a {
     padding-left: 0;
     padding-right: 0;
   }
+  
   /* Space out the masthead */
   .header {
     margin-bottom: 30px;
@@ -100,10 +102,16 @@ a {
 
 /* Slightly better-looking header on mobile. */
 @media screen and (max-width: 767px) {
+  
     .nav-pills {
         display: block;
         margin: 0 auto 1em;
     }
+    
+    .nav-pills .nav-link {
+        padding: .5em .4em;
+    }
+    
     #logo {
         display: block;
         clear: both;
