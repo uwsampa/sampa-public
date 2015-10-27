@@ -16,6 +16,10 @@ body {
   font-weight: 300;
 }
 
+h2 {
+    margin-top: 1em;
+}
+
 a {
   color: $link-color;
 }
@@ -49,13 +53,19 @@ a {
 
 .card {
     
+    a {
+        color: black;
+    }
+    a:hover {
+        text-decoration: none;
+    }
+    
     .card-block {
         padding: 1rem;
     }
 
     img.icon {
         margin-top: 0.5em;
-//        max-width: 5em;
         max-height: 10em;
     }
 }
@@ -68,7 +78,7 @@ ul.people {
     li {
         display: inline;
         
-        a {
+        a.person {
             font-size: 0.7em;
             font-weight: normal;
             color: $dark-gray;
@@ -87,22 +97,7 @@ ul.people {
             
             .caption {
                 display: none;
-                //display: block;
-                line-height: 1.2;        
-                position: absolute;
-                margin: auto;
-                left: 0;
-                right: 0;
-                top: 50%;
-                -ms-transform: translateY(-50%);
-                -webkit-transform: translateY(-50%);
-                transform: translateY(-50%);
             }
-        }
-        
-        a:hover {
-            text-decoration: none;
-            font-weight: bold;
         }
     }
 }
