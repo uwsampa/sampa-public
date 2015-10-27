@@ -2,8 +2,11 @@
 # Frontmatter is necessary to make Jekyll process this into sampa.css.
 ---
 
+$light-gray: #e5e5e5;
+$dark-gray: #222;
+
 $link-color: #428bca;
-$default-rule: 1px solid #e5e5e5;
+$default-rule: 1px solid $light-gray;
 
 /* Space out content a bit */
 body {
@@ -17,12 +20,6 @@ a {
   color: $link-color;
 }
 
-/*.nav li { padding: 10px 15px; }*/
-/*.nav li a {
-  padding: 10px 15px;
-  margin: 0px;
-}
-*/
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .footer {
@@ -50,10 +47,70 @@ a {
   color: #777;
 }
 
+.card {
+    
+    .card-block {
+        padding: 1rem;
+    }
+
+    img.icon {
+        margin-top: 0.5em;
+//        max-width: 5em;
+        max-height: 10em;
+    }
+}
+
+ul.people {
+    display: inline;
+    list-style-type: none;
+    padding-left: 0em;
+    
+    li {
+        display: inline;
+        
+        a {
+            font-size: 0.7em;
+            font-weight: normal;
+            color: $dark-gray;
+            
+            position: relative;
+            width: 4em;
+            height: 4em;
+            text-align: center;
+            vertical-align: top;
+            display: inline-block;
+            
+            img {
+                width: inherit;
+                height: inherit;
+            }
+            
+            .caption {
+                display: none;
+                //display: block;
+                line-height: 1.2;        
+                position: absolute;
+                margin: auto;
+                left: 0;
+                right: 0;
+                top: 50%;
+                -ms-transform: translateY(-50%);
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+            }
+        }
+        
+        a:hover {
+            text-decoration: none;
+            font-weight: bold;
+        }
+    }
+}
+
 /* Customize container */
 @media (min-width: 768px) {
   .container {
-    max-width: 730px;
+    max-width: 900px;
   }
 }
 .container-narrow > hr {

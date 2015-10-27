@@ -3,6 +3,7 @@ luisceze:
     webpage: "https://homes.cs.washington.edu/~luisceze/"
     github: luisceze
     role: faculty
+    image: /img/people/ceze.jpg
     bio: |
         Luis is an Associate Professor at UW-CSE. When he is not in his office
         (CSE576) or The Lab (CSE615), he is probably in the kitchen or some
@@ -21,6 +22,7 @@ oskin:
     display_name: "Mark Oskin"
     webpage: "https://homes.cs.washington.edu/~oskin/"
     role: faculty
+    image: /img/people/oskin.jpg
     bio: |
         Mark is an Associate Professor at UW-CSE.
 karin:
@@ -49,6 +51,8 @@ nelson:
     display_name: "Jacob Nelson"
     webpage: "https://homes.cs.washington.edu/~nelson/"
     role: postdoc
+    image: /img/people/nelson.jpg
+    
 armin:
     display_name: "Armin Alaghi"
     role: postdoc
@@ -71,10 +75,14 @@ bholt:
     display_name: "Brandon Holt"
     webpage: "https://homes.cs.washington.edu/~bholt/"
     role: grad
+    image: /img/people/bholt.jpg
+
 vlee2:
     display_name: Vincent Lee
     webpage: "http://homes.cs.washington.edu/~vlee2/"
     role: grad
+    image: /img/people/lee.jpg
+    
 mgliu:
     display_name: Ming Liu
     role: grad
@@ -93,6 +101,8 @@ bdmyers:
     display_name: "Brandon Myers"
     webpage: "https://homes.cs.washington.edu/~bdmyers/"
     role: grad
+    image: /img/people/myers.jpg
+    
 wysem:
     display_name: "Mark Wyse"
     webpage: "https://homes.cs.washington.edu/~wysem/"
