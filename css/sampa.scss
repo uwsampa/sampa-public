@@ -30,6 +30,11 @@ h3 {
     margin-top: 1em;
 }
 
+h4 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
 a {
   color: $link-color;
 }
@@ -66,6 +71,7 @@ a {
     a {
         color: black;
     }
+    
     a:hover {
         text-decoration: none;
     }
@@ -127,7 +133,48 @@ ul.project-people {
         }
         
     }
+   
+}
+
+.card.profile {
     
+    .card-block, .card-header, .card-footer {
+        padding: 0.5rem 1rem;
+    }
+    
+    a {
+        h4 {
+            color: black;
+        }
+    }
+    
+    h4 {
+    
+        color: #111;
+        
+        margin: 0em;
+        vertical-align: middle;
+        width: 100%;
+        height: auto;
+        
+        img {
+            height: 2.5rem;
+            width: 2.5rem;
+        }
+    }
+}
+
+.card.grad, .card.postdoc, .card.ugrad, .card.collab, .card.alum {
+    
+    .card-block, .card-header, .card-footer {
+        padding: 0.5rem;
+    }
+    
+    h4 {
+        font-weight: normal;
+        font-size: 1rem;
+    }
+//    max-width: 12rem;
 }
 
 /* Customize container */

@@ -86,45 +86,51 @@ notitle: true
 
 <h2>People</h2>
 {% for role in site.roles %}
-{% if role.key != 'alum' %}
 <h3>{{ role.name }}</h3>
 <ul class="people">
 {% for item in site.data.people %}
     {% assign person = item[1] %}
     {% if person.role == role.key %}
     <li class="person">
-        {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}            
-        {% if person.image %}<img class="img-circle profile" src="{{site.base}}{{person.image}}" />{% endif %}
+        {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
+        {% if person.image and person.role != 'alum' %}<img class="img-circle profile" src="{{site.base}}{{person.image}}" />{% endif %}
         {{person.display_name}}
         {% if person.webpage %}</a>{% endif %}
     </li>
     {% endif %}
 {% endfor %}
 </ul>
-{% endif %}
 {% endfor %}
 
-<!--
+
 <h2>People</h2>
 {% for role in site.roles %}
-{% if role.key != 'alum' %}
     <h3>{{ role.name }}</h3>
     <div class="card-columns">
     {% for item in site.data.people %}
         {% assign person = item[1] %}
         {% if person.role == role.key %}
-        <div class="card profile">
-            {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}            
-                <img class="img-circle profile" src="{{site.base}}{{person.image}}" />
-                {{person.display_name}}
+        <div class="card profile {{person.role}}">
+            {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
+            <div class="card-block">
+                <h4 class="card-title">
+                    {% if person.image %}<img class="img-circle profile" src="{{site.base}}{{person.image}}" />{% endif %}
+                    {{person.display_name}}
+                </h4>
+            </div>
+            {% if person.bio %}
+            <div class="card-footer">
+                <p class="card-text">
+                    {{person.bio}}
+                </p>
+            </div>
+            {% endif %}
             {% if person.webpage %}</a>{% endif %}
         </div>
         {% endif %}
     {% endfor %}
     </div>
-{% endif %}
 {% endfor %}
--->
 
 <h2>Funding</h2>
 <p>
