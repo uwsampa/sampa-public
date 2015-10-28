@@ -16,7 +16,17 @@ body {
   font-weight: 300;
 }
 
+a:hover {
+    text-decoration: none; // don't underline links on hover
+}
+
 h2 {
+    font-size: 2rem;
+    margin-top: 1em;
+}
+
+h3 {
+    font-size: 1.5rem;
     margin-top: 1em;
 }
 
@@ -77,29 +87,47 @@ ul.people {
     
     li {
         display: inline;
+        padding: 1em;
+        
+        img.profile {
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+    }
+}
+
+ul.project-people {
+    display: inline;
+    list-style-type: none;
+    padding-left: 0em;
+    
+    li {        
+        display: inline;
         
         a.person {
-            font-size: 0.7em;
             font-weight: normal;
             color: $dark-gray;
             
             position: relative;
-            width: 4em;
-            height: 4em;
             text-align: center;
             vertical-align: top;
             display: inline-block;
             
+            width: 2.5rem;
+            height: 2.5rem;
+    
             img {
                 width: inherit;
                 height: inherit;
             }
-            
+    
             .caption {
                 display: none;
             }
         }
+        
     }
+    
 }
 
 /* Customize container */
