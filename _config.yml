@@ -28,7 +28,7 @@ roles:
 front_page_news: 5
 
 # Base pathname for links.
-base: ''
+base: '/cards'
 
 collections:
   projects:
@@ -38,8 +38,6 @@ collections:
 navigation:
     - title: Home
       link: /
-    - title: People
-      link: /people.html
     - title: Research
       link: /research/
     - title: Publications
