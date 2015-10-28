@@ -37,7 +37,7 @@ notitle: true
 
 <div class="card-columns">
 {% for p in site.projects %}
-<div class="card">
+<div class="card {%if p.url%}link{%endif%}">
     <a href="{{p.url}}">
         <div class="text-center">
             {% if p.image %}
@@ -110,7 +110,7 @@ notitle: true
     {% for item in site.data.people %}
         {% assign person = item[1] %}
         {% if person.role == role.key %}
-        <div class="card profile {{person.role}}">
+        <div class="card profile {{person.role}} {%if person.webpage%}link{%endif%}">
             {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
             <div class="card-block">
                 <h4 class="card-title">

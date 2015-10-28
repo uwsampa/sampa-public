@@ -136,10 +136,15 @@ ul.project-people {
             .caption {
                 display: none;
             }
-        }
-        
-    }
-   
+        }   
+    }  
+}
+
+.card.link:hover {
+    border: solid 1px #CCC;
+    -moz-box-shadow: 2px 2px 3px #999;
+    -webkit-box-shadow: 2px 2px 3px #999;
+    box-shadow: 2px 2px 3px #999;
 }
 
 .card.profile {
