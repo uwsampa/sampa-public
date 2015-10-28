@@ -67,7 +67,7 @@ a {
 }
 
 .card {
-    
+        
     a {
         color: black;
     }
@@ -76,8 +76,13 @@ a {
         text-decoration: none;
     }
     
+    .card-title {
+        // undo extra margin set above for normal headings elsewhere
+        margin-top: 0em;
+    }
+    
     .card-block {
-        padding: 1rem;
+        padding: 1rem;        
     }
 
     img.icon {
@@ -102,6 +107,7 @@ ul.people {
     }
 }
 
+// this is responsible for the small people circles under each project card
 ul.project-people {
     display: inline;
     list-style-type: none;
@@ -137,20 +143,16 @@ ul.project-people {
 }
 
 .card.profile {
+ 
+    // slightly gray out cards that aren't clickable
+    p, h4 { color: #666; }
+    a { p, h4 { color: black; } }
     
     .card-block, .card-header, .card-footer {
         padding: 0.5rem 1rem;
     }
-    
-    a {
-        h4 {
-            color: black;
-        }
-    }
-    
+        
     h4 {
-    
-        color: #111;
         
         margin: 0em;
         vertical-align: middle;
