@@ -83,26 +83,6 @@ notitle: true
 {% endfor %}
 </div>
 
-
-<h2>People</h2>
-{% for role in site.roles %}
-<h3>{{ role.name }}</h3>
-<ul class="people">
-{% for item in site.data.people %}
-    {% assign person = item[1] %}
-    {% if person.role == role.key %}
-    <li class="person">
-        {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
-        {% if person.image and person.role != 'alum' %}<img class="img-circle profile" src="{{site.base}}{{person.image}}" />{% endif %}
-        {{person.display_name}}
-        {% if person.webpage %}</a>{% endif %}
-    </li>
-    {% endif %}
-{% endfor %}
-</ul>
-{% endfor %}
-
-
 <h2>People</h2>
 {% for role in site.roles %}
     <h3>{{ role.name }}</h3>
