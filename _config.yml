@@ -28,7 +28,7 @@ roles:
 front_page_news: 5
 
 # Base pathname for links.
-base: '/cards'
+base: ''
 
 collections:
   projects:
