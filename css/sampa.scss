@@ -10,6 +10,12 @@ $default-rule: 1px solid $light-gray;
 
 $base-font-size: 14px;
 
+@mixin columns($n) {
+    -webkit-column-count: $n;
+    -moz-column-count: $n;
+    column-count: $n;
+}
+
 /* Space out content a bit */
 body {
   padding-top: 20px;
@@ -215,10 +221,22 @@ ul.project-people {
 
 /* Customize container */
 @media (min-width: 768px) {
-  .container {
-    max-width: 900px;
-  }
+    .container {
+        max-width: 900px;
+    }
+  
+    .card-columns { @include columns(3); }
+  
 }
+
+@media (max-width: 768px) {
+    .card-columns { @include columns(2); }
+}
+
+@media (max-width: 550px) {
+    .card-columns { @include columns(1); }
+}
+
 .container-narrow > hr {
   margin: 30px 0;
 }
@@ -265,7 +283,7 @@ ul.project-people {
 
 /* Slightly better-looking header on mobile. */
 @media screen and (max-width: 767px) {
-  
+    
     .nav-pills {
         display: block;
         margin: 0 auto 1em;
