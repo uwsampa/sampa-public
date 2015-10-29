@@ -110,9 +110,9 @@ role_remain:
                     {% if person.image %}
                         {% capture init %}{{ person.image | slice: 0,2 }}{% endcapture %}
                         {% if init == "//" %}
-                            {% capture imgurl %}{{site.base}}{{person.image}}{% endcapture %}
-                        {% else %}
                             {% assign imgurl = person.image %}
+                        {% else %}
+                            {% capture imgurl %}{{site.base}}{{person.image}}{% endcapture %}
                         {% endif %}
                     {% endif %}
                     
