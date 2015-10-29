@@ -2,6 +2,13 @@
 layout: default
 title: Home
 notitle: true
+
+role_groups:
+    - [faculty, postdoc, staff]
+    - [grad, ugrad]
+
+role_remain:
+    - alum
 ---
 
 <div class="jumbotron">
@@ -84,6 +91,37 @@ notitle: true
 </div>
 
 <h2>People</h2>
+
+<div class="row">
+{% for grp in page.role_groups %}
+    <div class="col-md-6">
+        {% for role in site.roles %}
+        {% if grp contains role.key %}
+            <h3>{{ role.name }}</h3>
+            <dl class="people">
+            {% for item in site.data.people %}
+                {% assign person = item[1] %}
+                {% if person.role == role.key %}
+                <dt>
+                    {% if person.image %}
+                        <img class="img-circle profile" src="{{site.base}}{{person.image}}" />
+                    {% endif %}
+                </dt>
+                <dd>
+                    {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
+                    <h4>{{person.display_name}}</h4>
+                    {% if person.webpage %}</a>{% endif %}
+                    {% if person.bio %}<p>{{person.bio}}</p>{% endif %}
+                </dd>
+                {% endif %}
+            {% endfor %}
+            </dl>
+        {% endif %}
+        {% endfor %}
+    </div>
+{% endfor %}
+</div>
+
 {% for role in site.roles %}
     <h3>{{ role.name }}</h3>
     <div class="card-columns">

@@ -8,11 +8,13 @@ $dark-gray: #222;
 $link-color: #428bca;
 $default-rule: 1px solid $light-gray;
 
+$base-font-size: 14px;
+
 /* Space out content a bit */
 body {
   padding-top: 20px;
   padding-bottom: 20px;
-  font-size: 14px;
+  font-size: $base-font-size;
   font-weight: 300;
 }
 
@@ -91,20 +93,36 @@ a {
     }
 }
 
-ul.people {
-    display: inline;
-    list-style-type: none;
-    padding-left: 0em;
+dl.people {
     
-    li {
-        display: inline;
-        padding: 1em;
+    $profile-size: 5;
+    
+    img.profile {
+        width: #{$profile-size}rem;
+        height: #{$profile-size}rem;
+    }
+    
+    position: relative;
+    
+    dt {
+        position: absolute;
+        left: 0;
+//        width: $profile_size rem;
+        min-height: #{$profile-size}rem;
+        height: auto;
+    }
+    
+    dd {
+        min-height: #{$profile-size}rem;
         
-        img.profile {
-            width: 2.5rem;
-            height: 2.5rem;
+        margin-left: #{$profile-size+.5}rem;
+        
+        h4 {
+            font-size: 1rem;
+            font-weight: bold;
         }
     }
+    
 }
 
 // this is responsible for the small people circles under each project card
