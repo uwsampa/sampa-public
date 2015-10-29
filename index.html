@@ -153,7 +153,7 @@ role_remain:
                     {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
                     {{person.display_name}}
                     {% if person.webpage %}</a>{% endif %}
-                    {% if person.bio %}— <span class="bio">{{person.bio}}</span>{% endif %}
+                    {% if person.bio %} — {{person.bio}}{% endif %}
                 </li>
                 {% endif %}
             {% endfor %}

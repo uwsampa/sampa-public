@@ -4,56 +4,40 @@ luisceze:
     github: luisceze
     role: faculty
     image: /img/people/ceze.jpg
-    bio: |
-        Luis is an Associate Professor at UW-CSE. When he is not in his office
-        (CSE576) or The Lab (CSE615), he is probably in the kitchen or some
-        restaurant around Seattle. Ask him about the movie Mamma Mia.
+    bio: "Associate Professor"
+eggers:
+    display_name: "Susan Eggers"
+    webpage: "http://homes.cs.washington.edu/~eggers/"
+    role: faculty
+    bio: "Emeritus Professor"
 djg:
     display_name: "Dan Grossman"
     webpage: "https://homes.cs.washington.edu/~djg/"
     role: faculty
     image: /img/people/djg.jpg
-    bio: |
-        Dan is a Professor at UW-CSE. His research background is
-        programming language design and implementation, particularly for
-        improving software quality. To get Dan excited about a non-computer-science
-        topic, try ice hockey (playing or watching), non-fiction books, live
-        theatre, hiking, or his nephew.
+    bio: "Professor"
 oskin:
     display_name: "Mark Oskin"
     webpage: "https://homes.cs.washington.edu/~oskin/"
     role: faculty
     image: /img/people/oskin.jpg
-    bio: |
-        Mark is an Associate Professor at UW-CSE.
+    bio: "Associate Professor"
 karin:
     display_name: "Karin Strauss"
     webpage: "http://research.microsoft.com/en-us/people/kstrauss/"
     role: faculty
-    bio: |
-        Karin is a Researcher at Microsoft Research in Redmond, WA. She is
-        also an Affiliate Associate Professor at UW-CSE.
-eggers:
-    display_name: "Susan Eggers"
-    webpage: "http://homes.cs.washington.edu/~eggers/"
-    role: faculty
-    bio: |
-        Susan is an Emeritus Professor at UW-CSE.
+    bio: "Researcher at Microsoft Research and Affiliate Associate Professor at UW CSE"
 
 melody:
     display_name: "Melody Kadenko"
     webpage: "http://www.cs.washington.edu/homes/melody/"
     role: staff
     image: //homes.cs.washington.edu/~melody/index_files/image002.gif
-    bio: |
-        Melody is our Program Director. She actually makes magic stuff happen.
-        And beware of the Spoon of Death.
-
-nelson:
-    display_name: "Jacob Nelson"
-    webpage: "https://homes.cs.washington.edu/~nelson/"
-    role: postdoc
-    image: /img/people/nelson.jpg
+    bio: "Program Director"
+lmerlin:
+    display_name: "Lisa Merlin"
+    role: staff
+    bio: "Fiscal Specialist"
     
 armin:
     display_name: "Armin Alaghi"
@@ -64,6 +48,11 @@ armin:
 jevdjic:
     display_name: "Djordje Jevdjic"
     role: postdoc
+nelson:
+    display_name: "Jacob Nelson"
+    webpage: "https://homes.cs.washington.edu/~nelson/"
+    role: postdoc
+    image: /img/people/nelson.jpg
 
 bornholt: 
     display_name: "James Bornholt"
