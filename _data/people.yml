@@ -5,27 +5,33 @@ luisceze:
     role: faculty
     image: /img/people/ceze.jpg
     bio: "Associate Professor"
+
 eggers:
     display_name: "Susan Eggers"
     webpage: "http://homes.cs.washington.edu/~eggers/"
     role: faculty
+    image: /img/people/eggers.jpg
     bio: "Emeritus Professor"
+
 djg:
     display_name: "Dan Grossman"
     webpage: "https://homes.cs.washington.edu/~djg/"
     role: faculty
     image: /img/people/djg.jpg
     bio: "Professor"
+
 oskin:
     display_name: "Mark Oskin"
     webpage: "https://homes.cs.washington.edu/~oskin/"
     role: faculty
     image: /img/people/oskin.jpg
     bio: "Associate Professor"
+
 karin:
     display_name: "Karin Strauss"
     webpage: "http://research.microsoft.com/en-us/people/kstrauss/"
     role: faculty
+    image: /img/people/karin.jpg
     bio: "Researcher at Microsoft Research and Affiliate Associate Professor at UW CSE"
 
 melody:
@@ -34,6 +40,7 @@ melody:
     role: staff
     image: //homes.cs.washington.edu/~melody/index_files/image002.gif
     bio: "Program Director"
+
 lmerlin:
     display_name: "Lisa Merlin"
     role: staff
@@ -48,6 +55,7 @@ armin:
 jevdjic:
     display_name: "Djordje Jevdjic"
     role: postdoc
+
 nelson:
     display_name: "Jacob Nelson"
     webpage: "https://homes.cs.washington.edu/~nelson/"
