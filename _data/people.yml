@@ -58,6 +58,8 @@ nelson:
 armin:
     display_name: "Armin Alaghi"
     role: postdoc
+    webpage: "http://homes.cs.washington.edu/~armin/"
+    image: /img/people/armin.jpg
 
 jevdjic:
     display_name: "Djordje Jevdjic"
