@@ -44,7 +44,7 @@ melody:
     display_name: "Melody Kadenko"
     webpage: "http://www.cs.washington.edu/homes/melody/"
     role: staff
-    image: //homes.cs.washington.edu/~melody/index_files/image002.gif
+    image: http://homes.cs.washington.edu/~melody/index_files/image002.gif
     bio: |
         Melody is our Program Director. She actually makes magic stuff happen.
         And beware of the Spoon of Death.
@@ -67,7 +67,7 @@ bornholt:
     display_name: "James Bornholt"
     webpage: "https://homes.cs.washington.edu/~bornholt/"
     role: grad
-    image: //homes.cs.washington.edu/~bornholt/img/me_square_bw.jpg
+    image: http://homes.cs.washington.edu/~bornholt/img/me_square_bw.jpg
 
 cdel:
     display_name: "Carlo Del Mundo"
@@ -103,7 +103,7 @@ amrita:
     display_name: Amrita Mazumdar
     webpage: "https://homes.cs.washington.edu/~amrita"
     role: grad
-    image: //homes.cs.washington.edu/~amrita/media/face.jpeg
+    image: http://homes.cs.washington.edu/~amrita/media/face.jpeg
 
 moreau:
     display_name: "Thierry Moreau"
