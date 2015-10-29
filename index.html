@@ -108,8 +108,8 @@ role_remain:
                     {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
                     {% assign imgurl = false %}
                     {% if person.image %}
-                        {% capture fc %}{{ person.image | split: "" | first }}{% endcapture %}
-                        {% if fc == "/" %}
+                        {% capture init %}{{ person.image | slice: 0,2 }}{% endcapture %}
+                        {% if init == "//" %}
                             {% capture imgurl %}{{site.base}}{{person.image}}{% endcapture %}
                         {% else %}
                             {% assign imgurl = person.image %}
