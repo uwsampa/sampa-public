@@ -5,10 +5,12 @@ notitle: true
 
 role_groups:
     - [faculty, postdoc, staff]
-    - [grad, ugrad]
+    - [grad]
 
 role_remain:
-    - alum
+    - [collab, ugrad]
+    - [alum]
+
 ---
 
 <div class="jumbotron">
@@ -98,21 +100,32 @@ role_remain:
         {% for role in site.roles %}
         {% if grp contains role.key %}
             <h3>{{ role.name }}</h3>
-            <dl class="people">
+            <ul class="people">
             {% for item in site.data.people %}
                 {% assign person = item[1] %}
                 {% if person.role == role.key %}
-                <dt>
-                    {% if person.image %}
-                        <img class="img-circle profile" src="{{site.base}}{{person.image}}" />
+                <li>
+                    {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
+                    {% assign imgurl = false %}
+                    {% if person.image | first == '/' %}
+                        {% capture imgurl %}{{site.base}}{{person.image}}{% endcapture %}
+                    {% elsif person.image %}
+                        {% assign imgurl = person.image %}
                     {% endif %}
-                </dt>
-                <dd>
+                    
+                    {% if imgurl %}
+                        <img class="img-circle profile" src="{{imgurl}}" />
+                    {% else %}
+                        <svg class="profile"><circle class="noprofile"/></svg>
+                    {% endif %}
+                    {% if person.webpage %}</a>{% endif %}
+                    <div class="bio">
                     {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
                     <h4>{{person.display_name}}</h4>
                     {% if person.webpage %}</a>{% endif %}
                     {% if person.bio %}<p>{{person.bio}}</p>{% endif %}
-                </dd>
+                    </div>
+                </li>
                 {% endif %}
             {% endfor %}
             </dl>
@@ -122,33 +135,32 @@ role_remain:
 {% endfor %}
 </div>
 
-{% for role in site.roles %}
-    <h3>{{ role.name }}</h3>
-    <div class="card-columns">
-    {% for item in site.data.people %}
-        {% assign person = item[1] %}
-        {% if person.role == role.key %}
-        <div class="card profile {{person.role}} {%if person.webpage%}link{%endif%}">
-            {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
-            <div class="card-block">
-                <h4 class="card-title">
-                    {% if person.image %}<img class="img-circle profile" src="{{site.base}}{{person.image}}" />{% endif %}
+<!--Remaining roles (collaborators, undergrads, alumni) -->
+<div class="row">
+{% for grp in page.role_remain %}
+    <div class="col-md-6">
+        {% for role in site.roles %}
+        {% if grp contains role.key %}
+            <h3>{{ role.name }}</h3>
+            <ul class="people {{role.key}}">
+            {% for item in site.data.people %}
+                {% assign person = item[1] %}
+                {% if person.role == role.key %}
+                <li>
+                    {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
                     {{person.display_name}}
-                </h4>
-            </div>
-            {% if person.bio %}
-            <div class="card-footer">
-                <p class="card-text">
-                    {{person.bio}}
-                </p>
-            </div>
-            {% endif %}
-            {% if person.webpage %}</a>{% endif %}
-        </div>
+                    {% if person.webpage %}</a>{% endif %}
+                    {% if person.bio %}— <span class="bio">{{person.bio}}</span>{% endif %}
+                </li>
+                {% endif %}
+            {% endfor %}
+            </dl>
         {% endif %}
-    {% endfor %}
+        {% endfor %}
     </div>
 {% endfor %}
+</div>
+
 
 <h2>Funding</h2>
 <p>

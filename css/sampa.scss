@@ -3,7 +3,7 @@
 ---
 
 $light-gray: #e5e5e5;
-$dark-gray: #222;
+$dark-gray: #888;
 
 $link-color: #428bca;
 $default-rule: 1px solid $light-gray;
@@ -93,36 +93,47 @@ a {
     }
 }
 
-dl.people {
+
+ul.people {
     
-    $profile-size: 5;
+    list-style-type: none;
+    padding-left: 0em;
     
-    img.profile {
-        width: #{$profile-size}rem;
-        height: #{$profile-size}rem;
+    $profile-size: 5rem;
+
+    .profile {
+        width: $profile-size;
+        height: $profile-size;
     }
-    
-    position: relative;
-    
-    dt {
-        position: absolute;
-        left: 0;
-//        width: $profile_size rem;
-        min-height: #{$profile-size}rem;
+
+    li {
+        
         height: auto;
-    }
-    
-    dd {
-        min-height: #{$profile-size}rem;
+        display: table;
+        margin: .5rem 0rem;
         
-        margin-left: #{$profile-size+.5}rem;
+        .profile {
+            text-align: center;
+            display: table-cell;
+            margin: .5rem;
+            vertical-align: middle;
+        }
         
-        h4 {
-            font-size: 1rem;
-            font-weight: bold;
+        .bio {
+            display: table-cell;
+            vertical-align: middle;
+            width: auto;
+        }
+        
+        // draw empty gray circle for those without a profile pic
+        .noprofile {
+            fill: #f5f5f5;
+            r: $profile-size / 2;
+            cx: $profile-size / 2;
+            cy: $profile-size / 2;
         }
     }
-    
+
 }
 
 // this is responsible for the small people circles under each project card
