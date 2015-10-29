@@ -7,7 +7,7 @@ all: _includes/pubs.html _site/index.html _site/wacas14/index.html
 
 BUILDARGS :=
 _site/index.html _site/wacas14/index.html:
-	jekyll build $(BUILDARGS)
+	jekyll build --config _config.yml,_deploy.yml $(BUILDARGS)
 
 _includes/pubs.html: bib/sampa-pubs.bib bib/publications.tmpl
 	mkdir -p _includes
@@ -25,4 +25,4 @@ CSEHOST := bicycle.cs.washington.edu
 RSYNCARGS := --compress --recursive --checksum --itemize-changes \
 	--delete -e ssh --perms --chmod=ug+rw
 deploy: clean all
-	rsync $(RSYNCARGS) _site/ $(CSEHOST):/cse/www2/sampa/new
+	rsync $(RSYNCARGS) _site/ $(CSEHOST):/cse/www2/sampa/cards

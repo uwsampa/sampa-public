@@ -3,6 +3,7 @@ luisceze:
     webpage: "https://homes.cs.washington.edu/~luisceze/"
     github: luisceze
     role: faculty
+    image: /img/people/ceze.jpg
     bio: |
         Luis is an Associate Professor at UW-CSE. When he is not in his office
         (CSE576) or The Lab (CSE615), he is probably in the kitchen or some
@@ -11,6 +12,7 @@ djg:
     display_name: "Dan Grossman"
     webpage: "https://homes.cs.washington.edu/~djg/"
     role: faculty
+    image: /img/people/djg.jpg
     bio: |
         Dan is a Professor at UW-CSE. His research background is
         programming language design and implementation, particularly for
@@ -21,6 +23,7 @@ oskin:
     display_name: "Mark Oskin"
     webpage: "https://homes.cs.washington.edu/~oskin/"
     role: faculty
+    image: /img/people/oskin.jpg
     bio: |
         Mark is an Associate Professor at UW-CSE.
 karin:
@@ -41,6 +44,7 @@ melody:
     display_name: "Melody Kadenko"
     webpage: "http://www.cs.washington.edu/homes/melody/"
     role: staff
+    image: http://homes.cs.washington.edu/~melody/index_files/image002.gif
     bio: |
         Melody is our Program Director. She actually makes magic stuff happen.
         And beware of the Spoon of Death.
@@ -49,9 +53,12 @@ nelson:
     display_name: "Jacob Nelson"
     webpage: "https://homes.cs.washington.edu/~nelson/"
     role: postdoc
+    image: /img/people/nelson.jpg
+    
 armin:
     display_name: "Armin Alaghi"
     role: postdoc
+
 jevdjic:
     display_name: "Djordje Jevdjic"
     role: postdoc
@@ -60,39 +67,56 @@ bornholt:
     display_name: "James Bornholt"
     webpage: "https://homes.cs.washington.edu/~bornholt/"
     role: grad
+    image: http://homes.cs.washington.edu/~bornholt/img/me_square_bw.jpg
+
 cdel:
     display_name: "Carlo Del Mundo"
     webpage: "http://homes.cs.washington.edu/~cdel/"
     role: grad
+    image: /img/people/cdel.jpg
+
 eafurst:
     display_name: "Emily Furst"
     role: grad
+
 bholt:
     display_name: "Brandon Holt"
     webpage: "https://homes.cs.washington.edu/~bholt/"
     role: grad
+    image: /img/people/bholt.jpg
+
 vlee2:
     display_name: Vincent Lee
     webpage: "http://homes.cs.washington.edu/~vlee2/"
     role: grad
+    image: /img/people/lee.jpg
+    
 mgliu:
     display_name: Ming Liu
     role: grad
+
 liangluo:
     display_name: Liang Luo
     role: grad
+
 amrita: 
     display_name: Amrita Mazumdar
     webpage: "https://homes.cs.washington.edu/~amrita"
     role: grad
+    image: http://homes.cs.washington.edu/~amrita/media/face.jpeg
+
 moreau:
     display_name: "Thierry Moreau"
     webpage: "http://homes.cs.washington.edu/~moreau/"
     role: grad
+    image: /img/people/moreau.jpg
+    
 bdmyers:
     display_name: "Brandon Myers"
     webpage: "https://homes.cs.washington.edu/~bdmyers/"
     role: grad
+    image: /img/people/myers.jpg
+    
 wysem:
     display_name: "Mark Wyse"
     webpage: "https://homes.cs.washington.edu/~wysem/"
