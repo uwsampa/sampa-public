@@ -12,6 +12,11 @@
     <body>      
         <div class="container">
           <div class="header">
+            <a href="{{ site.base }}/">
+                <img src="{{ site.base }}/img/sampa.png"
+                    srcset="{{ site.base }}/img/sampa@2x.png 2x"
+                    alt="Sampa" id="logo">
+            </a>
             <ul class="nav nav-pills pull-right">
                   {% assign shorturl = page.url | replace:'index.html','' %}
                   {% for item in site.navigation %}
@@ -22,11 +27,6 @@
                     </li>
                   {% endfor %}
             </ul>
-            <a href="{{ site.base }}/">
-                <img src="{{ site.base }}/img/sampa.png"
-                    srcset="{{ site.base }}/img/sampa@2x.png 2x"
-                    alt="Sampa" id="logo">
-            </a>
           </div>
 
           {% comment %}Liquid is sort of terrible! I think "!= true" is the
