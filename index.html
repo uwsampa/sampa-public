@@ -107,10 +107,13 @@ role_remain:
                 <li>
                     {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
                     {% assign imgurl = false %}
-                    {% if person.image | first == '/' %}
-                        {% capture imgurl %}{{site.base}}{{person.image}}{% endcapture %}
-                    {% elsif person.image %}
-                        {% assign imgurl = person.image %}
+                    {% if person.image %}
+                        {% capture fc %}{{ person.image | split: "" | first }}{% endcapture %}
+                        {% if fc == "/" %}
+                            {% capture imgurl %}{{site.base}}{{person.image}}{% endcapture %}
+                        {% else %}
+                            {% assign imgurl = person.image %}
+                        {% endif %}
                     {% endif %}
                     
                     {% if imgurl %}
