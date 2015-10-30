@@ -182,41 +182,13 @@ ul.project-people {
     box-shadow: 2px 2px 3px #999;
 }
 
-.card.profile {
- 
-    // slightly gray out cards that aren't clickable
-    p, h4 { color: #666; }
-    a { p, h4 { color: black; } }
     
-    .card-block, .card-header, .card-footer {
-        padding: 0.5rem 1rem;
     }
-        
-    h4 {
-        
-        margin: 0em;
-        vertical-align: middle;
-        width: 100%;
-        height: auto;
-        
-        img {
-            height: 2.5rem;
-            width: 2.5rem;
-        }
     }
 }
 
-.card.grad, .card.postdoc, .card.ugrad, .card.collab, .card.alum {
     
-    .card-block, .card-header, .card-footer {
-        padding: 0.5rem;
     }
-    
-    h4 {
-        font-weight: normal;
-        font-size: 1rem;
-    }
-//    max-width: 12rem;
 }
 
 /* Customize container */
