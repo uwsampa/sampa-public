@@ -246,6 +246,7 @@ ul.project-people {
 
 /* Slightly better-looking header on mobile. */
 @media screen and (max-width: 767px) {
+
     .nav-pills {
         display: block;
         margin: 0 auto 1em;
@@ -257,6 +258,12 @@ ul.project-people {
     
     #logo {
         clear: both;
+    }
+}
+
+@media screen and (max-width: 475px){
+    .header {
+        padding-bottom: 50px;
     }
 }
 
