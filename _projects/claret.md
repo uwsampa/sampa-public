@@ -26,7 +26,7 @@ This project aims to help bridge the gap between the old world of databases with
 
 ## Publications
 
-- **Claret: Using Data Types for Highly Concurrent Distributed Transactions**
-  - Brandon Holt, Irene Zhang, Dan Ports, Mark Oskin, Luis Ceze
-  - [Workshop on Principles and Practice of Consistency (PaPoC'15)](http://papoc.di.uminho.pt) (Apr 2015)
-  - [{{page.icons.paper}} Paper](http://dl.acm.org/authorize?N96590) | [{{page.icons.slides}} Slides](//homes.cs.washington.edu/~bholt/pubs/claret-papoc-slides.pdf) | [{{page.icons.keynote}} Keynote](//homes.cs.washington.edu/~bholt/files/claret-papoc.key)
+- **Claret: Using Data Types for Highly Concurrent Distributed Transactions**<br/>
+  Brandon Holt, Irene Zhang, Dan Ports, Mark Oskin, Luis Ceze<br/>
+  [Workshop on Principles and Practice of Consistency (PaPoC'15)](http://papoc.di.uminho.pt) (Apr 2015)<br/>
+  [{{page.icons.paper}} Paper](http://dl.acm.org/authorize?N96590) | [{{page.icons.slides}} Slides](//homes.cs.washington.edu/~bholt/pubs/claret-papoc-slides.pdf) | [{{page.icons.keynote}} Keynote](//homes.cs.washington.edu/~bholt/files/claret-papoc.key)
