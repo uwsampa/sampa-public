@@ -182,12 +182,40 @@ ul.project-people {
     box-shadow: 2px 2px 3px #999;
 }
 
+ul.news {
+
+    li:last-of-type {
+        padding-bottom: 0;
+    }
+
+    li > ul {
+        box-sizing: border-box;
+    }
     
+    div.date {
+        font-size: 80%;
+        color: #777777;
+        text-align: right;
+        vertical-align: top;
+        line-height: 18pt;
+        width: 10em;
     }
+    
+    div.desc {
+        padding-left: 1em;
     }
+    
 }
 
+@media screen and (max-width: 47.9em) {
     
+    ul.news {
+        div.date {
+            text-align: left;
+        }
+        div.desc {
+            padding-left: 0;
+        }
     }
 }
 
