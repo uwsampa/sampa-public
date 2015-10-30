@@ -49,12 +49,15 @@ role_remain:
 <div class="card {%if p.url%}link{%endif%}">
     <a href="{{p.url}}">
         <div class="text-center">
+            {% assign imgurl = false %}
+            
             {% if p.image %}
-            {%if p.image | first == '/'%}
-            <img class="icon card-img-top img-responsive" src="{{site.base}}{{p.image}}" alt="{{p.title}}"/>
-            {% else %}
-            <img class="icon card-img-top img-responsive" src="{{p.image}}" alt="{{p.title}}"/>
-            {% endif %}
+                {% assign imgurl = p.image %}
+                {% capture init %}{{ p.image | slice: 0,1 }}{% endcapture %}
+                {% if init == "/" %}
+                    {% capture imgurl %}{{site.base}}{{p.image}}{% endcapture %}
+                {% endif %}
+                <img class="icon card-img-top img-responsive" src="{{imgurl}}" alt="{{p.title}}"/>
             {% endif %}
         </div>
         <div class="card-block">
@@ -69,15 +72,23 @@ role_remain:
                 {% if site.data.people[uname] %}
                     {% assign person = site.data.people[uname] %}
                     {% assign name = person.display_name %}
-                    {% if person.image | first == '/' %}
-                        {% capture imgurl %}{{site.base}}{{person.image}}{% endcapture %}
-                    {% elsif person.image %}
-                        {% assign imgurl = person.image %}
-                    {% else %}
-                        {% assign imgurl = false %}
+                    
+                    {% assign imgurl = false %}
+                    {% if person.image %}
+                        {% capture init %}{{ person.image | slice: 0,2 }}{% endcapture %}
+                        {% if init == "//" %}
+                            {% assign imgurl = person.image %}
+                        {% else %}
+                            {% capture imgurl %}{{site.base}}{{person.image}}{% endcapture %}
+                        {% endif %}
                     {% endif %}
+                    
                     <a class="person" href="{{person.webpage}}">
-                        {% if imgurl %}<img class="img-circle" src="{{imgurl}}" alt="{{name}}"/>{% endif %}
+                    {% if imgurl %}
+                    <img class="img-circle" src="{{imgurl}}" alt="{{name}}"/>
+                    {% else %}
+                    {{uname}}
+                    {% endif %}
                     </a>
                 {% else %}
                     <div>{{uname}}</div>
