@@ -47,11 +47,11 @@ role_remain:
 <div class="card-columns">
 {% for p in site.projects %}
 <div class="card {%if p.url%}link{%endif%}">
-
-    {% if init == "//" %}
-        {% assign proj_url = p.url %}
-    {% else %}
+    {% capture init %}{{ p.url | slice: 0,1 }}{% endcapture %}
+    {% if init == "/" %}
         {% capture proj_url %}{{site.base}}{{p.url}}.html{% endcapture %}
+    {% else %}
+        {% assign proj_url = p.url %}
     {% endif %}
     
     <a href="{{proj_url}}">
