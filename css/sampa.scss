@@ -182,15 +182,6 @@ ul.project-people {
     box-shadow: 2px 2px 3px #999;
 }
 
-    
-    }
-    }
-}
-
-    
-    }
-}
-
 /* Customize container */
 @media (min-width: 768px) {
     .container {
@@ -198,7 +189,6 @@ ul.project-people {
     }
   
     .card-columns { @include columns(3); }
-  
 }
 
 @media (max-width: 768px) {
