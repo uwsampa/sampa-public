@@ -8,8 +8,7 @@ people:
   - luisceze
   - oskin
 
-layout: default
-notitle: true
+layout: project
 
 icons:
   paper: '<i class="fa fa-file-text-o"></i>'
@@ -17,7 +16,6 @@ icons:
   keynote: '<i class="fa fa-apple"></i>'
 ---
 
-# Claret 
 <img src="{{site.base}}/img/claret.jpg" class="pull-right" style="width:150px;margin:15px"/>
 
 Bringing ADTs and approximate computing to NoSQL databases.

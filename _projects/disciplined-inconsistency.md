@@ -9,7 +9,7 @@ people:
   - luisceze
   - oskin
 
-layout: default
+layout: project
 ---
 <style>
 .content img { float: right; margin: 1em; width: 150px; }
