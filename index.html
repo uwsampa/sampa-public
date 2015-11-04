@@ -22,29 +22,15 @@ role_remain:
 <h2>News</h2>
 <ul class="news">
 {% for post in site.posts limit: site.front_page_news %}
-    <li>
-        {% assign icon = 'newspaper-o' %}
-        {% if post.icon %}{% assign icon = post.icon %}{% endif %}
-        
-        <div class="icon"><i class="fa fa-{{icon}}"></i></div>
-        <div class="text">
-            <div class="date">{{ post.date | date_to_long_string }}</div>
-            {% if post.shortnews %}
-                {{ post.content | markdownify }}
-            {% else %}
-                <a href="{{ post.url }}">&raquo; {{ post.title }}</a>
-            {% endif %}
-        </div>
-    </li>
+{% include news-item.html item=post %}
 {% endfor %}
+    {% assign numposts = site.posts | size %}
+    <li>
+        <div class="icon"><i class="fa fa-history"></i></div>
+        <div class="text"><a href="{{ site.base }}/{% if numposts >= site.front_page_news %}blog/{%else%}oldnews.html{%endif%}">Older news&hellip;</a></div>
+    </li>
 </ul>
 
-{% assign numposts = site.posts | size %}
-{% if numposts >= site.front_page_news %}
-<p><a href="{{ site.base }}/blog/">Older news&hellip;</a></p>
-{% else %}
-<p><a href="{{ site.base }}/oldnews.html">Older news posts&hellip;</a></p>
-{% endif %}
 
 <h2>Projects</h2>
 

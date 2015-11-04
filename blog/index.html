@@ -2,19 +2,9 @@
 layout: default
 title: News and Blog
 ---
-<ul class="news list-unstyled">
+<ul class="news">
 {% for post in site.posts %}
-    {% if post.shortnews %}
-        <li class="shortnews">
-            <span class="date">{{ post.date | date_to_long_string }}</span>
-            {{ post.content }}
-        </li>
-    {% else %}
-        <li class="bloglink">
-            <span class="date">{{ post.date | date_to_long_string }}</span>
-            <a href="{{ post.url }}">&raquo; {{ post.title }}</a>
-        </li>
-    {% endif %}
+    {% include news-item.html item=post %}
 {% endfor %}
 </ul>
 
