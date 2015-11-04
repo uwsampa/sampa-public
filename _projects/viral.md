@@ -27,7 +27,7 @@ This growth in data has created a landscape where multimedia search engines will
 
 - **NCAM: Near-Data Processing for Nearest Neighbor Search**<br/>
   Carlo C. del Mundo, Vincent T. Lee, Luis Ceze, Mark Oskin<br />
-  [International Symposium on Memory Systems (MEMSYS '15)](memsys.io) (October 2015)<br/>
+  [International Symposium on Memory Systems (MEMSYS '15)](http://memsys.io) (October 2015)<br/>
   [{{page.icons.paper}} Paper](http://dl.acm.org/citation.cfm?id=2818984) | [{{page.icons.slides}} Slides](http://homes.cs.washington.edu/~cdel/presentations/memsys-2015-ncam.pdf) |
 
 - *Full-length version in preparation.*
