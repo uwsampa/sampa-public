@@ -2,7 +2,7 @@
 title: Near-sensor Machine Learning
 image: 
 description: |
-  Moving complex computation closer to sensor nodes for low-power sensing.
+  Moving machine learning computation closer to low-power sensor nodes with hardware accelerators.
 people:
   - amrita
   - moreau
