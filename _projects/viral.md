@@ -1,5 +1,5 @@
 ---
-title: VIRAL: VIdeo and Image Retrieval At Large-Scale
+title: "VIRAL: VIdeo and Image Retrieval At Large-Scale"
 image: 
 description: |
   Hardware & Software Co-Design for Content-based Visual Searching.
