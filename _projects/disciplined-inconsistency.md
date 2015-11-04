@@ -6,6 +6,8 @@ description: |
 people:
   - bholt
   - bornholt
+  - iyzhang
+  - drkp
   - luisceze
   - oskin
 

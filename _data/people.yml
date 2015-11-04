@@ -27,12 +27,21 @@ oskin:
     image: /img/people/oskin.jpg
     bio: "Associate Professor"
 
+drkp:
+    display_name: "Dan Ports"
+    webpage: "http://drkp.net/"
+    role: faculty
+    image: /img/people/drkp.jpg
+    bio: "Research Assistant Professor"
+
 karin:
     display_name: "Karin Strauss"
     webpage: "http://research.microsoft.com/en-us/people/kstrauss/"
     role: faculty
     image: /img/people/karin.jpg
     bio: "Researcher, Microsoft Research<br>Affiliate Associate Professor, UW CSE"
+
+
 
 melody:
     display_name: "Melody Kadenko"
@@ -45,6 +54,8 @@ lmerlin:
     display_name: "Lisa Merlin"
     role: staff
     bio: "Fiscal Specialist"
+
+
     
 armin:
     display_name: "Armin Alaghi"
@@ -61,6 +72,8 @@ nelson:
     webpage: "https://homes.cs.washington.edu/~nelson/"
     role: postdoc
     image: /img/people/nelson.jpg
+
+
 
 bornholt: 
     display_name: "James Bornholt"
@@ -120,6 +133,14 @@ wysem:
     display_name: "Mark Wyse"
     webpage: "https://homes.cs.washington.edu/~wysem/"
     role: grad
+
+iyzhang:
+    display_name: "Irene Zhang"
+    webpage: http://irenezhang.net/
+    role: grad
+    image: //irenezhang.net/img/iyzhang.jpg
+
+
 
 katelin:
     display_name: "Katelin Bailey"

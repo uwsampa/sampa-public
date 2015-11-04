@@ -5,6 +5,8 @@ description: |
   Using Abstract Data Types to expose application-level semantics to datastores.
 people:
   - bholt
+  - iyzhang
+  - drkp
   - luisceze
   - oskin
 
