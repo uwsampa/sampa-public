@@ -32,7 +32,7 @@ karin:
     webpage: "http://research.microsoft.com/en-us/people/kstrauss/"
     role: faculty
     image: /img/people/karin.jpg
-    bio: "Researcher at Microsoft Research and Affiliate Associate Professor at UW CSE"
+    bio: "Researcher, Microsoft Research<br>Affiliate Associate Professor, UW CSE"
 
 melody:
     display_name: "Melody Kadenko"
@@ -136,7 +136,7 @@ asampson:
     webpage: "https://adriansampson.net/"
     github: sampsyo
     role: alum
-    bio: "Ph.D., 2015. Now at MSR/faculty at Cornell."
+    bio: "Ph.D., 2015. Now faculty at Cornell."
 andreolb:
     display_name: "Andre Baixo"
     role: alum
