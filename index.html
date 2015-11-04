@@ -20,24 +20,28 @@ role_remain:
 </div>
 
 <h2>News</h2>
-<ul class="news list-unstyled">
+<ul class="news">
 {% for post in site.posts limit: site.front_page_news %}
-    {% if post.shortnews %}
-        <li class="shortnews">
-            <span class="date">{{ post.date | date_to_long_string }}</span>
-            {{ post.content }}
-        </li>
-    {% else %}
-        <li class="bloglink">
-            <span class="date">{{ post.date | date_to_long_string }}</span>
-            <a href="{{ post.url }}">&raquo; {{ post.title }}</a>
-        </li>
-    {% endif %}
+    <li>
+        {% assign icon = 'newspaper-o' %}
+        {% if post.icon %}{% assign icon = post.icon %}{% endif %}
+        
+        <div class="icon"><i class="fa fa-{{icon}}"></i></div>
+        <div class="text">
+            <div class="date">{{ post.date | date_to_long_string }}</div>
+            {% if post.shortnews %}
+                {{ post.content | markdownify }}
+            {% else %}
+                <a href="{{ post.url }}">&raquo; {{ post.title }}</a>
+            {% endif %}
+        </div>
+    </li>
 {% endfor %}
 </ul>
+
 {% assign numposts = site.posts | size %}
 {% if numposts >= site.front_page_news %}
-<p><a href="{{ site.base }}/blog/">Older posts&hellip;</a></p>
+<p><a href="{{ site.base }}/blog/">Older news&hellip;</a></p>
 {% else %}
 <p><a href="{{ site.base }}/oldnews.html">Older news posts&hellip;</a></p>
 {% endif %}

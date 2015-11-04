@@ -279,21 +279,49 @@ dl.people dd {
 }
 
 /* Front page news. */
-ul.news .date {
-    color: #999;
-    font-weight: bold;
-    display: block;
+
+ul.news {
+    
+    list-style-type: none;
+    padding-left: 0em;
+    
+    .icon {
+        color: #bbb;
+        font-size: 2em;
+        padding: 0rem 1rem;
+        width: 4rem;
+        text-align: center;
+    }
+        
+    display: table;
+    .text, .icon {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    .date {
+        color: $dark-gray;
+        font-weight: bold;
+        display: block;
+        font-size: 0.8em;
+    }
 }
-ul.news > li {
-    margin-top: 1em;
-}
-ul.news .shortnews .date {
-    float: left;
-    margin-right: 1em;
-}
-ul.news .bloglink a {
-    font-size: 1.4em;
-}
+
+//ul.news .date {
+//    color: #999;
+//    font-weight: bold;
+//    display: block;
+//}
+//ul.news > li {
+//    margin-top: 1em;
+//}
+//ul.news .shortnews .date {
+//    float: left;
+//    margin-right: 1em;
+//}
+//ul.news .bloglink a {
+//    font-size: 1.4em;
+//}
 
 .illustration {
     float: right;
