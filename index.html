@@ -59,7 +59,7 @@ role_remain:
         </div>
         <div class="card-block">
             <h3 class="card-title text-center">{{p.title}}</h3>
-            <p class="card-text">{{p.description}}</p>
+            <p class="card-text">{{ p.description | markdownify }}</p>
         </div>
         {% if p.people %}
         <div class="card-footer">

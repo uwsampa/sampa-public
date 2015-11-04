@@ -2,7 +2,7 @@
 title: Disciplined Inconsistency
 image: /img/ipa.png
 description: |
-  Reasoning about weak consistency models is tough. But some applications must use weakly-consistent replication in order to scale or tolerate failures. Disciplined Inconsistency helps programmers express where and how their applications can tolerate error.
+  Helping distributed systems programmers reason about and *safely* trade off consistency for performance.
 people:
   - bholt
   - bornholt
