@@ -101,11 +101,11 @@ role_remain:
                         <svg class="profile"><circle class="noprofile" /></svg>
                     {% endif %}
                     {% if person.webpage %}</a>{% endif %}
-                    <div class="bio">
+                    <div class="person">
                     {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
                     <h4>{{person.display_name}}</h4>
                     {% if person.webpage %}</a>{% endif %}
-                    {% if person.bio %}<p>{{person.bio}}</p>{% endif %}
+                    {% if person.bio %}<p class="bio">{{person.bio}}</p>{% endif %}
                     </div>
                 </li>
                 {% endif %}
@@ -132,7 +132,7 @@ role_remain:
                     {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
                     {{person.display_name}}
                     {% if person.webpage %}</a>{% endif %}
-                    {% if person.bio %} — {{person.bio}}{% endif %}
+                    {% if person.bio %} <span class="bio bio-inline">{{person.bio}}</span>{% endif %}
                 </li>
                 {% endif %}
             {% endfor %}
