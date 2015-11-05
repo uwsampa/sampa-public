@@ -1,7 +1,7 @@
 #######################################################
 # Base image with my common software and configuration
 #######################################################
-FROM ubuntu:14.10
+FROM ubuntu:15.10
 MAINTAINER Brandon Holt <holt.bg@gmail.com>
 
 VOLUME /repo
