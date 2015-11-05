@@ -1,0 +1,4 @@
+deploy: |
+  git submodule init && git submodule update && \
+  docker run -ti --rm -v `pwd`:/repo uwsampa/sampa-public-hooknook && \
+  make rsync
