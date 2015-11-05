@@ -19,4 +19,4 @@ RUN gem install jekyll
 RUN gem install github-pages
 RUN pip install pybtex
 
-CMD ["make"]
+CMD ["make","clean","all"]
