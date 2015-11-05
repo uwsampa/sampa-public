@@ -17,6 +17,6 @@ RUN apt-get update && \
 
 RUN gem install jekyll
 RUN gem install github-pages
-RUN pip install pybtex
+RUN pip install pybtex jinja2
 
-CMD ["make","clean","all"]
+CMD ["make", "clean", "all"]
