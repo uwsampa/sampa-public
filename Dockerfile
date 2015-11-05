@@ -9,7 +9,7 @@ WORKDIR /repo
 
 RUN apt-get update && \
     apt-get install -y \
-      ruby-dev \
+      ruby ruby-dev \
       python \
       python-pip \
       make \
