@@ -1,7 +1,7 @@
 name: Sampa
 url: http://sampa.cs.washington.edu
 
-exclude: [bibble, README.md, Makefile]
+exclude: [bibble, README.md, Makefile, Dockerfile]
 
 # use this library to parse Markdown
 markdown: redcarpet
