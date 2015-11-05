@@ -1,8 +1,6 @@
 Sampa group website
 ===================
 
-...
-
 This site uses [Jekyll][] and [bibble][] to generate a static Sampa website
 complete with publications, personnel, and news.
 
