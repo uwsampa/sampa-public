@@ -1,6 +1,6 @@
 ---
 title: Disciplined Inconsistency
-image: /img/ipa.png
+image: /img/ipa-icon.jpg
 description: |
   Helping distributed systems programmers reason about and *safely* trade off consistency for performance.
 people:
@@ -23,7 +23,7 @@ layout: project
 }
 </style>
 
-![IPA]({{site.base}}/img/ipa.png)
+![IPA]({{site.base}}/img/ipa.jpg)
 
 In order to meet tight latency requirements at scale, applications must often sacrifice strong consistency. Going all the way to eventual consistency, one of the weakest consistency models, opens up much more concurrency by allowing clients to access whichever copy of the data is most convenient. However, reasoning about the behavior of such programs is notoriously difficult — many conventional assumptions that come from how non-distributed shared-memory programs work may no longer hold, including causality!
 

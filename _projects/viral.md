@@ -1,6 +1,6 @@
 ---
 title: "VIRAL"
-image: /img/viral_logo.png
+image: /img/viral-icon.png
 description: |
  Enabling large-scale content-based searching by co-designing hardware with visual search algorithms.
 people:
