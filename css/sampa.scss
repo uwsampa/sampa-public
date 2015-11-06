@@ -75,7 +75,12 @@ a {
 }
 
 .card {
-        
+    
+    p {
+        line-height: 1.4em;
+        margin-bottom: 0rem;
+    }
+    
     a {
         color: black;
     }
@@ -84,18 +89,28 @@ a {
         text-decoration: none;
     }
     
+    .title {
+        display: table;
+        .card-title {
+            display: table-cell;
+            vertical-align: middle;
+            margin: 0em .5rem;
+        }
+    }
+    
     .card-title {
         // undo extra margin set above for normal headings elsewhere
-        margin-top: 0em;
+        h3 { margin-top: 0em; }
+        padding-bottom: .5rem;
     }
     
     .card-block {
-        padding: 1rem;        
+        padding: 1rem;
     }
-
+    
     img.icon {
-        margin-top: 0.5em;
-        max-height: 10em;
+        max-height: 2em;
+        margin: 0em 0.5rem;
     }
 }
 
@@ -169,8 +184,8 @@ ul.project-people {
             vertical-align: top;
             display: inline-block;
             
-            width: 2.5rem;
-            height: 2.5rem;
+            width: 2.2rem;
+            height: 2.2rem;
     
             img {
                 width: inherit;

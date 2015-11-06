@@ -2,7 +2,7 @@
 title: Claret
 image: /img/claret.jpg
 description: |
-  Using Abstract Data Types to expose application-level semantics to datastores.
+  Using Abstract Data Types to expose application-level semantics in datastores.
 people:
   - bholt
   - iyzhang

@@ -45,21 +45,23 @@ role_remain:
     {% endif %}
     
     <a href="{{proj_url}}">
-        <div class="text-center">
-            {% assign imgurl = false %}
-            
-            {% if p.image %}
-                {% assign imgurl = p.image %}
-                {% capture init %}{{ p.image | slice: 0,1 }}{% endcapture %}
-                {% if init == "/" %}
-                    {% capture imgurl %}{{site.base}}{{p.image}}{% endcapture %}
-                {% endif %}
-                <img class="icon card-img-top img-responsive" src="{{imgurl}}" alt="{{p.title}}"/>
-            {% endif %}
-        </div>
         <div class="card-block">
-            <h3 class="card-title text-center">{{p.title}}</h3>
-            <p class="card-text">{{ p.description | markdownify }}</p>
+            <div class="title">
+                {% if p.image %}
+                    {% assign imgurl = p.image %}
+                    {% capture init %}{{ p.image | slice: 0,1 }}{% endcapture %}
+                    {% if init == "/" %}
+                        {% capture imgurl %}{{site.base}}{{p.image}}{% endcapture %}
+                    {% endif %}
+                    <h3 class="card-title">
+                        <img class="icon img-responsive" src="{{imgurl}}" alt="{{p.title}}"/>
+                    </h3>
+                {% endif %}                
+                <h3 class="card-title">{{p.title}}</h3>
+            </div>
+            <div class="card-text">
+                {{ p.description | markdownify }}
+            </div>
         </div>
         {% if p.people %}
         <div class="card-footer">
