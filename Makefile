@@ -10,6 +10,7 @@ _site/index.html _site/wacas14/index.html:
 	jekyll build $(BUILDARGS)
 
 _includes/pubs.html: bib/sampa-pubs.bib bib/publications.tmpl
+	git submodule init; git submodule update
 	mkdir -p _includes
 	$(PYTHON) bibble/bibble.py $+ > $@
 
