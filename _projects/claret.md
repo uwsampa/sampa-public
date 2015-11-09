@@ -11,11 +11,6 @@ people:
   - oskin
 
 layout: project
-
-icons:
-  paper: '<i class="fa fa-file-text-o"></i>'
-  slides: '<i class="fa fa-file-pdf-o"></i>'
-  keynote: '<i class="fa fa-apple"></i>'
 ---
 
 <img src="{{site.base}}/img/claret.png" class="pull-right" style="width:150px;margin:15px"/>
@@ -44,9 +39,13 @@ In our paper, which is currently under submission, we explain the optimizations 
 
 ## Publications
 
+{% capture paper %}<i class="fa fa-file-text-o"></i>{%endcapture%}
+{% capture slides %}<i class="fa fa-file-pdf-o"></i>{%endcapture%}
+{% capture keynote %}<i class="fa fa-apple"></i>{%endcapture%}
+
 - **Claret: Using Data Types for Highly Concurrent Distributed Transactions**<br/>
   Brandon Holt, Irene Zhang, Dan Ports, Mark Oskin, Luis Ceze<br/>
   [Workshop on Principles and Practice of Consistency (PaPoC'15)](http://papoc.di.uminho.pt) (Apr 2015)<br/>
-  [{{page.icons.paper}} Paper](http://dl.acm.org/authorize?N96590) | [{{page.icons.slides}} Slides](//homes.cs.washington.edu/~bholt/pubs/claret-papoc-slides.pdf) | [{{page.icons.keynote}} Keynote](//homes.cs.washington.edu/~bholt/files/claret-papoc.key)
+  [{{paper}} Paper](http://dl.acm.org/authorize?N96590) | [{{slides}} Slides](//homes.cs.washington.edu/~bholt/pubs/claret-papoc-slides.pdf) | [{{keynote}} Keynote](//homes.cs.washington.edu/~bholt/files/claret-papoc.key)
 
 - *Full-length version is in submission.*
