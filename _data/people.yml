@@ -41,6 +41,11 @@ karin:
     image: /img/people/karin.jpg
     bio: "Researcher, Microsoft Research<br>Affiliate Associate Professor, UW CSE"
 
+billhowe:
+    display_name: "Bill Howe"
+    webpage: "http://homes.cs.washington.edu/~billhowe/"
+    image: /img/people/billhowe.png
+    bio: "Affiliate Faculty and Associate Director of eScience Institute"
 
 
 melody:
