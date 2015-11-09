@@ -13,7 +13,7 @@ people:
 layout: project
 ---
 
-<img src="{{site.base}}/img/claret.png" class="pull-right" style="width:150px;margin:15px"/>
+<img src="{{site.base}}/img/claret.jpg" class="pull-right" style="width:150px;margin:15px"/>
 
 Interactive distributed applications like Twitter or eBay are difficult to scale because of the high degree of writes or update operations. The highly skewed access patterns exhibited by real-world systems lead to high contention in datastores, causing periods of diminished service or even catastrophic failure. There is often sufficient concurrency in these applications to scale them without resorting to weaker consistency models, but traditional concurrency control mechanisms operating on low level operations cannot detect it.
 
