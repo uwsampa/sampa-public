@@ -1,0 +1,16 @@
+---
+layout: base
+---
+
+{% if page.notitle != true %}
+  <h1>{{ page.title }}</h1>
+  {% if page.people %}
+  <div>
+  {% include project-people.html people=page.people %}
+  </div>
+  {% endif %}
+{% endif %}
+
+<div class="content">
+    {{ content }}
+</div>

@@ -3,100 +3,149 @@ luisceze:
     webpage: "https://homes.cs.washington.edu/~luisceze/"
     github: luisceze
     role: faculty
-    bio: |
-        Luis is an Associate Professor at UW-CSE. When he is not in his office
-        (CSE576) or The Lab (CSE615), he is probably in the kitchen or some
-        restaurant around Seattle. Ask him about the movie Mamma Mia.
-djg:
-    display_name: "Dan Grossman"
-    webpage: "https://homes.cs.washington.edu/~djg/"
-    role: faculty
-    bio: |
-        Dan is a Professor at UW-CSE. His research background is
-        programming language design and implementation, particularly for
-        improving software quality. To get Dan excited about a non-computer-science
-        topic, try his two little kids, ice hockey (playing or watching), non-fiction books, live
-        theatre, or puns.
-oskin:
-    display_name: "Mark Oskin"
-    webpage: "https://homes.cs.washington.edu/~oskin/"
-    role: faculty
-    bio: |
-        Mark is an Associate Professor at UW-CSE.
-karin:
-    display_name: "Karin Strauss"
-    webpage: "http://research.microsoft.com/en-us/people/kstrauss/"
-    role: faculty
-    bio: |
-        Karin is a Researcher at Microsoft Research in Redmond, WA. She is
-        also an Affiliate Associate Professor at UW-CSE.
+    image: /img/people/ceze.jpg
+    bio: "Associate Professor"
+
 eggers:
     display_name: "Susan Eggers"
     webpage: "http://homes.cs.washington.edu/~eggers/"
     role: faculty
-    bio: |
-        Susan is an Emeritus Professor at UW-CSE.
+    image: /img/people/eggers.jpg
+    bio: "Emeritus Professor"
+
+djg:
+    display_name: "Dan Grossman"
+    webpage: "https://homes.cs.washington.edu/~djg/"
+    role: faculty
+    image: /img/people/djg.jpg
+    bio: "Professor"
+
+oskin:
+    display_name: "Mark Oskin"
+    webpage: "https://homes.cs.washington.edu/~oskin/"
+    role: faculty
+    image: /img/people/oskin.jpg
+    bio: "Associate Professor"
+
+drkp:
+    display_name: "Dan Ports"
+    webpage: "http://drkp.net/"
+    role: faculty
+    image: /img/people/drkp.jpg
+    bio: "Research Assistant Professor"
+
+karin:
+    display_name: "Karin Strauss"
+    webpage: "http://research.microsoft.com/en-us/people/kstrauss/"
+    role: faculty
+    image: /img/people/karin.jpg
+    bio: "Researcher, Microsoft Research<br>Affiliate Associate Professor, UW CSE"
+
+billhowe:
+    display_name: "Bill Howe"
+    webpage: "http://homes.cs.washington.edu/~billhowe/"
+    image: //homes.cs.washington.edu/~billhowe/images/billhowe.png
+    bio: "Affiliate Faculty and Associate Director of eScience Institute"
+
 
 melody:
     display_name: "Melody Kadenko"
     webpage: "http://www.cs.washington.edu/homes/melody/"
     role: staff
-    bio: |
-        Melody is our Program Director. She actually makes magic stuff happen.
-        And beware of the Spoon of Death.
+    image: //homes.cs.washington.edu/~melody/index_files/image002.gif
+    bio: "Program Director"
+
+lmerlin:
+    display_name: "Lisa Merlin"
+    role: staff
+    bio: "Fiscal Specialist"
+
+
+    
+armin:
+    display_name: "Armin Alaghi"
+    role: postdoc
+    webpage: "http://homes.cs.washington.edu/~armin/"
+    image: /img/people/armin.jpg
+
+jevdjic:
+    display_name: "Djordje Jevdjic"
+    role: postdoc
 
 nelson:
     display_name: "Jacob Nelson"
     webpage: "https://homes.cs.washington.edu/~nelson/"
     role: postdoc
-armin:
-    display_name: "Armin Alaghi"
-    role: postdoc
-jevdjic:
-    display_name: "Djordje Jevdjic"
-    role: postdoc
+    image: /img/people/nelson.jpg
+
+
 
 bornholt: 
     display_name: "James Bornholt"
     webpage: "https://homes.cs.washington.edu/~bornholt/"
     role: grad
+    image: "//homes.cs.washington.edu/~bornholt/img/me_square_bw.jpg"
+
 cdel:
     display_name: "Carlo Del Mundo"
     webpage: "http://homes.cs.washington.edu/~cdel/"
     role: grad
+    image: /img/people/cdel.jpg
+
 eafurst:
     display_name: "Emily Furst"
     role: grad
+
 bholt:
     display_name: "Brandon Holt"
     webpage: "https://homes.cs.washington.edu/~bholt/"
     role: grad
+    image: /img/people/bholt.jpg
+
 vlee2:
     display_name: Vincent Lee
     webpage: "http://homes.cs.washington.edu/~vlee2/"
     role: grad
+    image: /img/people/lee.jpg
+    
 mgliu:
     display_name: Ming Liu
     role: grad
+
 liangluo:
     display_name: Liang Luo
     role: grad
+
 amrita: 
     display_name: Amrita Mazumdar
     webpage: "https://homes.cs.washington.edu/~amrita"
     role: grad
+    image: "//homes.cs.washington.edu/~amrita/media/face.jpeg"
+
 moreau:
     display_name: "Thierry Moreau"
     webpage: "http://homes.cs.washington.edu/~moreau/"
     role: grad
+    image: /img/people/moreau.jpg
+    
 bdmyers:
     display_name: "Brandon Myers"
     webpage: "https://homes.cs.washington.edu/~bdmyers/"
     role: grad
+    image: /img/people/myers.jpg
+    
 wysem:
     display_name: "Mark Wyse"
     webpage: "https://homes.cs.washington.edu/~wysem/"
     role: grad
+
+iyzhang:
+    display_name: "Irene Zhang"
+    webpage: http://irenezhang.net/
+    role: grad
+    image: //irenezhang.net/img/iyzhang.jpg
+
+
 
 katelin:
     display_name: "Katelin Bailey"
@@ -110,10 +159,10 @@ bboston:
     bio: "B.S., 2015. Now a PhD student at MIT."
 asampson:
     display_name: "Adrian Sampson"
-    webpage: "https://adriansampson.net/"
+    webpage: "http://adriansampson.net/"
     github: sampsyo
     role: alum
-    bio: "Ph.D., 2015. Now at MSR/faculty at Cornell."
+    bio: "Ph.D., 2015. Now faculty at Cornell."
 andreolb:
     display_name: "Andre Baixo"
     role: alum
@@ -212,11 +261,18 @@ skahan:
 preston:
     display_name: Preston Briggs
     role: collab
+visvesh:
+    display_name: Visvesh Sathe
+    role: collab
+    webpage: http://www.ee.washington.edu/people/faculty/sathe/
+    bio: "Assistant Professor, UW EE Department"
 mckinley:
     display_name: Kathryn McKinley
     role: collab
     webpage: http://research.microsoft.com/en-us/people/mckinley/
+    bio: "Microsoft Research"
 toddm:
     display_name: Todd Mytkowicz
     role: collab
     webpage: http://research.microsoft.com/en-us/people/toddm/
+    bio: "Microsoft Research"

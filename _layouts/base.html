@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ site.name }}: {{ page.title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="{{site.base}}/css/bootstrap.min.css" rel="stylesheet">
+        <link href="{{site.base}}/css/sampa.css" rel="stylesheet">
+        <link rel="alternate" type="application/atom+xml" title="Atom"
+            href="{{ site.base }}/blog/blog.xml">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" href="http://www.cs.washington.edu/sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon">
+    </head>
+    <body>      
+        <div class="container">
+          <div class="header">
+            <a href="{{ site.base }}/">
+                <img src="{{ site.base }}/img/sampa.png"
+                    srcset="{{ site.base }}/img/sampa@2x.png 2x"
+                    alt="Sampa" id="logo">
+            </a>
+            <ul class="nav nav-pills pull-right">
+                  {% assign shorturl = page.url | replace:'index.html','' %}
+                  {% for item in site.navigation %}
+                    <li class="nav-item">
+                      <a class="nav-link {% if item.link == shorturl %}active{% endif %}" href="{{ site.base }}{{ item.link }}">
+                        {{ item.title }}
+                      </a>
+                    </li>
+                  {% endfor %}
+            </ul>
+          </div>
+
+          {{ content }}
+
+          <div class="footer">
+            <p>
+                <a href="http://sampa.cs.washington.edu/private">private site</a>
+            </p>
+            <p>
+              <a href="http://www.cs.washington.edu/">Computer Science &amp;
+                Engineering</a>
+              at the
+              <a href="http://www.washington.edu/">University of
+                Washington</a>
+            </p>
+          </div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+            src="{{ site.base }}/js/srcset-polyfill.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="{{site.base}}/js/bootstrap.min.js"></script>
+        
+    </body>
+</html>

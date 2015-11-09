@@ -1,0 +1,18 @@
+<li>
+    {% assign item = include.item %}
+    {% if item.icon %}
+        {% assign icon = item.icon %}
+    {% else %}
+        {% assign icon = 'newspaper-o' %}
+    {% endif %}
+    
+    <div class="icon"><i class="fa fa-{{icon}}"></i></div>
+    <div class="text">
+        <div class="date">{{ item.date | date_to_long_string }}</div>
+        {% if item.shortnews %}
+            {{ item.content | markdownify }}
+        {% else %}
+            <a href="{{ item.url }}">&raquo; {{ item.title }}</a>
+        {% endif %}
+    </div>
+</li>
