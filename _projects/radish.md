@@ -1,7 +1,6 @@
 ---
 title: Radish
-description: Integrating relational query processing into high-performance parallel languages (e.g., Grappa and other PGAS) 
-url: https://github.com/uwescience/raco#c-and-grappa-output-radish
+description: Integrating relational query processing into high-performance parallel languages (e.g., Grappa and other PGAS)
 image: /img/radish.png
 people:
   - bdmyers
