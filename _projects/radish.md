@@ -1,5 +1,6 @@
 ---
 title: Radish
+image: /img/radish.png
 description: Integrating relational query processing into high-performance parallel languages (e.g., Grappa and other PGAS)
 people:
   - bdmyers
