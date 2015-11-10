@@ -138,6 +138,11 @@ wysem:
     display_name: "Mark Wyse"
     webpage: "https://homes.cs.washington.edu/~wysem/"
     role: grad
+    
+eqy:
+    display_name: "Eddie Yan"
+    webpage: "http://ketsol.ddns.net/"
+    role: grad
 
 iyzhang:
     display_name: "Irene Zhang"
