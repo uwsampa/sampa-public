@@ -61,6 +61,7 @@ lmerlin:
     bio: "Fiscal Specialist"
 
 
+# Postdocs
     
 armin:
     display_name: "Armin Alaghi"
@@ -79,6 +80,7 @@ nelson:
     image: /img/people/nelson.jpg
 
 
+# Grads
 
 bornholt: 
     display_name: "James Bornholt"
@@ -151,6 +153,7 @@ iyzhang:
     image: //irenezhang.net/img/iyzhang.jpg
 
 
+# Alums
 
 katelin:
     display_name: "Katelin Bailey"
@@ -235,6 +238,9 @@ kristian:
     role: alum
     bio: "B.S. Now at Clean Power Research."
 
+
+# Undergrads
+
 djnoboom:
     display_name: Daniel Noteboom
     role: ugrad
@@ -259,6 +265,15 @@ yorkw:
 zbsimon:
     display_name: Zach Simon
     role: ugrad
+
+codyohl:
+    display_name: Cody Ohlsen
+    role: ugrad
+    image: /img/people/codyohl.jpg
+    webpage: http://www.linkedin.com/in/codyohlsen
+
+
+# Collaborators
 
 skahan:
     display_name: Simon Kahan
