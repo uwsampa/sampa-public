@@ -265,7 +265,6 @@ yorkw:
 zbsimon:
     display_name: Zach Simon
     role: ugrad
-
 codyohl:
     display_name: Cody Ohlsen
     role: ugrad
@@ -275,17 +274,12 @@ codyohl:
 
 # Collaborators
 
-skahan:
-    display_name: Simon Kahan
-    role: collab
 preston:
     display_name: Preston Briggs
     role: collab
-visvesh:
-    display_name: Visvesh Sathe
+skahan:
+    display_name: Simon Kahan
     role: collab
-    webpage: http://www.ee.washington.edu/people/faculty/sathe/
-    bio: "Assistant Professor, UW EE Department"
 mckinley:
     display_name: Kathryn McKinley
     role: collab
@@ -296,3 +290,9 @@ toddm:
     role: collab
     webpage: http://research.microsoft.com/en-us/people/toddm/
     bio: "Microsoft Research"
+visvesh:
+    display_name: Visvesh Sathe
+    role: collab
+    webpage: http://www.ee.washington.edu/people/faculty/sathe/
+    bio: "Assistant Professor, UW EE Department"
+
