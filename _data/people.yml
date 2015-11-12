@@ -241,45 +241,47 @@ kristian:
 
 # Undergrads
 
-djnoboom:
-    display_name: Daniel Noteboom
-    role: ugrad
-tliu24:
-    display_name: Tianchi Liu
+austina2:
+    display_name: Austin Arechiga
     role: ugrad
 wenjih:
     display_name: Wenjie (Marissa) He
     role: ugrad
-joshuay:
-    display_name: Joshua Yip
+umaymah:
+    display_name: Umaymah Khan
     role: ugrad
-shichengfeng:
-    display_name: Chengfeng Shi
+tliu24:
+    display_name: Tianchi Liu
     role: ugrad
 luluyi:
     display_name: Luyi Lu
     role: ugrad
-yorkw:
-    display_name: York Wei
-    role: ugrad
-zbsimon:
-    display_name: Zach Simon
+djnoboom:
+    display_name: Daniel Noteboom
     role: ugrad
 codyohl:
     display_name: Cody Ohlsen
     role: ugrad
     image: /img/people/codyohl.jpg
     webpage: http://www.linkedin.com/in/codyohlsen
+pshfls:
+    display_name: Sui Pang (Beck)
+    role: ugrad
+    webpage: http://www.linkedin.com/in/beckpang
+shichengfeng:
+    display_name: Chengfeng Shi
+    role: ugrad
+zbsimon:
+    display_name: Zach Simon
+    role: ugrad
 chenfs:
     display_name: Chenfan (Frank) Sun
     role: ugrad
-
-austina2:
-    display_name: Austin Arechiga
+yorkw:
+    display_name: York Wei
     role: ugrad
-
-umaymah:
-    display_name: Umaymah Khan
+joshuay:
+    display_name: Joshua Yip
     role: ugrad
 
 # Collaborators
