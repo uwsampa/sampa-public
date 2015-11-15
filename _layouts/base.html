@@ -20,10 +20,11 @@
                     alt="Sampa" id="logo">
             </a>
             <ul class="nav nav-pills pull-right">
-                  {% assign shorturl = page.url | replace:'index.html','' %}
+                  {% assign shorturl = page.url | replace:'.html','' | replace:'index','' %}
                   {% for item in site.navigation %}
+                    {% assign myshorturl = item.link | replace:'.html','' %}
                     <li class="nav-item">
-                      <a class="nav-link {% if item.link == shorturl %}active{% endif %}" href="{{ site.base }}{{ item.link }}">
+                      <a class="nav-link {% if myshorturl == shorturl %}active{% endif %}" href="{{ site.base }}{{ item.link }}">
                         {{ item.title }}
                       </a>
                     </li>
