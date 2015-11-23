@@ -203,14 +203,17 @@ miker:
     bio: "Ph.D., 2014. Now at Cray."
 lucia:
     display_name: "Brandon Lucia"
+    webpage: "http://brandonlucia.com/"
     role: alum
     bio: "Ph.D., 2013. Now faculty at CMU."
 hadi:
     display_name: "Hadi Esmaeilzadeh"
+    webpage: "http://www.cc.gatech.edu/~hadi/"
     role: alum
     bio: "Ph.D., 2013. Now faculty at Georgia Tech."
 devietti:
     display_name: Joe Devietti
+    webpage: "https://www.cis.upenn.edu/~devietti/"
     role: alum
     bio: "Ph.D., 2012. Now faculty at UPenn."
 fortuna:
