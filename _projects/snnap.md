@@ -9,7 +9,6 @@ people:
   - wysem
   - nelson
   - asampson
-  - hadi
   - luisceze
   - oskin
 ---
