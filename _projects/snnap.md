@@ -6,6 +6,7 @@ image: /img/snnap-logo.png
 url: http://sampa.cs.washington.edu/new/research/approximation/snnap.html
 people:
   - moreau
+  - wysem
   - nelson
   - asampson
   - hadi
