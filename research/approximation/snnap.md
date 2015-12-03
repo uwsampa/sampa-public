@@ -21,7 +21,7 @@ This is a joint project at University of Washington and Georgia Tech.
 ### Collaborators
 
 [Thierry Moreau](http://www.cs.washington.edu/homes/moreau/),
-[Mark Wyse](http://homes.cs.washington.edu/homes/~wysem/),
+[Mark Wyse](http://www.cs.washington.edu/homes/wysem/),
 [Jacob Nelson](http://www.cs.washington.edu/homes/nelson/),
 [Adrian Sampson](http://www.cs.washington.edu/homes/asampson/),
 [Hadi Esmaeilzadeh](http://www.cc.gatech.edu/~hadi/),
