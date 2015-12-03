@@ -7,6 +7,8 @@ url: http://sampa.cs.washington.edu/new/research/approximation/snnap.html
 people:
   - moreau
   - nelson
+  - asampson
+  - hadi
   - luisceze
   - oskin
 ---
