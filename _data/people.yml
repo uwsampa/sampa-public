@@ -168,6 +168,7 @@ bboston:
 asampson:
     display_name: "Adrian Sampson"
     webpage: "http://adriansampson.net/"
+    image: /img/people/adrian.png
     github: sampsyo
     role: alum
     bio: "Ph.D., 2015. Now faculty at Cornell."
@@ -209,6 +210,7 @@ lucia:
 hadi:
     display_name: "Hadi Esmaeilzadeh"
     webpage: "http://www.cc.gatech.edu/~hadi/"
+    image: /img/people/hadi.jpeg
     role: alum
     bio: "Ph.D., 2013. Now faculty at Georgia Tech."
 devietti:
