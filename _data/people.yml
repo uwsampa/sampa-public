@@ -140,6 +140,7 @@ wysem:
     display_name: "Mark Wyse"
     webpage: "https://homes.cs.washington.edu/~wysem/"
     role: grad
+    image: /img/people/wysem.jpg
     
 eqy:
     display_name: "Eddie Yan"
