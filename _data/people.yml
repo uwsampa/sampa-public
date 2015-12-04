@@ -104,12 +104,18 @@ bholt:
     role: grad
     image: /img/people/bholt.jpg
 
+sungkim:
+    display_name: "Sung Min Kim"
+    webpage: http://sungkim.net/
+    role: grad
+    image: /img/people/sung.png
+
 vlee2:
     display_name: Vincent Lee
     webpage: "http://homes.cs.washington.edu/~vlee2/"
     role: grad
     image: /img/people/lee.jpg
-    
+
 mgliu:
     display_name: Ming Liu
     role: grad
@@ -129,19 +135,19 @@ moreau:
     webpage: "http://homes.cs.washington.edu/~moreau/"
     role: grad
     image: /img/people/moreau.jpg
-    
+
 bdmyers:
     display_name: "Brandon Myers"
     webpage: "https://homes.cs.washington.edu/~bdmyers/"
     role: grad
     image: /img/people/myers.jpg
-    
+
 wysem:
     display_name: "Mark Wyse"
     webpage: "https://homes.cs.washington.edu/~wysem/"
     role: grad
     image: /img/people/wysem.jpg
-    
+
 eqy:
     display_name: "Eddie Yan"
     webpage: "http://ketsol.ddns.net/"
@@ -153,11 +159,6 @@ iyzhang:
     role: grad
     image: /img/people/iyzhang.jpg
 
-sungkim:
-    display_name: "Sung Min Kim"
-    webpage: http://sungkim.net/
-    role: grad
-    image: /img/people/sung.png
 
 
 # Alums
