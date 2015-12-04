@@ -290,16 +290,16 @@ zbsimon:
 chenfs:
     display_name: Chenfan (Frank) Sun
     role: ugrad
+mandary:
+    display_name: Yufang Sun
+    role: ugrad
 yorkw:
     display_name: York Wei
     role: ugrad
 joshuay:
     display_name: Joshua Yip
     role: ugrad
-mandary:
-    display_name: Yufang Sun
-    role: ugrad
-    
+
 
 # Collaborators
 
