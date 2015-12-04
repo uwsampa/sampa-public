@@ -27,7 +27,7 @@ output actually leads to energy waste. Our research aims to develop a comprehens
 stack, including: language and runtime techniques to
 express and enforce quality metrics where inaccuracy can be tolerated ([EnerJ](approximation/enerj.html));
 programming tools including approximation recommenders and program synthesis frameworks ([Synapse](http://homes.cs.washington.edu/~bornholt/papers/synapse-popl16.pdf));
-([quality monitoring and debugging](http://sampa.cs.washington.edu/papers/asplos15-approxdebug.pdf) techniques;
+[quality monitoring and debugging](http://sampa.cs.washington.edu/papers/asplos15-approxdebug.pdf) techniques;
 compilers to identify approximation opportunities ([ACCEPT](http://accept.rocks));
 architectural support for approximate micro-architectures ([Truffle](http://dl.acm.org/citation.cfm?id=2151008&CFID=565598892&CFTOKEN=44723956));
 hardware support for approximate acceleration ([NPU][], [SNNAP][]);
