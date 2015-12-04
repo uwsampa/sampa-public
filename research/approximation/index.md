@@ -3,9 +3,6 @@ layout: default
 title: Approximate Computing
 ---
 
-<img src="{{ site.base }}/img/noisy.png" class="illustration"
-  style="width: 300px; height: 208px;">
-
 Improving energy efficiency is paramount in mobile devices and online service
 infrastructures. More importantly, as we approach the limits of silicon
 device scaling, improving energy efficiency is critical for increasing the capabilities of future computer systems.
