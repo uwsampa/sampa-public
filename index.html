@@ -131,9 +131,7 @@ role_remain:
                 {% assign person = item[1] %}
                 {% if person.role == role.key %}
                 <li>
-                    {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
-                    {{person.display_name}}
-                    {% if person.webpage %}</a>{% endif %}
+                    {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}{{person.display_name}}{% if person.webpage %}</a>{% endif %}
                     {% if person.bio %} <span class="bio bio-inline">{{person.bio}}</span>{% endif %}
                 </li>
                 {% endif %}
