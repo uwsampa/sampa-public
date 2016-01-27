@@ -159,7 +159,11 @@ iyzhang:
     role: grad
     image: /img/people/iyzhang.jpg
 
-
+billzorn:
+    display_name: "Bill Zorn"
+    webpage: "http://homes.cs.washington.edu/~billzorn/"
+    role: grad
+    image: /img/people/billzorn.jpg
 
 # Alums
 
