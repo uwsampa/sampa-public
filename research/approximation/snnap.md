@@ -36,8 +36,8 @@ Thierry Moreau, Mark Wyse, Jacob Nelson, Adrian Sampson, Hadi Esmaeilzadeh, Luis
 
 ### Source release
 
-The SNNAP hardware design and the compiler framework to support neural acceleration will be open-sourced in the near future.
-If you wish to receive updates, please submit your email address below (or using [this form](https://docs.google.com/forms/d/1PCy3a6rK03DA3xL5hkXf28crINxFQW95shkbyyirLn8/viewform?usp=send_form)). Feel free to email [Thierry Moreau](http://www.cs.washington.edu/homes/moreau/) directly.
+The SNNAP hardware design and the compiler framework to support neural acceleration is accessible now upon request. Please email [Thierry Moreau](http://www.cs.washington.edu/homes/moreau/) directly to obtain access to the source.
+If you wish to receive updates, please submit your email address below (or using [this form](https://docs.google.com/forms/d/1PCy3a6rK03DA3xL5hkXf28crINxFQW95shkbyyirLn8/viewform?usp=send_form)). 
 
 <form action="https://docs.google.com/forms/d/1PCy3a6rK03DA3xL5hkXf28crINxFQW95shkbyyirLn8/formResponse" method="POST" class="form-inline" style="margin-bottom: 1em; text-align: center;">
   <div class="form-group">
