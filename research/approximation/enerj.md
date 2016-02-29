@@ -74,10 +74,11 @@ simulation infrastructure (above).
 
 ### Data Analysis Scripts
 
-A [set of Python
-scripts](http://sampa.cs.washington.edu/public/uploads/3/31/Enerj-analysis.tar.gz)
-are available to analyze the JSON statistics output of the EnerJ
+The `enerj-apps` repository also includes Python scripts that
+analyze the JSON statistics output of the EnerJ
 simulator. The scripts will probably work with Python 2.6 or later.
-`readstats.py` just summarizes the output statistics found in a JSON
-file. `collect.py` is a monolithic script that compiles and executes
+Most importantly, [`collect.py`][cpy]
+is a monolithic script that compiles and executes
 benchmarks, evaluates error levels, and summarizes execution statistics.
+
+[cpy]: https://bitbucket.org/adrian/enerj-apps/src/default/collect.py
