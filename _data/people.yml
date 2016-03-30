@@ -93,6 +93,12 @@ cdel:
     webpage: "http://homes.cs.washington.edu/~cdel/"
     role: grad
     image: /img/people/cdel.jpg
+    
+ashe2:
+    display_name: "Sam Elliott"
+    webpage: "http://lenary.co.uk/"
+    role: grad
+    image: "http://lenary.co.uk/sam-elliott-2014-thumb.jpg"
 
 eafurst:
     display_name: "Emily Furst"
@@ -164,12 +170,7 @@ billzorn:
     webpage: "http://homes.cs.washington.edu/~billzorn/"
     role: grad
     image: /img/people/billzorn.jpg
-    
-ashe2:
-    display_name: "Sam Elliott"
-    webpage: "http://lenary.co.uk/"
-    role: grad
-    image: "http://lenary.co.uk/sam-elliott-2014-thumb.jpg"
+
 
 # Alums
 
