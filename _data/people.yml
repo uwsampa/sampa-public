@@ -274,6 +274,10 @@ wenjih:
 umaymah:
     display_name: Umaymah Khan
     role: ugrad
+jkotalik:
+    display_name: Justin Kotalik
+    role: ugrad
+    webpage: https://www.linkedin.com/in/justin-kotalik-0489b597
 tliu24:
     display_name: Tianchi Liu
     role: ugrad
@@ -295,6 +299,7 @@ pshfls:
 shichengfeng:
     display_name: Chengfeng Shi
     role: ugrad
+    webpage: https://www.linkedin.com/in/chenfansun
 zbsimon:
     display_name: Zach Simon
     role: ugrad
