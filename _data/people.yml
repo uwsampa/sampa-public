@@ -285,10 +285,6 @@ codyohl:
     role: ugrad
     image: /img/people/codyohl.jpg
     webpage: http://www.linkedin.com/in/codyohlsen
-pshfls:
-    display_name: Sui Pang (Beck)
-    role: ugrad
-    webpage: http://www.linkedin.com/in/beckpang
 zbsimon:
     display_name: Zach Simon
     role: ugrad
@@ -299,30 +295,34 @@ chenfs:
 
 # Undergrad Alums
 
+pshfls:
+    display_name: Sui Pang (Beck)
+    role: ugrad-alum
+    webpage: http://www.linkedin.com/in/beckpang
 wenjih:
     display_name: Wenjie (Marissa) He
-    role: past-ugrad
+    role: ugrad-alum
 mandary:
     display_name: Yufang Sun
-    role: past-ugrad
+    role: ugrad-alum
 shichengfeng:
     display_name: Chengfeng Shi
-    role: past-ugrad
+    role: ugrad-alum
 tliu24:
     display_name: Tianchi Liu
-    role: past-ugrad
+    role: ugrad-alum
 luluyi:
     display_name: Luyi Lu
-    role: past-ugrad
+    role: ugrad-alum
 djnoboom:
     display_name: Daniel Noteboom
-    role: past-ugrad
+    role: ugrad-alum
 umaymah:
     display_name: Umaymah Khan
-    role: past-ugrad
+    role: ugrad-alum
 joshuay:
     display_name: Joshua Yip
-    role: past-ugrad
+    role: ugrad-alum
 
 # Collaborators
 
