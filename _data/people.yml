@@ -174,6 +174,10 @@ billzorn:
 
 # Alums
 
+yorkw:
+    display_name: York Wei
+    role: ugrad
+    bio: "B.S., 2015. Now at VMWare."
 katelin:
     display_name: "Katelin Bailey"
     webpage: "https://homes.cs.washington.edu/~katelin/"
@@ -268,25 +272,10 @@ kristian:
 austina2:
     display_name: Austin Arechiga
     role: ugrad
-wenjih:
-    display_name: Wenjie (Marissa) He
-    role: ugrad
-umaymah:
-    display_name: Umaymah Khan
-    role: ugrad
 jkotalik:
     display_name: Justin Kotalik
     role: ugrad
     webpage: https://www.linkedin.com/in/justin-kotalik-0489b597
-tliu24:
-    display_name: Tianchi Liu
-    role: ugrad
-luluyi:
-    display_name: Luyi Lu
-    role: ugrad
-djnoboom:
-    display_name: Daniel Noteboom
-    role: ugrad
 codyohl:
     display_name: Cody Ohlsen
     role: ugrad
@@ -296,9 +285,6 @@ pshfls:
     display_name: Sui Pang (Beck)
     role: ugrad
     webpage: http://www.linkedin.com/in/beckpang
-shichengfeng:
-    display_name: Chengfeng Shi
-    role: ugrad
 zbsimon:
     display_name: Zach Simon
     role: ugrad
@@ -306,16 +292,33 @@ chenfs:
     display_name: Chenfan (Frank) Sun
     role: ugrad
     webpage: https://www.linkedin.com/in/chenfansun
+
+# Undergrad Alums
+
+wenjih:
+    display_name: Wenjie (Marissa) He
+    role: ugrad
 mandary:
     display_name: Yufang Sun
     role: ugrad
-yorkw:
-    display_name: York Wei
+shichengfeng:
+    display_name: Chengfeng Shi
+    role: ugrad
+tliu24:
+    display_name: Tianchi Liu
+    role: ugrad
+luluyi:
+    display_name: Luyi Lu
+    role: ugrad
+djnoboom:
+    display_name: Daniel Noteboom
+    role: ugrad
+umaymah:
+    display_name: Umaymah Khan
     role: ugrad
 joshuay:
     display_name: Joshua Yip
     role: ugrad
-
 
 # Collaborators
 
