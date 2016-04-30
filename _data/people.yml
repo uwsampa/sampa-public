@@ -82,6 +82,10 @@ nelson:
 
 # Grads
 
+kendall:
+    display_name: "Kendall Stewart"
+    role: grad
+
 bornholt: 
     display_name: "James Bornholt"
     webpage: "https://homes.cs.washington.edu/~bornholt/"
