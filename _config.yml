@@ -21,6 +21,7 @@ roles:
     - {key: postdoc, name: Researchers}
     - {key: grad, name: Graduate Students}
     - {key: ugrad, name: Undergraduate Students}
+    - {key: ugrad-alum, name: Past Undergraduate Students}
     - {key: collab, name: Collaborators}
     - {key: alum, name: Alumni}
 

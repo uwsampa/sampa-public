@@ -176,7 +176,7 @@ billzorn:
 
 yorkw:
     display_name: York Wei
-    role: ugrad
+    role: alum
     bio: "B.S., 2015. Now at VMWare."
 katelin:
     display_name: "Katelin Bailey"
@@ -297,28 +297,28 @@ chenfs:
 
 wenjih:
     display_name: Wenjie (Marissa) He
-    role: ugrad
+    role: past-ugrad
 mandary:
     display_name: Yufang Sun
-    role: ugrad
+    role: past-ugrad
 shichengfeng:
     display_name: Chengfeng Shi
-    role: ugrad
+    role: past-ugrad
 tliu24:
     display_name: Tianchi Liu
-    role: ugrad
+    role: past-ugrad
 luluyi:
     display_name: Luyi Lu
-    role: ugrad
+    role: past-ugrad
 djnoboom:
     display_name: Daniel Noteboom
-    role: ugrad
+    role: past-ugrad
 umaymah:
     display_name: Umaymah Khan
-    role: ugrad
+    role: past-ugrad
 joshuay:
     display_name: Joshua Yip
-    role: ugrad
+    role: past-ugrad
 
 # Collaborators
 
