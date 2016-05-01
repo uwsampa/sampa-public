@@ -48,17 +48,14 @@ billhowe:
     bio: "Affiliate Faculty and Associate Director of eScience Institute"
 
 
+# Staff
+
 melody:
     display_name: "Melody Kadenko"
     webpage: "http://www.cs.washington.edu/homes/melody/"
     role: staff
     image: //homes.cs.washington.edu/~melody/index_files/image002.gif
     bio: "Program Director"
-
-lmerlin:
-    display_name: "Lisa Merlin"
-    role: staff
-    bio: "Fiscal Specialist"
 
 
 # Postdocs
