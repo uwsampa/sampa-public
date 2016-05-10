@@ -133,7 +133,7 @@ amrita:
     display_name: Amrita Mazumdar
     webpage: "https://homes.cs.washington.edu/~amrita"
     role: grad
-    image: "//homes.cs.washington.edu/~amrita/media/face.jpeg"
+    image: "//homes.cs.washington.edu/~amrita/assets/img/amz.jpg"
 
 moreau:
     display_name: "Thierry Moreau"
