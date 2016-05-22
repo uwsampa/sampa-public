@@ -128,6 +128,7 @@ mgliu:
 liangluo:
     display_name: Liang Luo
     role: grad
+    image: /img/people/liangluo.jpg
 
 amrita: 
     display_name: Amrita Mazumdar
