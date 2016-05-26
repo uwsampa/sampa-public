@@ -1,9 +1,7 @@
 ---
 title: Biological Computing
 
-description: Working at the intersection of biology and architecture, including
-biologically-inspired computer systems like DNA storage, and system design
-for next-generation bioinformatics applications.
+description: Working at the intersection of biology and architecture, including biologically-inspired computer systems like DNA storage, and system design for next-generation bioinformatics applications.
 
 people:
   - kendall
