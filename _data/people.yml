@@ -69,6 +69,7 @@ armin:
 jevdjic:
     display_name: "Djordje Jevdjic"
     role: postdoc
+    image: /img/people/djordje.jpg
 
 nelson:
     display_name: "Jacob Nelson"
@@ -151,6 +152,7 @@ bdmyers:
 kendall:
     display_name: "Kendall Stewart"
     role: grad
+    image: /img/people/kendall.jpg
 
 wysem:
     display_name: "Mark Wyse"
