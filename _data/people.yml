@@ -335,19 +335,40 @@ preston:
 skahan:
     display_name: Simon Kahan
     role: collab
-mckinley:
-    display_name: Kathryn McKinley
-    role: collab
-    webpage: http://research.microsoft.com/en-us/people/mckinley/
-    bio: "Microsoft Research"
-toddm:
-    display_name: Todd Mytkowicz
-    role: collab
-    webpage: http://research.microsoft.com/en-us/people/toddm/
-    bio: "Microsoft Research"
+farhadi:
+     display_name: Ali Farhadi
+     role: collab
+     webpage: https://homes.cs.washington.edu/~ali/
+     bio: "Assistant Professor, UW CSE Department"
+#mckinley:
+#    display_name: Kathryn McKinley
+#    role: collab
+#    webpage: http://research.microsoft.com/en-us/people/mckinley/
+#    bio: "Microsoft Research"
+#toddm:
+#    display_name: Todd Mytkowicz
+#    role: collab
+#    webpage: http://research.microsoft.com/en-us/people/toddm/
+#    bio: "Microsoft Research"
 visvesh:
     display_name: Visvesh Sathe
     role: collab
     webpage: http://www.ee.washington.edu/people/faculty/sathe/
     bio: "Assistant Professor, UW EE Department"
+sungpack:
+     display_name: Sungpack Hong
+     role: collab
+     bio: "Oracle Labs"
+delorimier:
+     display_name: Michael Delorimier
+     role: collab
+     bio: "Oracle Labs"
+shri:
+     display_name: Shri Hariharasubrahmanian
+     role: collab
+     bio: "Oracle Labs"
+tushar:
+     display_name: Tushar Kumar
+     role: collab
+     bio: "Qualcomm Research"
 
