@@ -44,17 +44,3 @@ At the same time, the deployment and development of heterogeneous computing acce
 This project investigates the space of heterogeneous hardware and software solutions to accelerate entire genome-analysis algorithms including sequencing, alignment, and variant-calling.
 
 
-#Personalized whole genome sequencing is an emerging technology that has the potential
-#to have a profound impact on global health. Nevertheless, there are significant
-#challenges to deploying this technology at a global scale. The algorithms today including several
-#compute and memory-intensive steps that may disproportionally affect populations
-#with limited access to those resources. This would be exacerbated during a
-#pandemic or other health crisis, where a lack of resources could cost lives.
-
-#We are investigating hardware and software designs to accelerate the entire
-#genome-analysis pipeline, from sequencing through alignment and variant-calling.
-#Our hope is that this work will yield system designs which can be integrated in
-#data centers and embedded in field-ready devices, facilitating global access to
-#personal genomics as it becomes commonplace.
-
-
