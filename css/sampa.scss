@@ -213,6 +213,8 @@ ul.project-people {
     }
   
     .card-columns { @include columns(3); }
+
+    ul.grad { @include columns(2); }
 }
 
 @media (max-width: 768px) {

@@ -76,11 +76,11 @@ role_remain:
 
 <div class="row">
 {% for grp in page.role_groups %}
-    <div class="col-md-6">
+    <div class="col-md-{% if grp contains 'grad' %}8{% else %}4{% endif %}">
         {% for role in site.roles %}
         {% if grp contains role.key %}
             <h3>{{ role.name }}</h3>
-            <ul class="people">
+            <ul class="people {{ role.key }}">
             {% for item in site.data.people %}
                 {% assign person = item[1] %}
                 {% if person.role == role.key %}
