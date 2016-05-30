@@ -36,17 +36,25 @@ Operating Systems (ASPLOS), April 2016.
 
 
 ## ACGT: Accelerating Genomics Tools
-Personalized whole genome sequencing is an emerging technology has the potential
-to have a profound impact on global health. Nevertheless, there are significant
-challenges to deploying this technology at a global scale, including several
-compute and memory-intensive steps that may disproportionally affect populations
-with limited access to those resources. This would be exacerbated during a
-pandemic or other health crisis, where a lack of resources could cost lives.
+Personalized whole genome sequencing is an emerging technology that has the potential to have a profound impact on global health.
+However, current state-of-the art DNA sequencing and alignment algorithms require tremendous amounts of compute and memory resources which present significant challenges for deploying this technology at scale.
+In order to make this technology ubiquitous and portable enough to be easily and widely deployed, substantial gains in computing performance, energy efficiency, and form factor must be made.
 
-We are investigating hardware and software designs to accelerate the entire
-genome-analysis pipeline, from sequencing through alignment and variant-calling.
-Our hope is that this work will yield system designs which can be integrated in
-data centers and embedded in field-ready devices, facilitating global access to
-personal genomics as it becomes commonplace.
+At the same time, the deployment and development of heterogeneous computing accelerators, emerging memory substrates, and even custom ASICs have been shown to yield promising gains through specialization.
+This project investigates the space of heterogeneous hardware and software solutions to accelerate entire genome-analysis algorithms including sequencing, alignment, and variant-calling.
+
+
+#Personalized whole genome sequencing is an emerging technology that has the potential
+#to have a profound impact on global health. Nevertheless, there are significant
+#challenges to deploying this technology at a global scale. The algorithms today including several
+#compute and memory-intensive steps that may disproportionally affect populations
+#with limited access to those resources. This would be exacerbated during a
+#pandemic or other health crisis, where a lack of resources could cost lives.
+
+#We are investigating hardware and software designs to accelerate the entire
+#genome-analysis pipeline, from sequencing through alignment and variant-calling.
+#Our hope is that this work will yield system designs which can be integrated in
+#data centers and embedded in field-ready devices, facilitating global access to
+#personal genomics as it becomes commonplace.
 
 

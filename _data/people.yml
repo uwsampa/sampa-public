@@ -86,6 +86,10 @@ bornholt:
     role: grad
     image: "//homes.cs.washington.edu/~bornholt/img/me_square_bw.jpg"
 
+cowanmeg:
+    display_name: "Meghan Cowan"
+    role: grad
+
 cdel:
     display_name: "Carlo Del Mundo"
     webpage: "http://homes.cs.washington.edu/~cdel/"
