@@ -89,6 +89,7 @@ bornholt:
 cowanmeg:
     display_name: "Meghan Cowan"
     role: grad
+    image: /img/people/meghan.jpg
 
 cdel:
     display_name: "Carlo Del Mundo"
