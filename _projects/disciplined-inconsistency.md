@@ -12,6 +12,10 @@ people:
   - oskin
 
 layout: project
+
+icons:
+  paper: '<i class="fa fa-file-pdf-o" aria-hidden="true"></i>'
+  html: '<i class="fa fa-html5" aria-hidden="true"></i>'
 ---
 <style>
 .content img { float: right; margin: 1em; max-width: 150px; }
@@ -25,24 +29,62 @@ layout: project
 
 ![IPA]({{site.base}}/img/ipa.jpg)
 
-In order to meet tight latency requirements at scale, applications must often sacrifice strong consistency. Going all the way to eventual consistency, one of the weakest consistency models, opens up much more concurrency by allowing clients to access whichever copy of the data is most convenient. However, reasoning about the behavior of such programs is notoriously difficult — many conventional assumptions that come from how non-distributed shared-memory programs work may no longer hold, including causality!
+To provide good user experiences, modern datacenter applications and
+web services must balance the competing requirements of application
+correctness and responsiveness. For example, a web store
+double-charging for purchases or keeping users waiting too long (each
+additional millisecond of latency can translate to a loss in traffic and revenue. Worse, programmers must maintain this balance in an unpredictable environment where a [black and blue dress](http://www.buzzfeed.com/daozers/what-its-like-to-work-on-buzzfeeds-tech-team-during-record-t) or [Justin Bieber](http://www.wired.com/2015/11/how-instagram-solved-its-justin-bieber-problem/) can change application performance in the blink of an eye.
 
-A whole zoo of intermediate consistency models (casual consistency, sirializability, lionizability, read your rights...) exist to allow trading off programmability for performance, but these still are difficult to use... 
+Recognizing the trade-off between consistency and performance, many
+existing storage systems support configurable consistency levels that
+allow programmers to set the consistency of individual operations. These allow
+programmers to weaken consistency guarantees only for data that is not
+critical to application correctness, retaining strong consistency for
+vital data. Some systems further allow adaptable consistency levels at
+runtime, where guarantees are only weakened when necessary to meet
+availability or performance requirements (e.g., during a spike in
+traffic or datacenter failure).
+<!--, or when it does not impact the application's correctness
+guarantees (e.g., returning a slightly stale or estimated result is
+acceptable). Some storage systems support this type of adaptable
+consistency [@Terry:13:SLAs;@Stribling:09:WheelFS].--> Unfortunately,
+using these systems correctly is challenging.  Programmers can
+inadvertently update strongly consistent data in the storage system
+using values read from weakly consistent operations, propagating
+inconsistency and corrupting stored data.  Over time, this
+*undisciplined* use of data from weakly consistent operations lowers
+the consistency of the storage system to its weakest level.
 
-- *In which situations do session guarantees hold?*
-- *What actions are considered "causally linked"?*
-- *Which definition of serializability are we talking about, the one that's stronger or weaker than serializability?*
+In this paper, we propose a more disciplined approach to inconsistency
+in the *Inconsistent, Performance-bound, Approximate (IPA)* storage
+system. IPA introduces the following concepts:
 
-Instead of proposing yet another weak consistency model, in this work we provide tools to allow programmers to express where they can tolerate errors, in terms of program *values* and application-level semantics. The idea is to use *abstract data types* (ADTs), as we did in [Claret](claret.html), to express application semantics, but introduce new variants of data types and operations that explicitly allow errors. We call these data types *IPA types* (*Inconsistent*, *Probabilistic* or *Approximate*).
+* *Consistency Safety*, a new property that ensures that values from
+  weakly consistent operations cannot flow into stronger consistency
+  operations without explicit endorsement from the programmer.  IPA is
+  the first storage system to provide consistency safety.
 
-This work is still in a fairly early stage. There is much left to figure out, so keep checking back, or reach out to one of us involved.
+* *Consistency Types*, a new type system in which *type safety implies
+  consistency safety*. Consistency types define the consistency and
+  correctness of the returned value from every storage operation,
+  allowing programmers to reason about their use of different
+  consistency levels.  IPA's type checker enforces the disciplined use
+  of IPA consistency types statically at compile time.
+
+* *Error-bounded Consistency.* IPA is a data structure store, like
+  [Redis](http://redis.io) or [Riak](http://basho.com/products/riak-kv/), allowing it to provide a new type of
+  weak consistency that places *numeric error bounds* on the returned
+  values.  Within these bounds, IPA automatically adapts to return the
+  strongest IPA consistency type possible under the current system
+  load.
+
+We've implemented a prototype of this model in Scala on top of an existing datastore, Cassandra, and use it to make performance/correctness tradeoffs in two applications: a ticket sales service and a Twitter clone. Our evaluation shows that IPA prevents consistency-based programming errors and adapts consistency automatically in response to changing network conditions, performing comparably to weak consistency and 2-10x faster than strong consistency.
+
 
 ## Publications
 - **Disciplined Inconsistency**<br/>
   Brandon Holt, James Bornholt, Irene Zhang, Dan Ports, Mark Oskin, Luis Ceze<br/>
   *Technical Report UW-CSE-16-06-01*  — June 2016<br/>
-  [{{paper}} Paper](http://www.cs.washington.edu/tr/2016/06/UW-CSE-16-06-01.pdf)
+  [{{page.icons.paper}} Paper](http://bholt.github.io/gen/ipa-tr.pdf) | [{{page.icons.html}} Web](http://bholt.github.io/gen/ipa-tr.html)
 
-
-## Blog posts
-- [Disciplined Inconsistency](http://homes.cs.washington.edu/~bholt/posts/disciplined-inconsistency.html)
+- [Blog post](http://homes.cs.washington.edu/~bholt/posts/disciplined-inconsistency.html)
