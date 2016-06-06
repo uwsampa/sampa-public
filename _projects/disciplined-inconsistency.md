@@ -14,7 +14,7 @@ people:
 layout: project
 ---
 <style>
-.content img { float: right; margin: 1em; width: 150px; }
+.content img { float: right; margin: 1em; max-width: 150px; }
 .content blockquote {
   padding: .5rem 1rem;
   margin-bottom: 1rem;
@@ -37,6 +37,12 @@ Instead of proposing yet another weak consistency model, in this work we provide
 
 This work is still in a fairly early stage. There is much left to figure out, so keep checking back, or reach out to one of us involved.
 
-## Blog posts
+## Publications
+- **Disciplined Inconsistency**<br/>
+  Brandon Holt, James Bornholt, Irene Zhang, Dan Ports, Mark Oskin, Luis Ceze<br/>
+  *Technical Report UW-CSE-16-06-01*  — June 2016<br/>
+  [{{paper}} Paper](http://www.cs.washington.edu/tr/2016/06/UW-CSE-16-06-01.pdf)
 
+
+## Blog posts
 - [Disciplined Inconsistency](http://homes.cs.washington.edu/~bholt/posts/disciplined-inconsistency.html)
