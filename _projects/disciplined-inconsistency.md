@@ -44,10 +44,7 @@ vital data. Some systems further allow adaptable consistency levels at
 runtime, where guarantees are only weakened when necessary to meet
 availability or performance requirements (e.g., during a spike in
 traffic or datacenter failure).
-<!--, or when it does not impact the application's correctness
-guarantees (e.g., returning a slightly stale or estimated result is
-acceptable). Some storage systems support this type of adaptable
-consistency [@Terry:13:SLAs;@Stribling:09:WheelFS].--> Unfortunately,
+Unfortunately,
 using these systems correctly is challenging.  Programmers can
 inadvertently update strongly consistent data in the storage system
 using values read from weakly consistent operations, propagating
