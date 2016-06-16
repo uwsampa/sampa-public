@@ -105,6 +105,7 @@ ashe2:
 
 eafurst:
     display_name: "Emily Furst"
+    webpage: "https://homes.cs.washington.edu/~eafurst/"
     role: grad
     image: /img/people/eafurst.jpg
 
