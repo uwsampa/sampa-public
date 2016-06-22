@@ -85,3 +85,5 @@ We've implemented a prototype of this model in Scala on top of an existing datas
   [{{page.icons.paper}} Paper](http://bholt.github.io/gen/ipa-tr.pdf) | [{{page.icons.html}} Web](http://bholt.github.io/gen/ipa-tr.html)
 
 - [Blog post](http://homes.cs.washington.edu/~bholt/posts/disciplined-inconsistency.html)
+- [Source code <i class="fa fa-github"></i>](https://github.com/bholt/ipa)
+
