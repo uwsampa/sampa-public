@@ -282,6 +282,9 @@ kristian:
 
 # Undergrads
 
+veilam:
+    display_name: Wei Lin
+    role: ugrad
 austina2:
     display_name: Austin Arechiga
     role: ugrad
