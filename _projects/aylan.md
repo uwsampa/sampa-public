@@ -9,6 +9,7 @@ people:
   - oskin
 
 layout: project
+status: inactive
 ---
 
 Conventional computing architectures have recently witnessed unprecendented challenges as emerging applications demand more computation, and process increasingly larger datasets.
