@@ -1,11 +1,10 @@
 ---
-title: Near-sensor Machine Learning
+title: Near-sensor Image Procesing
 image: 
 description: |
-  Moving machine learning computation closer to low-power sensor nodes with hardware accelerators.
+  Moving computation closer to image sensor nodes with hardware accelerators.
 people:
   - amrita
-  - moreau
   - armin
   - luisceze
   - oskin
@@ -18,4 +17,3 @@ icons:
   keynote: '<i class="fa fa-apple"></i>'
 ---
 
-Coming soon!
