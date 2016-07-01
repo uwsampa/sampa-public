@@ -36,6 +36,7 @@ role_remain:
 
 <div class="card-columns">
 {% for p in site.projects %}
+{% if p.status != "inactive" %}
 <div class="card {%if p.link or p.url%}link{%endif%}">
     {% if p.link %}
         {% assign proj_url = p.link %}
@@ -69,6 +70,7 @@ role_remain:
         {% endif %}
     </a>
 </div>
+{% endif %}
 {% endfor %}
 </div>
 

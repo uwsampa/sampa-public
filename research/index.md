@@ -10,11 +10,97 @@ projects:
     summary: Determinism is inevitable.
 ---
 
-Our research crosses multiple layers of the system stack, from hardware to programming languages and applications.  Our research has four main themes. The *concurrency* theme addresses challenges in writing, testing and debugging concurrent programs. The *approximate computing* theme explores accuracy trade-offs across the system stack for better energy efficiency and performance. The *emerging applications* theme focuses on building systems to better support new applications, from  mobile apps to graph analytics. The *emerging technologies* theme aims at taking advantage of new storage and compute technologies in building new systems. 
+Our research crosses multiple layers of the system stack, from hardware to programming languages and applications. Our research has four main themes. The *concurrency* theme addresses challenges in writing, testing and debugging concurrent programs. The *approximate computing* theme explores accuracy trade-offs across the system stack for better energy efficiency and performance. The *emerging applications* theme focuses on building systems to better support new applications, from  mobile apps to graph analytics. The *emerging technologies* theme aims at taking advantage of new storage and compute technologies in building new systems. 
+
+### Active Projects
+
+<div class="card-columns">
+{% for p in site.projects %}
+{% if p.status != "inactive" %}
+<div class="card {%if p.link or p.url%}link{%endif%}">
+    {% if p.link %}
+        {% assign proj_url = p.link %}
+    {% else %}
+        {% capture proj_url %}{{site.base}}{{p.url}}.html{% endcapture %}
+    {% endif %}
+    
+    <a href="{{proj_url}}">
+        <div class="card-block">
+            <div class="title">
+                {% if p.image %}
+                    {% assign imgurl = p.image %}
+                    {% capture init %}{{ p.image | slice: 0,1 }}{% endcapture %}
+                    {% if init == "/" %}
+                        {% capture imgurl %}{{site.base}}{{p.image}}{% endcapture %}
+                    {% endif %}
+                    <h3 class="card-title">
+                        <img class="icon img-responsive" src="{{imgurl}}" alt="{{p.title}}"/>
+                    </h3>
+                {% endif %}                
+                <h3 class="card-title">{{p.title}}</h3>
+            </div>
+            <div class="card-text">
+                {{ p.description | markdownify }}
+            </div>
+        </div>
+        {% if p.people %}
+        <div class="card-footer">
+            {% include project-people.html people=p.people %}
+        </div>
+        {% endif %}
+    </a>
+</div>
+{% endif %}
+{% endfor %}
+</div>
+
+### Completed Projects
+
+<div class="card-columns">
+{% for p in site.projects %}
+{% if p.status == "inactive" %}
+<div class="card {%if p.link or p.url%}link{%endif%}">
+    {% if p.link %}
+        {% assign proj_url = p.link %}
+    {% else %}
+        {% capture proj_url %}{{site.base}}{{p.url}}.html{% endcapture %}
+    {% endif %}
+    
+    <a href="{{proj_url}}">
+        <div class="card-block">
+            <div class="title">
+                {% if p.image %}
+                    {% assign imgurl = p.image %}
+                    {% capture init %}{{ p.image | slice: 0,1 }}{% endcapture %}
+                    {% if init == "/" %}
+                        {% capture imgurl %}{{site.base}}{{p.image}}{% endcapture %}
+                    {% endif %}
+                    <h3 class="card-title">
+                        <img class="icon img-responsive" src="{{imgurl}}" alt="{{p.title}}"/>
+                    </h3>
+                {% endif %}                
+                <h3 class="card-title">{{p.title}}</h3>
+            </div>
+            <div class="card-text">
+                {{ p.description | markdownify }}
+            </div>
+        </div>
+        {% if p.people %}
+        <div class="card-footer">
+            {% include project-people.html people=p.people %}
+        </div>
+        {% endif %}
+    </a>
+</div>
+{% endif %}
+{% endfor %}
+</div>
 
 
 
-### Concurrency
+{% include footer.html %}
+
+<!--### Concurrency
 
 Concurrency is present in pretty much every computer system, from sensor nodes to supercomputers to distributed applications. With ubiquitous multicores, it is actually necessary to write concurrent code to take advantage of parallelism. However, concurrent software is notoriously difficult to write, test and debug. 
 
@@ -83,4 +169,5 @@ re-imagine the structure of software in the future. Hence, we are exploring [sys
 
 Another exciting "emerging" technology is engineered DNA molecules. 
 Performing computation inside living cells offers life-changing applications, from improved medical diagnostics to better cancer therapy to intelligent drugs. Due to its bio-compatibility and ease of engineering, one promising approach for performing in-vivo computation is DNA strand displacement. 
-DNA nanotechnology is currently at a turning point, with many proposed applications being realized. We believe that it is time for the computer architecture community to take notice and contribute. We explore architectural issues in such systems, such as modularity, composability, reliability, etc. 
+DNA nanotechnology is currently at a turning point, with many proposed applications being realized. We believe that it is time for the computer architecture community to take notice and contribute. We explore architectural issues in such systems, such as modularity, composability, reliability, etc.--> 
+
