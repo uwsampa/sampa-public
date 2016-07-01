@@ -1,5 +1,5 @@
 ---
-title: Near-sensor Image Procesing
+title: Near-sensor Image Processing
 image: 
 description: |
   Moving computation closer to image sensor nodes with hardware accelerators.
