@@ -281,7 +281,7 @@ kristian:
 
 
 # Undergrads
-	
+
 veilam:
     display_name: Wei Lin
     role: ugrad
@@ -306,7 +306,7 @@ chenfs:
     webpage: https://www.linkedin.com/in/chenfansun
 phowe:
     display_name: Patrick Howe
-    role: ugra
+    role: ugrad
 faugusto:
     display_name: Felipe Augusto
     role: ugrad
