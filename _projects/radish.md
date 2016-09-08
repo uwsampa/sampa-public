@@ -8,6 +8,7 @@ people:
   - billhowe
 
 layout: project
+status: inactive
 
 ---
 
