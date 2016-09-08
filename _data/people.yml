@@ -71,13 +71,6 @@ jevdjic:
     role: postdoc
     image: /img/people/djordje.jpg
 
-nelson:
-    display_name: "Jacob Nelson"
-    webpage: "https://homes.cs.washington.edu/~nelson/"
-    role: postdoc
-    image: /img/people/nelson.jpg
-
-
 # Grads
 
 bornholt: 
@@ -108,12 +101,6 @@ eafurst:
     webpage: "https://homes.cs.washington.edu/~eafurst/"
     role: grad
     image: /img/people/eafurst.jpg
-
-bholt:
-    display_name: "Brandon Holt"
-    webpage: "https://homes.cs.washington.edu/~bholt/"
-    role: grad
-    image: /img/people/bholt.jpg
 
 sungkim:
     display_name: "Sung Min Kim"
@@ -149,12 +136,6 @@ moreau:
     role: grad
     image: /img/people/moreau.jpg
 
-bdmyers:
-    display_name: "Brandon Myers"
-    webpage: "https://homes.cs.washington.edu/~bdmyers/"
-    role: grad
-    image: /img/people/myers.jpg
-
 kendall:
     display_name: "Kendall Stewart"
     role: grad
@@ -184,9 +165,25 @@ billzorn:
     role: grad
     image: /img/people/billzorn.jpg
 
-
 # Alums
 
+bholt:
+    display_name: "Brandon Holt"
+    webpage: "https://homes.cs.washington.edu/~bholt/"
+    role: "alum"
+    image: /img/people/bholt.jpg
+    bio: "Ph.D., 2016. Now at Apple."
+bdmyers:
+    display_name: "Brandon Myers" 
+    webpage: "https://homes.cs.washington.edu/~bdmyers/"
+    role: "alum"
+    image: /img/people/myers.jpg
+    bio: "Ph.D., 2016. Now Faculty at Iowa State."
+nelson:
+    display_name: "Jacob Nelson"
+    role: "alum"
+    bio: "Ph.D., 2014. Postdoc 2014&ndash;2016. Now at Microsoft Research"
+    image: /img/people/nelson.jpg
 yorkw:
     display_name: York Wei
     role: alum
@@ -285,30 +282,16 @@ kristian:
 veilam:
     display_name: Wei Lin
     role: ugrad
-austina2:
-    display_name: Austin Arechiga
-    role: ugrad
 jkotalik:
     display_name: Justin Kotalik
     role: ugrad
     webpage: https://www.linkedin.com/in/justin-kotalik-0489b597
-codyohl:
-    display_name: Cody Ohlsen
-    role: ugrad
-    image: /img/people/codyohl.jpg
-    webpage: http://www.linkedin.com/in/codyohlsen
-zbsimon:
-    display_name: Zach Simon
-    role: ugrad
 chenfs:
     display_name: Chenfan (Frank) Sun
     role: ugrad
     webpage: https://www.linkedin.com/in/chenfansun
 phowe:
     display_name: Patrick Howe
-    role: ugrad
-faugusto:
-    display_name: Felipe Augusto
     role: ugrad
 schowdury:
     display_name: Sandeep Chowdary
@@ -319,6 +302,20 @@ eblajev:
 
 # Undergrad Alums
 
+faugusto:
+    display_name: Felipe Augusto
+    role: ugrad-alum
+codyohl:
+    display_name: Cody Ohlsen
+    role: ugrad-alum
+    image: /img/people/codyohl.jpg
+    webpage: http://www.linkedin.com/in/codyohlsen
+austina2:
+    display_name: Austin Arechiga
+    role: ugrad-alum
+zbsimon:
+    display_name: Zach Simon
+    role: ugrad-alum
 pshfls:
     display_name: Sui Pang (Beck)
     role: ugrad-alum
