@@ -5,8 +5,7 @@ description: Efficiently supporting multi-quality image storage
 
 people:
   - eqy
-  - kaiyuanz
-  - xi
+
   - karin
   - luisceze
 
@@ -15,6 +14,7 @@ layout: project
 ---
 
 ## ShoeBox
+  (In collaboration with Kaiyuan Zhang and [Xi Wang](https://homes.cs.washington.edu/~xi/))
   Images are among the most popular forms of data stored and transferred on the internet. 
   In many applications--especially social media services, users upload and retrieve images using
   a wide variety of devices with different screen sizes, resolutions, and pixel densities. To accomodate
