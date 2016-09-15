@@ -2,7 +2,7 @@
 title: Disciplined Inconsistency
 image: /img/ipa-icon.jpg
 description: |
-  Helping distributed systems programmers reason about and *safely* trade off consistency for performance.
+  Helping distributed systems programmers reason about and *safely* trade off consistency for performance
 people:
   - bholt
   - bornholt
@@ -12,6 +12,7 @@ people:
   - oskin
 
 layout: project
+status: inactive
 
 icons:
   paper: '<i class="fa fa-file-pdf-o" aria-hidden="true"></i>'
