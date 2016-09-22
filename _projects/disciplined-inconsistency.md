@@ -2,7 +2,7 @@
 title: Disciplined Inconsistency
 image: /img/ipa-icon.jpg
 description: |
-  Helping distributed systems programmers reason about and *safely* trade off consistency for performance.
+  Helping distributed systems programmers reason about and *safely* trade off consistency for performance
 people:
   - bholt
   - bornholt
@@ -12,6 +12,7 @@ people:
   - oskin
 
 layout: project
+status: inactive
 
 icons:
   paper: '<i class="fa fa-file-pdf-o" aria-hidden="true"></i>'
@@ -79,10 +80,10 @@ We've implemented a prototype of this model in Scala on top of an existing datas
 
 
 ## Publications
-- **Disciplined Inconsistency**<br/>
+- **Disciplined Inconsistency with Consistency Types**<br/>
   Brandon Holt, James Bornholt, Irene Zhang, Dan Ports, Mark Oskin, Luis Ceze<br/>
-  *Technical Report UW-CSE-16-06-01*  — June 2016<br/>
-  [{{page.icons.paper}} Paper](http://bholt.github.io/gen/ipa-tr.pdf) | [{{page.icons.html}} Web](http://bholt.github.io/gen/ipa-tr.html)
+  *ACM Symposium on Cloud Computing (SoCC)*  — October 2016<br/>
+  [{{page.icons.paper}} Paper](http://bholt.github.io/gen/ipa.pdf) | [{{page.icons.html}} Web](http://bholt.github.io/gen/ipa.html)
 
 - [Blog post](http://homes.cs.washington.edu/~bholt/posts/disciplined-inconsistency.html)
 - [Source code <i class="fa fa-github"></i>](https://github.com/bholt/ipa)

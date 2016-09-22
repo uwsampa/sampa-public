@@ -2,7 +2,7 @@
 title: Claret
 image: /img/claret-icon.jpg
 description: |
-  Using Abstract Data Types to expose application-level semantics in datastores.
+  Using Abstract Data Types to expose application-level semantics in datastores
 people:
   - bholt
   - iyzhang
@@ -11,6 +11,7 @@ people:
   - oskin
 
 layout: project
+status: inactive
 ---
 
 <img src="{{site.base}}/img/claret.jpg" class="pull-right" style="width:150px;margin:15px"/>
