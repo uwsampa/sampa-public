@@ -69,6 +69,7 @@ armin:
 jevdjic:
     display_name: "Djordje Jevdjic"
     role: postdoc
+    webpage: "http://parsa.epfl.ch/~jevdjic/"
     image: /img/people/djordje.jpg
 
 # Grads
