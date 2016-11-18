@@ -6,7 +6,7 @@ people:
   - bdmyers
   - oskin
   - billhowe
-
+status: inactive
 layout: project
 status: inactive
 

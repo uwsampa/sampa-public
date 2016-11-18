@@ -69,6 +69,7 @@ armin:
 jevdjic:
     display_name: "Djordje Jevdjic"
     role: postdoc
+    webpage: "http://parsa.epfl.ch/~jevdjic/"
     image: /img/people/djordje.jpg
 
 # Grads
@@ -116,6 +117,7 @@ vlee2:
 
 mgliu:
     display_name: Ming Liu
+    webpage: "https://homes.cs.washington.edu/~mgliu/"
     role: grad
     image: /img/people/mgliu.jpg
 
@@ -178,7 +180,7 @@ bdmyers:
     webpage: "https://homes.cs.washington.edu/~bdmyers/"
     role: "alum"
     image: /img/people/myers.jpg
-    bio: "Ph.D., 2016. Now Faculty at Iowa."
+    bio: "Ph.D., 2016. Now faculty at Iowa."
 nelson:
     display_name: "Jacob Nelson"
     role: "alum"

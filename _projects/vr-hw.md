@@ -1,8 +1,8 @@
 ---
-title: Near-sensor Image Processing
-image: 
+title: Real-time Virtual Reality
+image: /img/vr-hw.png
 description: |
-  Moving computation closer to image sensor nodes with hardware accelerators.
+  Camera rigs and custom hardware for next-generation VR/AR applications.
 people:
   - amrita
   - armin

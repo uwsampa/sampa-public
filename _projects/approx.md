@@ -9,4 +9,5 @@ people:
   - moreau
   - luisceze
   - oskin
+  - djg
 ---
