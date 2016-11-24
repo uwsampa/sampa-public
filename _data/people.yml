@@ -281,17 +281,10 @@ kristian:
 
 # Undergrads
 
-veilam:
-    display_name: Wei Lin
-    role: ugrad
 jkotalik:
     display_name: Justin Kotalik
     role: ugrad
     webpage: https://www.linkedin.com/in/justin-kotalik-0489b597
-chenfs:
-    display_name: Chenfan (Frank) Sun
-    role: ugrad
-    webpage: https://www.linkedin.com/in/chenfansun
 phowe:
     display_name: Patrick Howe
     role: ugrad
@@ -304,6 +297,13 @@ eblajev:
 
 # Undergrad Alums
 
+veilam:
+    display_name: Wei Lin
+    role: ugrad-alum
+chenfs:
+    display_name: Chenfan (Frank) Sun
+    role: ugrad-alum
+    webpage: https://www.linkedin.com/in/chenfansun
 faugusto:
     display_name: Felipe Augusto
     role: ugrad-alum
