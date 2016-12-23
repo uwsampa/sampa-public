@@ -278,25 +278,24 @@ kristian:
     role: alum
     bio: "B.S. Now at Clean Power Research."
 
-
 # Undergrads
 
-jkotalik:
-    display_name: Justin Kotalik
-    role: ugrad
-    webpage: https://www.linkedin.com/in/justin-kotalik-0489b597
-phowe:
-    display_name: Patrick Howe
-    role: ugrad
-schowdury:
-    display_name: Sandeep Chowdary
-    role: ugrad
 eblajev:
     display_name: Evan Blajev
     role: ugrad
 
 # Undergrad Alums
 
+phowe:
+    display_name: Patrick Howe
+    role: ugrad-alum
+schowdury:
+    display_name: Sandeep Chowdary
+    role: ugrad-alum
+jkotalik:
+    display_name: Justin Kotalik
+    role: ugrad-alum
+    webpage: https://www.linkedin.com/in/justin-kotalik-0489b597
 veilam:
     display_name: Wei Lin
     role: ugrad-alum
@@ -387,8 +386,8 @@ shri:
      display_name: Shri Hariharasubrahmanian
      role: collab
      bio: "Oracle Labs"
-tushar:
-     display_name: Tushar Kumar
-     role: collab
-     bio: "Qualcomm Research"
+#tushar:
+#     display_name: Tushar Kumar
+#     role: collab
+#     bio: "Qualcomm Research"
 
