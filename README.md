@@ -1,12 +1,9 @@
 Sampa group website
 ===================
 
-🎣
+This is the [Sampa group website](http://sampa.cs.washington.edu), built with [Jekyll][] and [bibble][].
 
-This site uses [Jekyll][] and [bibble][] to generate a static Sampa website
-complete with publications, personnel, and news.
-
-Looking for how to add or edit the Sampa meeting schedule? Too bad. James put it in [the wrong repo](https://github.com/uwsampa/schedule).
+It's based on our [research group website template](https://github.com/uwsampa/research-group-web), which you can use to build your own nice group website! 🎣
 
 Editing
 -------
