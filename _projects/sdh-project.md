@@ -6,7 +6,6 @@ description: |
 people:
   - vlee2
   - mwillsey
-  - akcheung
   - bodik
   - luisceze
 

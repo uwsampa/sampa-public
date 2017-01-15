@@ -24,4 +24,4 @@ This project aims to explore the application space and how to appropriately bala
 
 - **Energy-Efficient Hybrid Stochastic-Binary Neural Networks for Near-Sensor Computing**<br/>
   Vincent T. Lee, Armin Alaghi, John P. Hayes, Visvesh Sathe, Luis Ceze<br/>
-  To Appear in Design Automation and Test Europe (2017)
+  To Appear in Design, Automation and Test in Europe (2017)

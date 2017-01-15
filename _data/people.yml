@@ -360,6 +360,12 @@ joshuay:
 
 # Collaborators
 
+akcheung:
+    display_name: "Alvin Cheung"
+    role: collab
+    webpage: "https://homes.cs.washington.edu/~akcheung/"
+    bio: "Assistant Professor, UW CSE Department"
+
 preston:
     display_name: Preston Briggs
     role: collab
