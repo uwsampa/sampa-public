@@ -11,6 +11,7 @@ people:
   - oskin
 
 layout: project
+status: inactive
 
 icons:
   paper: '<i class="fa fa-file-text-o"></i>'
@@ -38,3 +39,9 @@ Near data processing has been proposed as a promising solution to eliminate cost
   [{{page.icons.paper}} Paper](http://dl.acm.org/citation.cfm?id=2818984) | [{{page.icons.slides}} Slides](http://homes.cs.washington.edu/~cdel/presentations/memsys-2015-ncam.pdf) |
 
 - *Full-length version in preparation.*
+
+- **Similarity Search on Automata Processors**<br/>
+  Vincent T. Lee, Justin Kotalik, Carlo C. Del Mundo, Armin Alaghi, Luis Ceze, Mark Oskin<br/>
+  To appear in [International Parallel and Distributed Processing Symposium (IPDPS '17)](http://www.ipdps.org)
+  
+
