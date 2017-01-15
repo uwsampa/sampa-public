@@ -47,6 +47,12 @@ billhowe:
     image: /img/people/billhowe.jpg
     bio: "Affiliate Faculty and Associate Director of eScience Institute"
 
+bodik:
+    display_name: "Ras Bodik"
+    webpage: "https://www.cs.washington.edu/people/faculty/bodik"
+    role: faculty
+    image: /img/people/bodik.jpg
+    bio: "Professor"
 
 # Staff
 
@@ -142,6 +148,12 @@ kendall:
     display_name: "Kendall Stewart"
     role: grad
     image: /img/people/kendall.jpg
+
+mwillsey:
+    display_name: "Max Willsey"
+    webpage: "http://homes.cs.washington.edu/~mwillsey/"
+    role: grad
+    image: /img/people/mwillsey.jpg
 
 wysem:
     display_name: "Mark Wyse"
