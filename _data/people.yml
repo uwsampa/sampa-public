@@ -295,6 +295,12 @@ kristian:
 eblajev:
     display_name: Evan Blajev
     role: ugrad
+wyatt:
+    display_name: Wyatt Muntean
+    role: ugrad
+xinyu:
+    display_name: Xinyu Sui
+    role: ugrad    
 
 # Undergrad Alums
 
