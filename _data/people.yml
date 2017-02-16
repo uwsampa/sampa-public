@@ -371,6 +371,7 @@ akcheung:
     role: collab
     webpage: "https://homes.cs.washington.edu/~akcheung/"
     bio: "Assistant Professor, UW CSE Department"
+    image: /img/people/akcheung.png
 
 preston:
     display_name: Preston Briggs

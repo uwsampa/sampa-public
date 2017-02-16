@@ -6,8 +6,9 @@ description: |
 people:
   - vlee2
   - mwillsey
-  - bodik
   - luisceze
+  - bodik
+  - akcheung
 
 layout: project
 status: active
