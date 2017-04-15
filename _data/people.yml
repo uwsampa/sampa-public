@@ -138,6 +138,11 @@ amrita:
     role: grad
     image: "//homes.cs.washington.edu/~amrita/assets/img/amz.jpg"
 
+artem:
+    display_name: Artem Minyaylov
+    role: grad
+    image: /img/people/artem.jpg
+
 moreau:
     display_name: "Thierry Moreau"
     webpage: "http://homes.cs.washington.edu/~moreau/"
