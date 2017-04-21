@@ -297,18 +297,18 @@ kristian:
 
 # Undergrads
 
-eblajev:
-    display_name: Evan Blajev
-    role: ugrad
 wyatt:
     display_name: Wyatt Muntean
     role: ugrad
-xinyu:
-    display_name: Xinyu Sui
-    role: ugrad    
 
 # Undergrad Alums
 
+eblajev:
+    display_name: Evan Blajev
+    role: ugrad-alum
+xinyu:
+    display_name: Xinyu Sui
+    role: ugrad-alum
 phowe:
     display_name: Patrick Howe
     role: ugrad-alum
