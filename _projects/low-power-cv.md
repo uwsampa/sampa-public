@@ -12,6 +12,7 @@ people:
   - oskin
 
 layout: project
+status: inactive
 
 icons:
   paper: '<i class="fa fa-file-text-o"></i>'
