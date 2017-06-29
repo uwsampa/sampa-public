@@ -34,7 +34,7 @@ We are also designing a databse management system, VisualCloud, to efficiently i
 ## Publications
 
 - **A Hardware-Friendly Bilateral Solver for Real-Time Virtual Reality Video**<br/>
-  Amrita Mazumdar, Alaghi Armin, Jonathan T. Barron, David Gallup, Luis Ceze, Mark Oskin, Steven M. Seitz
+  Amrita Mazumdar, Armin Alaghi, Jonathan T. Barron, David Gallup, Luis Ceze, Mark Oskin, Steven M. Seitz
 <br/>
   To appear in High Performance Graphics 2017
 - **VisualCloud Demonstration: A DBMS for Virtual Reality**<br/>
