@@ -72,12 +72,6 @@ armin:
     webpage: "http://homes.cs.washington.edu/~armin/"
     image: /img/people/armin.jpg
 
-jevdjic:
-    display_name: "Djordje Jevdjic"
-    role: postdoc
-    webpage: "http://parsa.epfl.ch/~jevdjic/"
-    image: /img/people/djordje.jpg
-
 # Grads
 
 bornholt: 
@@ -90,6 +84,11 @@ cowanmeg:
     display_name: "Meghan Cowan"
     role: grad
     image: /img/people/meghan.jpg
+
+stdavids:
+	display_name: "Scott Davidson"
+	role: grad
+	image: /img/people/scott.jpg
 
 cdel:
     display_name: "Carlo Del Mundo"
@@ -160,6 +159,11 @@ mwillsey:
     role: grad
     image: /img/people/max.jpg
 
+vegaluis:
+	display_name: "Luis Vega"
+	role: grad
+	image: /img/people/luis.jpg
+
 wysem:
     display_name: "Mark Wyse"
     webpage: "https://homes.cs.washington.edu/~wysem/"
@@ -186,6 +190,12 @@ billzorn:
 
 # Alums
 
+jevdjic:
+    display_name: "Djordje Jevdjic"
+    role: "alum"
+    webpage: "http://parsa.epfl.ch/~jevdjic/"
+    image: /img/people/djordje.jpg
+    bio: "Postdoc 2015&ndash;2017". Now at Microsoft Research."
 bholt:
     display_name: "Brandon Holt"
     webpage: "https://homes.cs.washington.edu/~bholt/"
@@ -297,12 +307,12 @@ kristian:
 
 # Undergrads
 
-wyatt:
-    display_name: Wyatt Muntean
-    role: ugrad
 
 # Undergrad Alums
 
+wyatt:
+    display_name: Wyatt Muntean
+    role: ugrad-alum
 eblajev:
     display_name: Evan Blajev
     role: ugrad-alum

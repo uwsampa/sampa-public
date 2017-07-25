@@ -5,9 +5,7 @@ description: Working at the intersection of biology and architecture, including 
 
 people:
   - kendall
-  - vlee2
-  - bornholt
-  - wysem
+  - mwillsey
   - luisceze
   - karin
 
