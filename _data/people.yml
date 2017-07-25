@@ -86,9 +86,9 @@ cowanmeg:
     image: /img/people/meghan.jpg
 
 stdavids:
-	display_name: "Scott Davidson"
-	role: grad
-	image: /img/people/scott.jpg
+    display_name: "Scott Davidson"
+    role: grad
+    image: /img/people/scott.jpg
 
 cdel:
     display_name: "Carlo Del Mundo"
@@ -137,11 +137,6 @@ amrita:
     role: grad
     image: "//homes.cs.washington.edu/~amrita/assets/img/amz.jpg"
 
-artem:
-    display_name: Artem Minyaylov
-    role: grad
-    image: /img/people/artem.jpg
-
 moreau:
     display_name: "Thierry Moreau"
     webpage: "http://homes.cs.washington.edu/~moreau/"
@@ -160,9 +155,9 @@ mwillsey:
     image: /img/people/max.jpg
 
 vegaluis:
-	display_name: "Luis Vega"
-	role: grad
-	image: /img/people/luis.jpg
+    display_name: "Luis Vega"
+    role: grad
+    image: /img/people/luis.jpg
 
 wysem:
     display_name: "Mark Wyse"
@@ -195,7 +190,7 @@ jevdjic:
     role: "alum"
     webpage: "http://parsa.epfl.ch/~jevdjic/"
     image: /img/people/djordje.jpg
-    bio: "Postdoc 2015&ndash;2017". Now at Microsoft Research."
+    bio: "Postdoc 2015&ndash;2017. Now at Microsoft Research."
 bholt:
     display_name: "Brandon Holt"
     webpage: "https://homes.cs.washington.edu/~bholt/"
@@ -313,6 +308,10 @@ kristian:
 wyatt:
     display_name: Wyatt Muntean
     role: ugrad-alum
+artem:
+    display_name: Artem Minyaylov
+    role: ugrad-alum
+    image: /img/people/artem.jpg
 eblajev:
     display_name: Evan Blajev
     role: ugrad-alum

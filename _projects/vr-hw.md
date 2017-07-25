@@ -6,7 +6,6 @@ description: |
 people:
   - amrita
   - armin
-  - artem
   - luisceze
   - oskin
 
