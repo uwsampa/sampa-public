@@ -123,21 +123,30 @@ role_remain:
 <!--Remaining roles (collaborators, undergrads, alumni) -->
 <div class="row">
 {% for grp in page.role_remain %}
-    <div class="col-md-6">
+    <div class="col-md-{% if grp contains "alum" %}7{% else %}5{% endif %}">
         {% for role in site.roles %}
         {% if grp contains role.key %}
-            <h3>{{ role.name }}</h3>
-            <ul class="people {{role.key}}">
+            {% assign has_members = false %}
             {% for item in site.data.people %}
                 {% assign person = item[1] %}
                 {% if person.role == role.key %}
-                <li>
-                    {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}{{person.display_name}}{% if person.webpage %}</a>{% endif %}
-                    {% if person.bio %} <span class="bio bio-inline">{{person.bio}}</span>{% endif %}
-                </li>
+                    {% assign has_members = true %}
                 {% endif %}
             {% endfor %}
-            </dl>
+            {% if has_members %}
+                <h3>{{ role.name }}</h3>
+                <ul class="people {{role.key}}">
+                {% for item in site.data.people %}
+                    {% assign person = item[1] %}
+                    {% if person.role == role.key %}
+                    <li>
+                        {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}{{person.display_name}}{% if person.webpage %}</a>{% endif %}
+                        {% if person.bio %} <span class="bio bio-inline">{{person.bio}}</span>{% endif %}
+                    </li>
+                    {% endif %}
+                {% endfor %}
+                </ul>
+            {% endif %}
         {% endif %}
         {% endfor %}
     </div>
