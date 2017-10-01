@@ -63,6 +63,11 @@ armin:
     webpage: "http://homes.cs.washington.edu/~armin/"
     image: /img/people/armin.jpg
 
+shaolin:
+    display_name: "Shaolin Xie"
+    role: postdoc
+    image: /img/people/shaolin.jpg
+
 # Grads
 # Alphabetical order
 
