@@ -43,6 +43,13 @@ karin:
     image: /img/people/karin.jpg
     bio: "Researcher, Microsoft Research<br>Affiliate Professor, UW CSE"
 
+mbt:
+    display_name: "Michael Taylor"
+    webpage: "https://www.cs.washington.edu/people/faculty/profmbt"
+    role: faculty
+    image: /img/people/mbt.jpg
+    bio: "Associate Professor"
+
 # Staff
 # Alphabetical order
 
@@ -66,6 +73,7 @@ armin:
 shaolin:
     display_name: "Shaolin Xie"
     role: postdoc
+    webpage: "http://www.shawnless.net/Shawn/"
     image: /img/people/shaolin.jpg
 
 # Grads
