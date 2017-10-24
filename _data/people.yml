@@ -161,6 +161,7 @@ mwillsey:
 
 vegaluis:
     display_name: "Luis Vega"
+    webpage: "https://homes.cs.washington.edu/~vegaluis/"
     role: grad
     image: /img/people/luis.jpg
 
