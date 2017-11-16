@@ -26,16 +26,15 @@ Our algorithm is easily parallelized, achieving a 4x speedup on CPU and 32x spee
 We also designed an FPGA-based hardware accelerator that utilizes reduced-precision computation and the parallelism inherent in our algorithm to achieve further speedups over our CPU and GPU implementations while consuming an order of magnitude less power. 
 The FPGA design's power efficiency enables practical real-time VR video processing at the camera rig or in the cloud. 
 
-## VisualCloud
-We are also designing a databse management system, VisualCloud, to efficiently ingest, store, and deliver VR content at scale. VisualCloud targets both live and prerecorded
-360◦ VR videos. Content delivered through VisualCloud requires 40% less bandwidth than existing methods and scales to many concurrent connections.
+## LightDB
+We are designing a database management system, LightDB, to efficiently ingest, store, and deliver VR content at scale. LightDB targets both live and prerecorded
+360◦ VR videos. Content delivered through LightDB requires 40% less bandwidth than existing methods and scales to many concurrent connections.
 
 ## Publications
 
 - **A Hardware-Friendly Bilateral Solver for Real-Time Virtual Reality Video**<br/>
-  Amrita Mazumdar, Armin Alaghi, Jonathan T. Barron, David Gallup, Luis Ceze, Mark Oskin, Steven M. Seitz
-<br/>
-  To appear in High Performance Graphics 2017
+  Amrita Mazumdar, Armin Alaghi, Jonathan T. Barron, David Gallup, Luis Ceze, Mark Oskin, Steven M. Seitz<br/>
+  High Performance Graphics 2017
 - **VisualCloud Demonstration: A DBMS for Virtual Reality**<br/>
   Brandon Haynes, Artem Minyaylov, Magdalena Balazinska, Luis Ceze, Alvin Cheung<br/>
   SIGMOD 2017 Demo
