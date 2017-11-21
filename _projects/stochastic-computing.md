@@ -30,4 +30,4 @@ We are also looking at a number of other closely related encoding methods that s
 
 - **Correlation Manipulating Circuits for Stochastic Computing**<br/>
   Vincent T. Lee, Armin Alaghi, Luis Ceze<br/>
-  To appears in Design, Automation and Test in Europe (2018)
+  To appear in Design, Automation and Test in Europe (2018)

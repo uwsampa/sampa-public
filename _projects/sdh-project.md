@@ -1,11 +1,12 @@
 ---
 title: Software Defined Hardware
-image: 
+image:
 description: |
   Programming language techniques for automatically designing custom reconfigurable accelerators.
 people:
   - vlee2
   - mwillsey
+  - armin
   - luisceze
   - bodik
   - akcheung
