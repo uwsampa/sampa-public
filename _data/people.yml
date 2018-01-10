@@ -63,12 +63,6 @@ melody:
 
 # Postdocs
 # Alphabetical order
-    
-armin:
-    display_name: "Armin Alaghi"
-    role: postdoc
-    webpage: "http://homes.cs.washington.edu/~armin/"
-    image: /img/people/armin.jpg
 
 shaolin:
     display_name: "Shaolin Xie"
@@ -79,7 +73,7 @@ shaolin:
 # Grads
 # Alphabetical order
 
-bornholt: 
+bornholt:
     display_name: "James Bornholt"
     webpage: "https://homes.cs.washington.edu/~bornholt/"
     role: grad
@@ -100,7 +94,7 @@ cdel:
     webpage: "http://homes.cs.washington.edu/~cdel/"
     role: grad
     image: /img/people/cdel.jpg
-    
+
 ashe2:
     display_name: "Sam Elliott"
     webpage: "http://lenary.co.uk/"
@@ -136,7 +130,7 @@ liangluo:
     role: grad
     image: /img/people/liangluo.jpg
 
-amrita: 
+amrita:
     display_name: Amrita Mazumdar
     webpage: "https://homes.cs.washington.edu/~amrita"
     role: grad
@@ -186,11 +180,17 @@ billzorn:
 # Alums
 # The order is: PhD/postdoc by year; MS by year; BS by year
 
+armin:
+    display_name: "Armin Alaghi"
+    role: "alum"
+    webpage: "http://homes.cs.washington.edu/~armin/"
+    image: /img/people/armin.jpg
+    bio: "Postdoc, 2015&ndash;2017. Now at Oculus Research."
 jevdjic:
     display_name: "Djordje Jevdjic"
     role: "alum"
     webpage: "http://parsa.epfl.ch/~jevdjic/"
-    bio: "Postdoc 2015&ndash;2017. Now at Microsoft Research."
+    bio: "Postdoc, 2015&ndash;2017. Now at Microsoft Research."
 bholt:
     display_name: "Brandon Holt"
     webpage: "https://homes.cs.washington.edu/~bholt/"
@@ -198,7 +198,7 @@ bholt:
     image: /img/people/bholt.jpg
     bio: "Ph.D., 2016. Now at Apple."
 bdmyers:
-    display_name: "Brandon Myers" 
+    display_name: "Brandon Myers"
     webpage: "https://homes.cs.washington.edu/~bdmyers/"
     role: "alum"
     image: /img/people/myers.jpg
@@ -435,4 +435,3 @@ iyzhang:
     display_name: "Irene Zhang"
     webpage: http://irenezhang.net/
     image: /img/people/iyzhang.jpg
-
