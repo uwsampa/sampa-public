@@ -99,7 +99,7 @@ ashe2:
     display_name: "Sam Elliott"
     webpage: "http://lenary.co.uk/"
     role: grad
-    image: "http://lenary.co.uk/sam-elliott-2014-thumb.jpg"
+    image: "/img/people/ashe2.jpg"
 
 eafurst:
     display_name: "Emily Furst"
