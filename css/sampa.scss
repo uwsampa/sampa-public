@@ -149,6 +149,8 @@ ul.people {
         .bio {
             color: $dark-gray;
             font-size: $base-font-size - 2;
+            line-height: 1.8;
+            margin-bottom: 0;
         }
 
         .bio-inline {
