@@ -10,7 +10,6 @@ people:
   - magda
   - luisceze
   - akcheung
-  - oskin
 
 layout: project
 
