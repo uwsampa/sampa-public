@@ -385,7 +385,12 @@ joshuay:
 preston:
     display_name: Preston Briggs
     role: collab
-
+magda:
+    display_name: "Magda Balazinska"
+    role: collab
+    webpage: "https://www.cs.washington.edu/people/faculty/magda"
+    bio: "Professor, UW CSE"
+    image: /img/people/magda.jpg
 akcheung:
     display_name: "Alvin Cheung"
     role: collab
@@ -435,3 +440,7 @@ iyzhang:
     display_name: "Irene Zhang"
     webpage: http://irenezhang.net/
     image: /img/people/iyzhang.jpg
+bhaynes:
+    display_name: "Brandon Haynes"
+    webpage: https://brandonhaynes.github.io/
+    image: /img/people/bhaynes.jpg
