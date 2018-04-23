@@ -5,6 +5,7 @@ description: |
   Stochastic circuits and computing applications for low power accelerator and sensor applications.
 people:
   - vlee2
+  - ashe2
   - cowanmeg
   - armin
   - luisceze
