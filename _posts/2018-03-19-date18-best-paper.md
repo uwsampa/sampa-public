@@ -1,7 +1,7 @@
 ---
 layout: post
 shortnews: true
-icon: file-text-o
+icon: trophy
 ---
 
 Congratulations to [Sung][], [Thierry][], and [Armin][], whose [paper][] on cotraining neural networks
