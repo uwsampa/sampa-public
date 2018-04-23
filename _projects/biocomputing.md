@@ -10,6 +10,7 @@ people:
   - karin
 
 layout: project
+link: http://misl.cs.washington.edu/
 ---
 
 ## DNA Storage
@@ -40,5 +41,3 @@ In order to make this technology ubiquitous and portable enough to be easily and
 
 At the same time, the deployment and development of heterogeneous computing accelerators, emerging memory substrates, and even custom ASICs have been shown to yield promising gains through specialization.
 This project investigates the space of heterogeneous hardware and software solutions to accelerate entire genome-analysis algorithms including sequencing, alignment, and variant-calling.
-
-
