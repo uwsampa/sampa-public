@@ -11,4 +11,6 @@ people:
   - asampson
   - luisceze
   - oskin
+
+status: inactive
 ---

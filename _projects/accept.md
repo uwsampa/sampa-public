@@ -7,4 +7,6 @@ link: https://sampa.cs.washington.edu/accept/
 people:
   - asampson
   - luisceze
+
+status: inactive
 ---

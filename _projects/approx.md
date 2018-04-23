@@ -10,4 +10,6 @@ people:
   - luisceze
   - oskin
   - djg
+
+status: inactive
 ---
