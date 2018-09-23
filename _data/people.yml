@@ -144,6 +144,12 @@ moreau:
     role: grad
     image: /img/people/moreau.jpg
 
+patelp1:
+    display_name: "Pratyush Patel"
+    webpage: "https://homes.cs.washington.edu/~patelp1/"
+    role: grad
+    image: /img/people/patelp1.jpg
+
 kendall:
     display_name: "Kendall Stewart"
     role: grad
