@@ -96,12 +96,6 @@ cdel:
     role: grad
     image: /img/people/cdel.jpg
 
-ashe2:
-    display_name: "Sam Elliott"
-    webpage: "http://lenary.co.uk/"
-    role: grad
-    image: "/img/people/ashe2.jpg"
-
 eafurst:
     display_name: "Emily Furst"
     webpage: "https://homes.cs.washington.edu/~eafurst/"
@@ -259,6 +253,12 @@ devietti:
     webpage: "https://www.cis.upenn.edu/~devietti/"
     role: alum
     bio: "Ph.D., 2012. Now faculty at UPenn."
+ashe2:
+    display_name: "Archibald Samuel Elliott"
+    webpage: "http://lenary.co.uk/"
+    image: "/img/people/ashe2.jpg"
+    role: alum
+    bio: "M.S., 2017."
 katelin:
     display_name: "Katelin Bailey"
     webpage: "https://homes.cs.washington.edu/~katelin/"
