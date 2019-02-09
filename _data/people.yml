@@ -144,6 +144,12 @@ patelp1:
     role: grad
     image: /img/people/patelp1.jpg
 
+gussmith:
+    display_name: "Gus Smith"
+    webpage: "http://justg.us"
+    role: grad
+    image: /img/people/gussmith.png
+
 kendall:
     display_name: "Kendall Stewart"
     role: grad
