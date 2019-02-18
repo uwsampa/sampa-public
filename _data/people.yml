@@ -64,6 +64,12 @@ melody:
 # Postdocs
 # Alphabetical order
 
+drichmond:
+    display_name: "Dustin Richmond"
+    role: postdoc
+    webpage: "http://www.dustinrichmond.com"
+    image: /img/people/drichmond.jpg
+
 shaolin:
     display_name: "Shaolin Xie"
     role: postdoc
