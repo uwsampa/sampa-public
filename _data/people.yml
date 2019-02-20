@@ -145,11 +145,6 @@ gussmith:
     role: grad
     image: /img/people/gussmith.png
 
-#kendall:
-#    display_name: "Kendall Stewart"
-#    role: grad
-#    image: /img/people/kendall.jpg
-
 vegaluis:
     display_name: "Luis Vega"
     webpage: "https://homes.cs.washington.edu/~vegaluis/"
@@ -438,3 +433,7 @@ bhaynes:
     display_name: "Brandon Haynes"
     webpage: https://brandonhaynes.github.io/
     image: /img/people/bhaynes.jpg
+
+kendall:
+    display_name: "Kendall Stewart"
+    image: /img/people/kendall.jpg
