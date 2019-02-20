@@ -12,7 +12,7 @@ people:
   - oskin
 
 layout: project
-status: active
+status: inactive
 
 ---
 

@@ -12,7 +12,7 @@ people:
   - akcheung
 
 layout: project
-status: active
+status: inactive
 
 ---
 

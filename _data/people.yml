@@ -22,12 +22,12 @@ eggers:
     role: retired
     bio: "Emeritus Professor"
 
-djg:
-    display_name: "Dan Grossman"
-    webpage: "https://homes.cs.washington.edu/~djg/"
-    role: faculty
-    image: /img/people/djg.jpg
-    bio: "Professor"
+#djg:
+#    display_name: "Dan Grossman"
+#    webpage: "https://homes.cs.washington.edu/~djg/"
+#    role: faculty
+#    image: /img/people/djg.jpg
+#    bio: "Professor"
 
 oskin:
     display_name: "Mark Oskin"
@@ -64,6 +64,13 @@ melody:
 # Postdocs
 # Alphabetical order
 
+moreau:
+    display_name: "Thierry Moreau"
+    webpage: "http://homes.cs.washington.edu/~moreau/"
+    role: postdoc
+    image: /img/people/moreau.jpg
+#    bio: Ph.D. 2018
+
 drichmond:
     display_name: "Dustin Richmond"
     role: postdoc
@@ -96,23 +103,11 @@ stdavids:
     role: grad
     image: /img/people/scott.jpg
 
-cdel:
-    display_name: "Carlo Del Mundo"
-    webpage: "http://homes.cs.washington.edu/~cdel/"
-    role: grad
-    image: /img/people/cdel.jpg
-
 eafurst:
     display_name: "Emily Furst"
     webpage: "https://homes.cs.washington.edu/~eafurst/"
     role: grad
     image: /img/people/eafurst.jpg
-
-sungkim:
-    display_name: "Sung Min Kim"
-    webpage: http://sungkim.net/
-    role: grad
-    image: /img/people/sung.jpg
 
 vlee2:
     display_name: Vincent Lee
@@ -138,12 +133,6 @@ amrita:
     role: grad
     image: "//homes.cs.washington.edu/~amrita/assets/img/amz.jpg"
 
-moreau:
-    display_name: "Thierry Moreau"
-    webpage: "http://homes.cs.washington.edu/~moreau/"
-    role: grad
-    image: /img/people/moreau.jpg
-
 patelp1:
     display_name: "Pratyush Patel"
     webpage: "https://homes.cs.washington.edu/~patelp1/"
@@ -156,22 +145,22 @@ gussmith:
     role: grad
     image: /img/people/gussmith.png
 
-kendall:
-    display_name: "Kendall Stewart"
-    role: grad
-    image: /img/people/kendall.jpg
-
-mwillsey:
-    display_name: "Max Willsey"
-    webpage: "https://mwillsey.com"
-    role: grad
-    image: /img/people/max.jpg
+#kendall:
+#    display_name: "Kendall Stewart"
+#    role: grad
+#    image: /img/people/kendall.jpg
 
 vegaluis:
     display_name: "Luis Vega"
     webpage: "https://homes.cs.washington.edu/~vegaluis/"
     role: grad
     image: /img/people/luis.jpg
+
+mwillsey:
+    display_name: "Max Willsey"
+    webpage: "https://mwillsey.com"
+    role: grad
+    image: /img/people/max.jpg
 
 wysem:
     display_name: "Mark Wyse"
@@ -184,12 +173,6 @@ eqy:
     webpage: "https://homes.cs.washington.edu/~eqy/"
     role: grad
     image: /img/people/eddie.jpg
-
-billzorn:
-    display_name: "Bill Zorn"
-    webpage: "http://homes.cs.washington.edu/~billzorn/"
-    role: grad
-    image: /img/people/billzorn.jpg
 
 # Alums
 # The order is: PhD/postdoc by year; MS by year; BS by year
@@ -265,12 +248,26 @@ devietti:
     webpage: "https://www.cis.upenn.edu/~devietti/"
     role: alum
     bio: "Ph.D., 2012. Now faculty at UPenn."
+
+sungkim:
+    display_name: "Sung Min Kim"
+    webpage: http://sungkim.net/
+    role: alum
+    image: /img/people/sung.jpg
+    bio: "M.S., 2018."
+
 ashe2:
     display_name: "Archibald Samuel Elliott"
     webpage: "http://lenary.co.uk/"
     image: "/img/people/ashe2.jpg"
     role: alum
     bio: "M.S., 2017."
+cdel:
+    display_name: "Carlo Del Mundo"
+    webpage: "http://homes.cs.washington.edu/~cdel/"
+    role: alum
+    image: /img/people/cdel.jpg
+    bio: "M.S., 2016. Now at Xnor.ai."
 katelin:
     display_name: "Katelin Bailey"
     webpage: "https://homes.cs.washington.edu/~katelin/"
@@ -402,9 +399,6 @@ joshuay:
 # Collaborators
 # Alphabetical order
 
-preston:
-    display_name: Preston Briggs
-    role: collab
 magda:
     display_name: "Magda Balazinska"
     role: collab
@@ -417,26 +411,6 @@ akcheung:
     webpage: "https://homes.cs.washington.edu/~akcheung/"
     bio: "Assistant Professor, UW CSE"
     image: /img/people/akcheung.png
-delorimier:
-     display_name: Michael Delorimier
-     role: collab
-     bio: "Oracle Labs"
-farhadi:
-     display_name: Ali Farhadi
-     role: collab
-     webpage: https://homes.cs.washington.edu/~ali/
-     bio: "Assistant Professor, UW CSE"
-shri:
-     display_name: Shri Hariharasubrahmanian
-     role: collab
-     bio: "Oracle Labs"
-sungpack:
-     display_name: Sungpack Hong
-     role: collab
-     bio: "Oracle Labs"
-skahan:
-    display_name: Simon Kahan
-    role: collab
 visvesh:
     display_name: Visvesh Sathe
     role: collab
