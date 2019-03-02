@@ -109,12 +109,6 @@ eafurst:
     role: grad
     image: /img/people/eafurst.jpg
 
-vlee2:
-    display_name: Vincent Lee
-    webpage: "http://homes.cs.washington.edu/~vlee2/"
-    role: grad
-    image: /img/people/lee.jpg
-
 mgliu:
     display_name: Ming Liu
     webpage: "https://homes.cs.washington.edu/~mgliu/"
@@ -183,6 +177,12 @@ jevdjic:
     role: "alum"
     webpage: "http://parsa.epfl.ch/~jevdjic/"
     bio: "Postdoc, 2015&ndash;2017. Now at Microsoft Research."
+vlee2:
+    display_name: Vincent Lee
+    webpage: "http://homes.cs.washington.edu/~vlee2/"
+    role: "alum"
+    image: /img/people/lee.jpg
+    bio: "Ph.D., 2019. Now at Facebook Reality Labs."
 bholt:
     display_name: "Brandon Holt"
     webpage: "https://homes.cs.washington.edu/~bholt/"
