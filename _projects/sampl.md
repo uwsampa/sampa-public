@@ -11,8 +11,8 @@ people:
   - liangluo
   - cowanmeg
   - vegaluis
-	- cyulin
-	- gus
+  - gussmith
+  - cyulin
 
 
 layout: project
