@@ -110,9 +110,9 @@ gaozihou:
     image:
 katielim:
     display_name: "Katie Lim"
-    webpage: ""
+    webpage: "https://homes.cs.washington.edu/~katielim/"
     role: grad
-    image:
+    image: /img/people/katielim.png
 
 cyulin:
     display_name: "Chien-Yu Lin"
