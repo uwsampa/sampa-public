@@ -67,5 +67,6 @@ PYTHON=/path/to/python`.
 TODOs, Known Issues
 ----------------------
 + Lab hooknook is not working
-+ Project stubs and Code page could really use an update
-+
++ Code page could really use an update
++ Update dependencies to use py3
++ Polish up frontpage, re-integrate projects for the new decade
