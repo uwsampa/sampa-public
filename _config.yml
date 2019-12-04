@@ -26,7 +26,7 @@ roles:
     - {key: alum, name: Alumni}
 
 # Number of news stories on the front page.
-front_page_news: 4
+front_page_news: 6
 
 # Base pathname for links.
 base: ''

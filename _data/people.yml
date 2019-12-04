@@ -77,20 +77,8 @@ drichmond:
     webpage: "http://www.dustinrichmond.com"
     image: /img/people/drichmond.jpg
 
-shaolin:
-    display_name: "Shaolin Xie"
-    role: postdoc
-    webpage: "http://www.shawnless.net/Shawn/"
-    image: /img/people/shaolin.jpg
-
 # Grads
 # Alphabetical order
-
-bornholt:
-    display_name: "James Bornholt"
-    webpage: "https://homes.cs.washington.edu/~bornholt/"
-    role: grad
-    image: "//homes.cs.washington.edu/~bornholt/img/me_square.jpg"
 
 cowanmeg:
     display_name: "Meghan Cowan"
@@ -165,7 +153,24 @@ eqy:
 
 # Alums
 # The order is: PhD/postdoc by year; MS by year; BS by year
-
+bornholt:
+    display_name: "James Bornholt"
+    webpage: "https://homes.cs.washington.edu/~bornholt/"
+    role: alum
+    image: "//homes.cs.washington.edu/~bornholt/img/me_square.jpg"
+    bio: "Ph.D., 2019. Now at Amazon / UT Austin."
+vlee2:
+    display_name: Vincent Lee
+    webpage: "http://homes.cs.washington.edu/~vlee2/"
+    role: "alum"
+    image: /img/people/lee.jpg
+    bio: "Ph.D., 2019. Now at Facebook Reality Labs."
+shaolin:
+    display_name: "Shaolin Xie"
+    role: alum
+    webpage: "http://www.shawnless.net/Shawn/"
+    image: /img/people/shaolin.jpg
+    bio: "Postdoc, 2015&ndash;2019. Now at Alibaba."
 armin:
     display_name: "Armin Alaghi"
     role: "alum"
@@ -177,12 +182,6 @@ jevdjic:
     role: "alum"
     webpage: "http://parsa.epfl.ch/~jevdjic/"
     bio: "Postdoc, 2015&ndash;2017. Now at Microsoft Research."
-vlee2:
-    display_name: Vincent Lee
-    webpage: "http://homes.cs.washington.edu/~vlee2/"
-    role: "alum"
-    image: /img/people/lee.jpg
-    bio: "Ph.D., 2019. Now at Facebook Reality Labs."
 bholt:
     display_name: "Brandon Holt"
     webpage: "https://homes.cs.washington.edu/~bholt/"
