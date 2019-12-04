@@ -11,7 +11,10 @@ people:
   - liangluo
   - cowanmeg
   - vegaluis
+	- cyulin
+	- gus
+
 
 layout: project
-link: http://saml.cs.washington.edu/
+link: http://sampl.cs.washington.edu/
 ---

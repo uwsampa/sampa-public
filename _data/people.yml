@@ -428,6 +428,12 @@ joshuay:
 # Collaborators
 # Alphabetical order
 
+tom:
+    display_name: "Tom Anderson"
+    role: collab
+    webpage: "https://www.cs.washington.edu/people/faculty/tom https://www.cs.washington.edu/people/faculty/magda"
+    bio: "Professor, UW CSE"
+    image: /img/people/tom.jpg
 magda:
     display_name: "Magda Balazinska"
     role: collab
@@ -438,7 +444,7 @@ akcheung:
     display_name: "Alvin Cheung"
     role: collab
     webpage: "https://homes.cs.washington.edu/~akcheung/"
-    bio: "Assistant Professor, UW CSE"
+    bio: "Assistant Professor, UC Berkeley EECS"
     image: /img/people/akcheung.png
 visvesh:
     display_name: Visvesh Sathe
