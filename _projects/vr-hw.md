@@ -1,8 +1,8 @@
 ---
-title: Virtual Reality Systems and Hardware
+title: Systems Support for Video Analytics and VR
 image: /img/vr-hw.png
 description: |
-  Custom hardware, databases, and storage for VR/AR applications.
+  Custom databases, hardware, and storage for video applications, like video analytics or VR/AR.
 people:
   - amrita
   - bhaynes
@@ -18,12 +18,15 @@ icons:
   slides: '<i class="fa fa-file-pdf-o"></i>'
   keynote: '<i class="fa fa-apple"></i>'
 ---
-Virtual reality (VR) video applications couple complex camera systems and head-mounted devices with computational photography algorithms to generate immersive, panoramic video.
-Rendering 3D-360◦ VR video from a camera rig is computation-intensive and typically performed offline.
-Moreover, efficiently managing the resulting VR videos for low-bandwidth viewing is challenging.
+## Vignette
+Vignette is a storage system supporting perceptual compression of video content. Vignette provides codec-agnostic support for applying machine learning to the video compression process, and an API to expose these ML optimizations to the storage manager to reduce cloud distribution costs.
+
+## Visual Road
+Visual Road is an automatic dataset generator and benchmark suite for video systems. 
+Visual Road is designed to evaluate a broad variety of VDBMSs: realtime systems, systems for longitudinal analytical queries, systems processing traditional videos, and systems designed for 360◦ videos.
 
 ## LightDB
-We are designing a database management system, LightDB, to efficiently ingest, store, and deliver VR content at scale.
+We designed a database management system, LightDB, to efficiently ingest, store, and deliver VR content at scale.
 LightDB targets both live and prerecorded light field and 360◦ VR videos.
 Content delivered through LightDB requires up to 60% less bandwidth than existing methods and scales to many concurrent connections.
 
@@ -35,10 +38,22 @@ The FPGA design's power efficiency enables practical real-time VR video processi
 
 
 ## Publications
+- **Vignette: Perceptual Compression for Video Storage and Processing Systems**<br/>
+  Amrita Mazumdar, Brandon Haynes, Magda Balazinska, Luis Ceze, Alvin Cheung, Mark Oskin<br/>
+  SoCC 2019, SoCC Best Poster Award (for poster accompanying the paper).
+  
+- **Visual Road: A Video Data Management Benchmark**<br/>
+  Brandon Haynes, Amrita Mazumdar, Magda Balazinska, Luis Ceze, Alvin Cheung<br/>
+  SIGMOD 2019.
+
+- **LightDB: A DBMS for Virtual Reality**<br/>
+  Brandon Haynes, Amrita Mazumdar, Armin Alaghi, Magda Balazinska, Luis Ceze, Alvin Cheung<br/>
+  PVLDB 11(10) 2018.
 
 - **A Hardware-Friendly Bilateral Solver for Real-Time Virtual Reality Video**<br/>
   Amrita Mazumdar, Armin Alaghi, Jonathan T. Barron, David Gallup, Luis Ceze, Mark Oskin, Steven M. Seitz<br/>
   High Performance Graphics 2017
+  
 - **VisualCloud Demonstration: A DBMS for Virtual Reality**<br/>
   Brandon Haynes, Artem Minyaylov, Magdalena Balazinska, Luis Ceze, Alvin Cheung<br/>
   SIGMOD 2017 Demo, Best Demo Honorable Mention
