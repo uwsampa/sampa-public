@@ -9,7 +9,7 @@ Editing
 -------
 
 Most pages are just Markdown files that you can edit directly. People are
-listed in `_data/people.yml` and the news is generated from `_data/news.yml`.
+listed in `_data/people.yml` and the news is generated from Markdown files in the `_posts` folder.
 
 Try editing directly in GitHub! It's like magic.
 
@@ -55,7 +55,7 @@ The requirements for building the site are:
 directory. To preview the site, run `jekyll serve`` and head to
 http://0.0.0.0:4000.
 
-To upload a new version of the site via rsync over ssh, type `make deploy`. A web hook does this automatically when you push to GitHub.
+To upload a new version of the site via rsync over ssh, type `make deploy`. ~A web hook does this automatically when you push to GitHub.~
 
 If you use an alternative Python when building the bibliography, use `make
 PYTHON=/path/to/python`.
@@ -63,3 +63,9 @@ PYTHON=/path/to/python`.
 [Jekyll]: http://jekyllrb.com/
 [bibble]: https://github.com/sampsyo/bibble/
 [pybtex]: http://pybtex.sourceforge.net
+
+TODOs, Known Issues
+----------------------
++ Lab hooknook is not working
++ Project stubs and Code page could really use an update
++
