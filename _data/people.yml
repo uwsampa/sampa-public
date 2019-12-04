@@ -431,7 +431,7 @@ joshuay:
 tom:
     display_name: "Tom Anderson"
     role: collab
-    webpage: "https://www.cs.washington.edu/people/faculty/tom https://www.cs.washington.edu/people/faculty/magda"
+    webpage: "https://www.cs.washington.edu/people/faculty/tom"
     bio: "Professor, UW CSE"
     image: /img/people/tom.jpg
 magda:
