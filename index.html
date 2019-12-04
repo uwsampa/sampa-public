@@ -15,7 +15,7 @@ role_remain:
 
 <div class="jumbotron">
   <p>
-      <b>Sampa</b> is an inter-disciplinary computer architecture group that explores <a href="{{ site.base }}/research/">research</a> crossing multiple layers of the system stack, from hardware to programming languages and applications. Our research is motivated by new device technologies and new applications. We are part of the <a href="http://www.cs.washington.edu/">Paul G. Allen School of Computer Science &amp; Engineering</a> at the <a href="http://www.washington.edu/">University of Washington</a>. We work closely with the <a href="http://uwplse.org">PLSE</a> and <a href="https://syslab.cs.washington.edu">Syslab</a> folks. 	  
+      <b>Sampa</b> is an inter-disciplinary computer architecture group that explores <a href="{{ site.base }}/research/">research</a> crossing multiple layers of the system stack, from hardware to programming languages and applications. Our research is motivated by new device technologies and new applications. We are part of the <a href="http://www.cs.washington.edu/">Paul G. Allen School of Computer Science &amp; Engineering</a> at the <a href="http://www.washington.edu/">University of Washington</a>. We work closely with the <a href="http://uwplse.org">PLSE</a> and <a href="https://syslab.cs.washington.edu">Syslab</a> folks.
   </p>
 </div>
 
@@ -32,7 +32,7 @@ role_remain:
 </ul>
 
 
-<h2>Research Themes</h2>
+<!-- <h2>Research Themes</h2>
 
 <div class="card-columns">
 {% for p in site.projects %}
@@ -43,7 +43,7 @@ role_remain:
     {% else %}
         {% capture proj_url %}{{site.base}}{{p.url}}.html{% endcapture %}
     {% endif %}
-    
+
     <a href="{{proj_url}}">
         <div class="card-block">
             <div class="title">
@@ -56,7 +56,7 @@ role_remain:
                     <h3 class="card-title">
                         <img class="icon img-responsive" src="{{imgurl}}" alt="{{p.title}}"/>
                     </h3>
-                {% endif %}                
+                {% endif %}
                 <h3 class="card-title">{{p.title}}</h3>
             </div>
             <div class="card-text">
@@ -72,7 +72,7 @@ role_remain:
 </div>
 {% endif %}
 {% endfor %}
-</div>
+</div> -->
 
 <h2>People</h2>
 
@@ -97,7 +97,7 @@ role_remain:
                             {% capture imgurl %}{{site.base}}{{person.image}}{% endcapture %}
                         {% endif %}
                     {% endif %}
-                    
+
                     {% if imgurl %}
                         <img class="img-circle profile" src="{{imgurl}}" />
                     {% else %}

@@ -91,11 +91,34 @@ stdavids:
     role: grad
     image: /img/people/scott.jpg
 
+behsani:
+    display_name: "Borna Ehsani"
+    webpage: ""
+    role: grad
+    image:
+
 eafurst:
     display_name: "Emily Furst"
     webpage: "https://homes.cs.washington.edu/~eafurst/"
     role: grad
     image: /img/people/eafurst.jpg
+
+gaozihou:
+    display_name: "Paul Gao"
+    webpage: ""
+    role: grad
+    image:
+katielim:
+    display_name: "Katie Lim"
+    webpage: ""
+    role: grad
+    image:
+
+cyulin:
+    display_name: "Chien-Yu Lin"
+    webpage: "https://homes.cs.washington.edu/~cyulin/"
+    role: grad
+    image:
 
 mgliu:
     display_name: Ming Liu
@@ -120,6 +143,18 @@ patelp1:
     webpage: "https://homes.cs.washington.edu/~patelp1/"
     role: grad
     image: /img/people/patelp1.jpg
+
+mrutt:
+    display_name: "Max Ruttenberg"
+    webpage: ""
+    role: grad
+    image:
+
+neildryan:
+    display_name: "Neil Ryan"
+    webpage: ""
+    role: grad
+    image:
 
 gussmith:
     display_name: "Gus Smith"
