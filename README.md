@@ -68,5 +68,4 @@ TODOs, Known Issues
 ----------------------
 + Lab hooknook is not working
 + Code page could really use an update
-+ Update dependencies to use py3
 + Polish up frontpage, re-integrate projects for the new decade
