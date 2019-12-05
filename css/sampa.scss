@@ -1,6 +1,9 @@
 ---
 # Frontmatter is necessary to make Jekyll process this into sampa.css.
 ---
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,500,500i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
 
 $light-gray: #e5e5e5;
 $dark-gray: #888;
@@ -22,6 +25,11 @@ body {
   padding-bottom: 20px;
   font-size: $base-font-size;
   font-weight: 400;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+b {
+  font-weight: 500;
 }
 
 a:hover {
@@ -40,7 +48,6 @@ h3 {
 
 h4 {
     font-size: 1.1rem;
-    font-weight: bold;
 }
 
 a {
@@ -75,20 +82,20 @@ a {
 }
 
 .card {
-    
+
     p {
         line-height: 1.4em;
         margin-bottom: 0rem;
     }
-    
+
     a {
         color: black;
     }
-    
+
     a:hover {
         text-decoration: none;
     }
-    
+
     .title {
         display: table;
         .card-title {
@@ -97,17 +104,17 @@ a {
             margin: 0em .5rem;
         }
     }
-    
+
     .card-title {
         // undo extra margin set above for normal headings elsewhere
         h3 { margin-top: 0em; }
         padding-bottom: .5rem;
     }
-    
+
     .card-block {
         padding: 1rem;
     }
-    
+
     img.icon {
         max-height: 2em;
         margin: 0em 0.5rem;
@@ -116,10 +123,10 @@ a {
 
 
 ul.people {
-    
+
     list-style-type: none;
     padding-left: 0em;
-    
+
     $profile-size: 70px;
 
     .profile {
@@ -128,18 +135,18 @@ ul.people {
     }
 
     li {
-        
+
         height: auto;
         display: table;
         margin: 0rem;
-        
+
         .profile {
             text-align: center;
             display: table-cell;
             margin: .5rem;
             vertical-align: middle;
         }
-        
+
         .person {
             display: table-cell;
             vertical-align: middle;
@@ -156,7 +163,7 @@ ul.people {
         .bio-inline {
             margin-left: 1em
         }
-        
+
         // draw empty gray circle for those without a profile pic
         .noprofile {
             fill: #f5f5f5;
@@ -173,32 +180,32 @@ ul.project-people {
     display: inline;
     list-style-type: none;
     padding-left: 0em;
-    
-    li {        
+
+    li {
         display: inline;
-        
+
         a.person {
             font-weight: normal;
             color: $dark-gray;
-            
+
             position: relative;
             text-align: center;
             vertical-align: top;
             display: inline-block;
-            
+
             width: 2.2rem;
             height: 2.2rem;
-    
+
             img {
                 width: inherit;
                 height: inherit;
             }
-    
+
             .caption {
                 display: none;
             }
-        }   
-    }  
+        }
+    }
 }
 
 .card.link:hover {
@@ -213,7 +220,7 @@ ul.project-people {
     .container {
         max-width: 900px;
     }
-  
+
     .card-columns { @include columns(3); }
 
     ul.grad { @include columns(2); }
@@ -259,7 +266,7 @@ ul.project-people {
     padding-left: 0;
     padding-right: 0;
   }
-  
+
   /* Space out the masthead */
   .header {
     margin-bottom: 30px;
@@ -282,7 +289,7 @@ ul.project-people {
     .nav-pills .nav-link {
         padding: .5em .4em;
     }
-    
+
     #logo {
         clear: both;
     }
@@ -308,10 +315,10 @@ dl.people dd {
 /* Front page news. */
 
 ul.news {
-    
+
     list-style-type: none;
     padding-left: 0em;
-    
+
     .icon {
         color: #bbb;
         font-size: 2em;
@@ -319,13 +326,13 @@ ul.news {
         width: 4rem;
         text-align: center;
     }
-        
+
     display: table;
     .text, .icon {
         display: table-cell;
         vertical-align: top;
     }
-    
+
     .date {
         color: $dark-gray;
         font-weight: bold;
