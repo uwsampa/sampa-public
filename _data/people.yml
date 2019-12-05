@@ -93,9 +93,7 @@ stdavids:
 
 behsani:
     display_name: "Borna Ehsani"
-    webpage: ""
     role: grad
-    image:
 
 eafurst:
     display_name: "Emily Furst"
@@ -105,9 +103,8 @@ eafurst:
 
 gaozihou:
     display_name: "Paul Gao"
-    webpage: ""
     role: grad
-    image:
+
 katielim:
     display_name: "Katie Lim"
     webpage: "https://homes.cs.washington.edu/~katielim/"
@@ -146,15 +143,12 @@ patelp1:
 
 mrutt:
     display_name: "Max Ruttenberg"
-    webpage: ""
     role: grad
-    image:
 
 neildryan:
     display_name: "Neil Ryan"
-    webpage: ""
+    webpage: "https://neildryan.com/"
     role: grad
-    image:
 
 gussmith:
     display_name: "Gus Smith"
