@@ -45,10 +45,8 @@ Building and Deploying
 The requirements for building the site are:
 
 * [Jekyll][]: run `gem install jekyll`
-* [Pybtex][]: run `pip install pybtex`
-* [bibble][]: included as a submodule. Because git is cruel, you need to use
-  `git clone --recursive URL` or issue the commands `git submodule init ; git
-  submodule update` to check out the dependency.
+* [Pybtex][]: run `pip3 install pybtex`
+* [bibble][]: run `pip3 install bibble`
 * ssh and rsync, only if you want to deploy directly.
 
 `make` compiles the bibliography and the website content to the `_site`
@@ -67,5 +65,4 @@ PYTHON=/path/to/python`.
 TODOs, Known Issues
 ----------------------
 + Lab hooknook is not working
-+ Code page could really use an update
 + Polish up frontpage, re-integrate projects for the new decade

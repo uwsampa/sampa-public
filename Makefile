@@ -10,9 +10,8 @@ _site/index.html _site/wacas14/index.html:
 	jekyll build --config _config.yml $(BUILDARGS)
 
 _includes/pubs.html: bib/sampa-pubs.bib bib/publications.tmpl
-	#git submodule init; git submodule update
 	mkdir -p _includes
-	$(PYTHON) bibble/bibble/main.py $+ > $@
+	bibble $+ > $@
 
 _site/index.html: $(wildcard *.html) _includes/pubs.html _config.yml \
 	_layouts/default.html
