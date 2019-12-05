@@ -43,8 +43,6 @@ navigation:
       link: /research/
     - title: Publications
       link: /publications.html
-    - title: Code
-      link: /code.html
 
 # Navigation bar links for WACAS.
 nav_wacas:
