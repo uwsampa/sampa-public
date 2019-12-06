@@ -14,23 +14,32 @@
     <body>
         <div class="container">
           <div class="header">
-            <a href="{{ site.base }}/">
-                <img src="{{ site.base }}/img/sampa.png"
-                    srcset="{{ site.base }}/img/sampa@2x.png 2x"
-                    alt="Sampa" id="logo">
-            </a>
-            <ul class="nav nav-pills pull-right">
-                  {% assign shorturl = page.url | replace:'.html','' | replace:'index','' %}
-                  {% for item in site.navigation %}
-                    {% assign myshorturl = item.link | replace:'.html','' %}
-                    <li class="nav-item">
-                      <a class="nav-link {% if myshorturl == shorturl %}active{% endif %}" href="{{ site.base }}{{ item.link }}">
-                        {{ item.title }}
-                      </a>
-                    </li>
-                  {% endfor %}
-            </ul>
-          </div>
+
+          <nav class="navbar navbar-expand-md navbar-light">
+            <a class="navbar-brand" href="{{ site.base }}/">
+              <img src="{{ site.base }}/img/sampa.png"
+                srcset="{{ site.base }}/img/sampa@2x.png 2x"
+                alt="Sampa" id="logo">
+              </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav nav-pills  ml-auto">
+                {% assign shorturl = page.url | replace:'.html','' | replace:'index','' %}
+                {% for item in site.navigation %}
+                  {% assign myshorturl = item.link | replace:'.html','' %}
+                  <li class="nav-item">
+                    <a class="nav-link {% if myshorturl == shorturl %}active{% endif %}" href="{{ site.base }}{{ item.link }}">
+                      {{ item.title }}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </nav>
+        </div>
+
 
           {{ content }}
 
