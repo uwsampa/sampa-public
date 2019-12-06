@@ -38,12 +38,12 @@ a:hover {
 
 h2 {
     font-size: 2rem;
-    margin-top: 1em;
+    margin-bottom: .5em;
 }
 
 h3 {
     font-size: 1.5rem;
-    margin-top: 1em;
+    margin-bottom: 1.5m;
 }
 
 h4 {
@@ -79,6 +79,11 @@ a {
 }
 .footer a:link, .footer a:visited {
   color: #777;
+}
+
+.pubs_all{
+  text-align: right;
+  border-bottom: 10px;
 }
 
 .card {
@@ -121,59 +126,45 @@ a {
     }
 }
 
-
-ul.people {
-
-    list-style-type: none;
-    padding-left: 0em;
-
-    $profile-size: 70px;
-
-    .profile {
-        width: $profile-size;
-        height: $profile-size;
+.people{
+  text-align: center;
+  $profile-size: 70px;
+  $img-border: 10px;
+  .profile {
+      width: $profile-size;
+      height: $profile-size;
+      margin: $img-border 0 $img-border 0;
+      object-fit: cover;
     }
 
-    li {
+  .person {
+      display: table-cell;
+      vertical-align: middle;
+      width: auto;
+      text-align: center;
+  }
 
-        height: auto;
-        display: table;
-        margin: 0rem;
+  .bio {
+      color: $dark-gray;
+      font-size: $base-font-size - 2;
+      line-height: 1.8;
+      margin-bottom: 0;
+  }
 
-        .profile {
-            text-align: center;
-            display: table-cell;
-            margin: .5rem;
-            vertical-align: middle;
-        }
+  .bio-inline {
+      margin-left: 1em
+  }
 
-        .person {
-            display: table-cell;
-            vertical-align: middle;
-            width: auto;
-        }
-
-        .bio {
-            color: $dark-gray;
-            font-size: $base-font-size - 2;
-            line-height: 1.8;
-            margin-bottom: 0;
-        }
-
-        .bio-inline {
-            margin-left: 1em
-        }
-
-        // draw empty gray circle for those without a profile pic
-        .noprofile {
-            fill: #f5f5f5;
-            r: $profile-size / 2;
-            cx: $profile-size / 2;
-            cy: $profile-size / 2;
-        }
-    }
+  // draw empty gray circle for those without a profile pic
+  .noprofile {
+      fill: #f5f5f5;
+      r: $profile-size / 2;
+      cx: $profile-size / 2;
+      cy: $profile-size / 2;
+  }
 
 }
+
 
 // this is responsible for the small people circles under each project card
 ul.project-people {
@@ -199,6 +190,7 @@ ul.project-people {
             img {
                 width: inherit;
                 height: inherit;
+                object-fit: cover;
             }
 
             .caption {
@@ -218,7 +210,7 @@ ul.project-people {
 /* Customize container */
 @media (min-width: 768px) {
     .container {
-        max-width: 900px;
+        max-width: 1024px;
     }
 
     .card-columns { @include columns(3); }
@@ -276,6 +268,10 @@ ul.project-people {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #ffffff;
 }
 
 /* Slightly better-looking header on mobile. */

@@ -22,13 +22,6 @@ eggers:
     role: retired
     bio: "Emeritus Professor"
 
-#djg:
-#    display_name: "Dan Grossman"
-#    webpage: "https://homes.cs.washington.edu/~djg/"
-#    role: faculty
-#    image: /img/people/djg.jpg
-#    bio: "Professor"
-
 oskin:
     display_name: "Mark Oskin"
     webpage: "https://homes.cs.washington.edu/~oskin/"
@@ -59,6 +52,11 @@ melody:
     role: staff
     image: //homes.cs.washington.edu/~melody/index_files/image002.gif
     bio: "Program Director"
+
+arobles:
+    display_name: "Amanda Robles"
+    webpage:
+    role: staff
 
 
 # Postdocs
@@ -447,7 +445,11 @@ visvesh:
     bio: "Assistant Professor, UW EE"
 
 # No role (only for retired project photos)
-
+djg:
+   display_name: "Dan Grossman"
+   webpage: "https://homes.cs.washington.edu/~djg/"
+   image: /img/people/djg.jpg
+   bio: "Professor"
 billhowe:
     display_name: "Bill Howe"
     webpage: "http://homes.cs.washington.edu/~billhowe/"
@@ -466,7 +468,6 @@ bhaynes:
     display_name: "Brandon Haynes"
     webpage: https://brandonhaynes.github.io/
     image: /img/people/bhaynes.jpg
-
 kendall:
     display_name: "Kendall Stewart"
     image: /img/people/kendall.jpg

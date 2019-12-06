@@ -4,7 +4,7 @@
     {% if site.data.people[uname] %}
         {% assign person = site.data.people[uname] %}
         {% assign name = person.display_name %}
-        
+
         {% assign imgurl = false %}
         {% if person.image %}
             {% capture init %}{{ person.image | slice: 0,2 }}{% endcapture %}
@@ -14,10 +14,10 @@
                 {% capture imgurl %}{{site.base}}{{person.image}}{% endcapture %}
             {% endif %}
         {% endif %}
-        
+
         <a class="person" href="{{person.webpage}}">
         {% if imgurl %}
-        <img class="img-circle" src="{{imgurl}}" alt="{{name}}"/>
+        <img class="rounded-circle" src="{{imgurl}}" alt="{{name}}"/>
         {% else %}
         {{uname}}
         {% endif %}
