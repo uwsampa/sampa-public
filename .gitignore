@@ -1,4 +1,5 @@
 _site
 _includes/pubs.html
+_includes/pubs_frontpage.html
 .jekyll-metadata
 .DS_store

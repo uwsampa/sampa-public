@@ -13,8 +13,13 @@ _includes/pubs.html: bib/sampa-pubs.bib bib/publications.tmpl
 	mkdir -p _includes
 	bibble $+ > $@
 
-_site/index.html: $(wildcard *.html) _includes/pubs.html _config.yml \
-	_layouts/default.html
+_includes/pubs_frontpage.html: bib/sampa-pubs.bib bib/pubs_frontpage.tmpl
+	mkdir -p _includes
+	bibble $+ > $@
+
+
+_site/index.html: $(wildcard *.html) _includes/pubs.html _includes/pubs_frontpage.html \
+	_config.yml _layouts/default.html
 _site/wacas14/index.html: $(wildcard wacas14/*.md) _config.yml \
 	_layouts/wacas.html
 

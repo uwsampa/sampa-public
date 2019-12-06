@@ -1,0 +1,57 @@
+<table class="table">
+<tbody>
+	{%- set prev_year = dict() %}
+	{%- set front_page_news = 3 %}
+	{% set _ = prev_year.update({'val': 1900}) %}
+	{%- for entry in entries[:front_page_news] %}
+	<tr>
+		<td>
+			<span class="date">
+				{% if entry.fields['year'] != prev_year['val'] %}
+				<big><strong>{{ entry.fields['year'] }}</strong></big><br />
+				{% endif %}
+				{% set _ = prev_year.update({'val': entry.fields['year']}) %}
+			</span>
+		</td>
+		<td class="publication">
+			<span class="pubtitle">
+				{%- set url = entry|main_url %}
+				{%- if url %}
+					{%- if '.pdf' in url %}
+					<img src="img/pdficon_small.png" width="16"
+						height="16" alt="PDF" />
+					{%- endif %}
+				<a href="{{ url|escape }}">{{ entry|title }}</a>.
+				{%- else %}
+				{{ entry|title }}.
+				{%- endif %}
+			</span><br />
+			<span class="authors">
+				{{ entry.persons['author']|author_list }}.
+			</span><br />
+			<span class="venuetype">{{ entry|venue_type -}}</span><span class="venue">{{ entry|venue -}}</span>.
+			{%- if entry.fields['note'] %}
+			<span class="note">
+			<br />
+			<strong>{{ entry.fields['note']|escape }}</strong>
+			</span>
+			{%- endif %}
+			<br />
+			<span class="links">
+			{%- for type, url in (entry|extra_urls).items() %}
+				[<a href="{{ url|escape }}">{{ type|escape }}</a>]
+			{%- endfor %}
+				{%- if entry.fields['abstract'] %}
+				[<a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);" onclick="$('#abstract_{{entry.fields['key']}}').slideToggle('fast');return false;">abstract</a>]
+				{%- endif %}
+			</span>
+			{%- if entry.fields['abstract'] %}
+			<div id="abstract_{{entry.fields['key']}}" class="abstract">
+			{{ entry.fields['abstract'] |escape }}
+			</div>
+			{%- endif %}
+		</td>
+	</tr>
+	{%- endfor %}
+</tbody>
+</table>
