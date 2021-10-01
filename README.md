@@ -5,6 +5,20 @@ This is the [Sampa group website](http://sampa.cs.washington.edu), built with [J
 
 It's based on our [research group website template](https://github.com/uwsampa/research-group-web), which you can use to build your own nice group website! 🎣
 
+Gitpod for incredibly easy building and deploying
+-------
+With gitpod you can easily create a website.
+
+* Fork this repository
+* Change Open in Gitpod button on README.md file.
+* Click and open gitpod.
+* Change content (when Jekyll serving docs files will be automatically generated)
+* Commit changes and push into a repository
+* Configure Github pages and select docs folder for static page destination
+* Congratulations.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/your-github-username/your-repository)
+
 Editing
 -------
 
