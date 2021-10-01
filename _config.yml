@@ -4,8 +4,8 @@ url: http://sampa.cs.washington.edu
 exclude: [bibble, README.md, Makefile, Dockerfile]
 
 # use this library to parse Markdown
-markdown: redcarpet
-redcarpet:
+markdown: kramdown
+kramdown:
     extensions: [smart, tables, with_toc_data, strikethrough]
 
 # colorize code snippets with the pygment module
