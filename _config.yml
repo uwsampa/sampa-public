@@ -1,6 +1,6 @@
 name: Sampa
 url: http://sampa.cs.washington.edu
-
+destination: ./docs
 exclude: [bibble, README.md, Makefile, Dockerfile]
 
 # use this library to parse Markdown
