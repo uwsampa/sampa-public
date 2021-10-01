@@ -1,4 +1,4 @@
-FROM ubuntu:15.10
+FROM ubuntu:20.04
 MAINTAINER Brandon Holt <holt.bg@gmail.com>
 MAINTAINER Emircan ERKUL <contact@emircanerkul.com>
 
