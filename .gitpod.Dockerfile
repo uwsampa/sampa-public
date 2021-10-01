@@ -9,7 +9,7 @@ RUN apt-get update && \
     apt-get install -y \
       ruby ruby-dev \
       python \
-      python-pip \
+      pip \
       make \
       zlib1g-dev
 
